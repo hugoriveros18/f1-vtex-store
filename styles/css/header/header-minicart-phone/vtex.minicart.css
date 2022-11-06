@@ -1,0 +1,23 @@
+.cartIcon--header__phone-minicart {
+    width : 22px;
+    height: 22px;
+    color : #ffffff;
+}
+
+.minicartContainer--header__phone-minicart {
+    width: 30px;
+}
+
+.openIconContainer--header__phone-minicart {
+    padding: 0px;
+}
+
+.cartIcon--header__phone-minicart {
+    width : 24px;
+    height: 24px;
+}
+
+:global(.vtex-button__label) {
+    height : 100%;
+    padding: 0;
+}

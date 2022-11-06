@@ -1,0 +1,95 @@
+{
+  ///////////////////////////////////////////////
+  "header-layout.desktop": {
+    "title": "Header Desktop",
+    "children": [
+      "header-row#header__top-section",
+      "header-row#header__middle-section",
+      "header-row#header__bottom-section",
+      "sticky-layout.stack-container#header__bottom-last-section"
+    ]
+  },
+  ///////////////////////////////////////////////
+  "header-row#header__top-section": {
+    "title": "Header Top Row",
+    "children": [
+      "flex-layout.row#header__registro-descuento",
+      "header-spacer",
+      "vtex.menu@2.x:menu#header__opciones-cuenta-menu",
+      "minicart.v2#header__desktop"
+    ],
+    "props": {
+      "blockClass": [
+        "header__top-section-row",
+        "top-padding-desktop"
+      ]
+    }
+  },
+  "header-row#header__middle-section": {
+    "title": "Header Middle Row",
+    "children": [
+      "logo#header__middle-logo",
+      "search-bar#header__search-bar"
+    ],
+    "props": {
+      "blockClass": [
+        "header__middle-section-row",
+        "middle-height-desktop"
+      ]
+    }
+  },
+  "header-row#header__bottom-section": {
+    "title": "Header Bottom Row",
+    "children": [
+      "vtex.menu@2.x:menu#header__menu-categorias-general"
+    ],
+    "props": {
+      "blockClass": "header__bottom-section-row"
+    }
+  },
+  "sticky-layout.stack-container#header__bottom-last-section": {
+    "title": "Header Bottom Last Row",
+    "children": [
+      "sticky-layout#header__codigo-descuento"
+    ]
+  },
+  ///////////////////////////////////////////////
+  "logo#header__middle-logo": {
+    "title": "Logo Middle Section",
+    "props": {
+      "url": "assets/img/header/f1-logo.svg",
+      "href": "/",
+      "blockClass": [
+        "header__middle-section-logo",
+        "dektop-logo-padding"
+      ]
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary"
+    ]
+  },
+  "search-bar#header__search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "blockClass": "header__search-bar-desktop"
+    }
+  },
+  "sticky-layout#header__codigo-descuento": {
+    "title": "Sticky Promocion Container",
+    "props": {
+      "position": "TOP",
+      "blockClass": [
+        "header__sticky-layout",
+        "sticky-height-desktop"
+      ]
+    },
+    "children": [
+      "flex-layout.row#header__sticky-container"
+    ]
+  }
+}

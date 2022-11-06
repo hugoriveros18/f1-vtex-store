@@ -1,0 +1,19 @@
+.menuItem--header__bottom-section-menu {
+    display        : flex;
+    justify-content: center;
+    flex-grow      : 1;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer) {
+    padding: 0;
+    margin : 0;
+}
+
+.styledLinkContent--header__bottom-section-menu {
+    font-family   : 'Open Sans';
+    font-size     : 12px;
+    color         : #1b1b1b;
+    font-weight   : 600;
+    line-height   : 35px;
+    letter-spacing: 0.85px;
+}

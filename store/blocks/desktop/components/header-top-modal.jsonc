@@ -1,0 +1,46 @@
+{
+    //NIVEL 1
+    "flex-layout.row#header__registro-descuento": {
+        "title": "Contenedor Boton Registro y Descuento",
+        "props": {
+            "blockClass":"header__top-section-layout-resgistro"
+        },
+        "children": [
+            "modal-trigger#header__top-registro-ahorro"
+        ]
+    },
+
+
+    //NIVEL 2
+    "modal-trigger#header__top-registro-ahorro": {
+        "title": "Contenedor Registro y Ahorro",
+        "props": {
+            "blockClass": "header__top-modal-container"
+        },
+        "children": [
+            "rich-text#boton-registro-descuento",
+            "modal-layout#header__top-modal-layout"
+        ]
+    },
+
+
+    //NIVEL 4
+    "rich-text#boton-registro-descuento": {
+        "title": "Texto Boton de Registro",
+        "props": {
+            "text": "REGÍSTRATE Y AHORRA UN 10%",
+            "textAligment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "header__top-section-boton-resgistro"
+        }
+    },
+    "modal-layout#header__top-modal-layout": {
+        "title": "Modal Registro y Ahorro", //POR MODIFICAR
+        "props": {
+            "blockClass": "header__modal-layout-container"
+        },
+        "children": [
+            "flex-layout.col#header__modal-body-estructura"
+        ]
+    }
+}

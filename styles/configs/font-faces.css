@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Blender Pro';
+    src: url(assets/fonts/BlenderPro-Bold.woff);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(assets/fonts/OpenSans-Regular.ttf),url(assets/fonts/OpenSans-Bold.ttf);
+}

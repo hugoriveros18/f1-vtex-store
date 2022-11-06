@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#home__welcome": {
+        "title": "Welcome Home",
+        "props": {
+            "blockClass": "home__welcome"
+        },
+        "children": [
+            "flex-layout.col#welcome__container"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.col#welcome__container": {
+        "title": "Welcome Home Container",
+        "props": {
+            "blockClass": "welcome__container"
+        },
+        "children": [
+            "rich-text#welcome__title",
+            "flex-layout.row#welcome__description"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "rich-text#welcome__title": {
+        "title": "Welcome Title",
+        "props": {
+            "text": "Tienda F1",
+            "blockClass": "welcome__title"
+        }
+    },
+    "flex-layout.row#welcome__description": {
+        "title": "Welcome Description",
+        "children": [
+            "flex-layout.col#welcome__description--conatiner"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.col#welcome__description--conatiner": {
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "welcome__description--conatiner"
+        },
+        "children": [
+            "rich-text#description__one",
+            "rich-text#description__two"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "rich-text#description__one": {
+        "title": "Welcome Description One",
+        "props": {
+            "text": "Bienvenido a la tienda en línea oficial de Fórmula Uno, la ventanilla única para el deporte de alto octanaje de la F1, que se especializa en distribuir los últimos y mejores productos de F1 y Grand Prix, al mismo tiempo que almacena una gama inigualable de ropa de equipo, gorras, ropa para fanáticos y accesorios auténticos y con licencia. Celebre al campeón mundial de este año con productos y recuerdos oficiales de [Max Verstappen](https://f1store4.formula1.com/es/max-verstappen/a-2395779425+z-976213-745545882) 2022 Formula 1 World Champion. Aprobada por el Campeonato Mundial de Fórmula Uno oficial de la FIA para proporcionar a los fanáticos de las carreras lo último en opciones de productos de F1, la tienda en línea de F1 tiene casi todo lo que un entusiasta de la F1 podría necesitar para apoyar a sus equipos y pilotos favoritos durante la emocionante temporada del Gran Premio de Fórmula 1. . La tienda en línea de F1 también alberga accesorios exclusivos de F1, obsequios originales de F1, piezas auténticas de autos de F1 y arte dinámico de F1. Los seguidores de la F1 pueden honrar a sus héroes de todos los tiempos con nuestras múltiples líneas de legado, donde las figuras icónicas de la rica historia del deporte, desde Ayrton Senna hasta Alain Prost y Michael Schumacher, están representadas de manera legítima y respetuosa. Con opciones de compra y entrega que hacen que las compras sean más fáciles que nunca, los clientes pueden obtener productos de F1 de manera rápida y eficiente al momento de pagar.",
+            "blockClass": "description__one"
+        }
+    },
+    "rich-text#description__two": {
+        "title": "Welcome Description Two",
+        "props": {
+            "text": "El logotipo de F1, F1, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX y las marcas relacionadas son marcas comerciales de Formula One Licensing BV, una empresa de Fórmula 1. Todos los derechos reservados.",
+            "blockClass": "description__two"
+        }
+    }
+}

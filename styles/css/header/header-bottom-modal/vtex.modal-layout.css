@@ -1,0 +1,31 @@
+.container--header__modal-layout-container :global(.vtex-modal-layout-0-x-paper) {
+    margin          : 0;
+    background-color: inherit;
+}
+
+.headerContainer--header__modal-close-button {
+    height                   : 43px;
+    width                    : 41px;
+    display                  : flex;
+    justify-content          : center;
+    align-items              : center;
+    background-color         : #ffff;
+    border-bottom-left-radius: 0.9375rem;
+}
+
+.closeButton--header__modal-close-button {
+    padding: 0;
+}
+
+.backdrop--header__modal-layout-container {
+    background-color: #000000;
+}
+
+.triggerContainer--header__modal-trigger-container {
+    height: 100%;
+    width: 100%;
+}
+
+.container--header__modal-layout-general :global(.vtex-modal-layout-0-x-paper) {
+    width: 600px;
+}

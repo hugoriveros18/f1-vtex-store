@@ -1,0 +1,132 @@
+{
+    "flex-layout.row#home__constructors": {
+        "title": "Home Constructors",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "home__constructors"
+        },
+        "children": [
+            "flex-layout.col#home__constructors-container"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.col#home__constructors-container": {
+        "title": "Home Constructors Container",
+        "props": {
+            "blockClass": "home__constructors-container"
+        },
+        "children": [
+            "rich-text#constructors__title",
+            "flex-layout.row#constructors__icons"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "rich-text#constructors__title": {
+        "title": "Constructors Title",
+        "props": {
+            "text": "Comprar por equipo",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "constructors__title" 
+        }
+    },
+    "flex-layout.row#constructors__icons": {
+        "title": "Constructors Icons",
+        "props": {
+            "colSizing": "auto",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true,
+            "blockClass": "constructors__icons"
+        },
+        "children": [
+            "image#constructors__icons-mercedes",
+            "image#constructors__icons-red-bull",
+            "image#constructors__icons-ferrari",
+            "image#constructors__icons-maclaren",
+            "image#constructors__icons-alfa-romeo",
+            "image#constructors__icons-aston-martin",
+            "image#constructors__icons-alpine",
+            "image#constructors__icons-alpha-tauri",
+            "image#constructors__icons-williams",
+            "image#constructors__icons-f1"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "image#constructors__icons-mercedes": {
+        "title": "",
+        "props": {
+            "src": "assets/img/home/icon-mercedes.svg",
+            "blockClass": "constructors__icons-mercedes"
+        }
+    },
+    "image#constructors__icons-red-bull": {
+        "title": "",
+        "props": {
+            "src": "assets/img/home/icon-red-bull.svg",
+            "blockClass": "constructors__icons-red-bull"
+        }
+    },
+    "image#constructors__icons-ferrari": {
+        "title": "",
+        "props": {
+            "src": "assets/img/home/icon-ferrari.svg",
+            "blockClass": "constructors__icons-ferrari"
+        }
+    },
+    "image#constructors__icons-maclaren": {
+        "title": "",
+        "props": {
+            "src": "assets/img/home/icon-maclaren.svg",
+            "blockClass": "constructors__icons-maclaren"
+        }
+    },
+    "image#constructors__icons-alfa-romeo": {
+        "title": "",
+        "props": {
+            "src": "assets/img/home/icon-alfa-romeo.svg",
+            "blockClass": "constructors__icons-alfa-romeo"
+        }
+    },
+    "image#constructors__icons-aston-martin": {
+        "title": "",
+        "props": {
+            "src": "assets/img/home/icon-aston-martin.svg",
+            "blockClass": "constructors__icons-aston-martin"
+        }
+    },
+    "image#constructors__icons-alpine": {
+        "title": "",
+        "props": {
+            "src": "assets/img/home/icon-alpine.svg",
+            "blockClass": "constructors__icons-alpine"
+        }
+    },
+    "image#constructors__icons-alpha-tauri": {
+        "title": "",
+        "props": {
+            "src": "assets/img/home/icon-alpha-tauri.svg",
+            "blockClass": "constructors__icons-alpha-tauri"
+        }
+    },
+    "image#constructors__icons-williams": {
+        "title": "",
+        "props": {
+            "src": "assets/img/home/icon-williams.svg",
+            "blockClass": "constructors__icons-williams"
+        }
+    },
+    "image#constructors__icons-f1": {
+        "title": "",
+        "props": {
+            "src": "assets/img/home/icon-f1-logo.svg",
+            "blockClass": "constructors__icons-f1"
+        }
+    }
+}

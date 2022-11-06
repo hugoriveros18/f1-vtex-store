@@ -1,0 +1,24 @@
+{
+    "header": {
+        "blocks": [
+          "header-layout.desktop",
+          "header-layout.mobile"
+        ]
+    },
+    "header.full": {
+        "title": "header",
+        "blocks": [
+          "header-layout.desktop",
+          "header-layout.mobile"
+        ]
+    },
+
+    
+    "header-layout.mobile": {
+        "title": "Header Mobile",
+        "children": [
+        "responsive-layout.tablet",
+        "responsive-layout.phone"
+        ]
+    }
+}

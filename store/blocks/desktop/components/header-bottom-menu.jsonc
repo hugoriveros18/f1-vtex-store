@@ -1,0 +1,131 @@
+{
+    //NIVEL 1
+    "vtex.menu@2.x:menu#header__menu-categorias-general": {
+        "title": "Menu de Categorias General",
+        "children": [
+            "menu-item#categorias__compra-equipo", 
+            "menu-item#categorias__compra-piloto", 
+            "menu-item#categorias__compra-hombre", 
+            "menu-item#categorias__compra-mujer", 
+            "menu-item#categorias__compra-niño", 
+            "menu-item#categorias__compra-regalos", 
+            "menu-item#categorias__compra-coleccionables",
+            "menu-item#categorias__compra-rebajas"
+        ]
+    },
+
+
+    //NIVEL 2
+    "menu-item#categorias__compra-equipo": {
+        "title": "Categoria Compra por Equipo",
+        "props": {
+            "id": "compra-equipos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "compra-equipos",
+                "text": "COMPRAR POR EQUIPO"
+            },
+            "blockClass": "header__bottom-section-menu"
+        }
+    },
+    "menu-item#categorias__compra-piloto": {
+        "title": "Categoria Compra por Piloto",
+        "props": {
+            "id": "compra-piloto",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "compra-piloto",
+                "text": "COMPRAR POR PILOTO"
+            },
+            "blockClass": "header__bottom-section-menu"
+        }
+    },
+    "menu-item#categorias__compra-hombre": {
+        "title": "Categoria Compra Hombre",
+        "props": {
+            "id": "compra-hombre",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "compra-hombre",
+                "text": "HOMBRE"
+            },
+            "blockClass": "header__bottom-section-menu"
+        }
+    },
+    "menu-item#categorias__compra-mujer": {
+        "title": "Categoria Compra Mujer",
+        "props": {
+            "id": "compra-mujer",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "compra-mujer",
+                "text": "MUJER"
+            },
+            "blockClass": "header__bottom-section-menu"
+        }
+    },
+    "menu-item#categorias__compra-niño": {
+        "title": "Categoria Compra Niño",
+        "props": {
+            "id": "compra-niño",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "compra-niño",
+                "text": "NIÑO"
+            },
+            "blockClass": "header__bottom-section-menu"
+        }
+    },
+    "menu-item#categorias__compra-regalos": {
+        "title": "Categoria Compra Regalos y Accesorios",
+        "props": {
+            "id": "compra-regalos-accesorios",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "compra-regalos-accesorios",
+                "text": "REGALOS Y ACCESORIOS"
+            },
+            "blockClass": "header__bottom-section-menu"
+        }
+    },
+    "menu-item#categorias__compra-coleccionables": {
+        "title": "Categoria Compra Coleccionables",
+        "props": {
+            "id": "compra-coleccionables",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "compra-coleccionables",
+                "text": "COLECCIONABLES"
+            },
+            "blockClass": "header__bottom-section-menu"
+        }
+    },
+    "menu-item#categorias__compra-rebajas": {
+        "title": "Categoria Compra Rebajas",
+        "props": {
+            "id": "compra-rebajas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "compra-rebajas",
+                "text": "REBAJAS"
+            },
+            "blockClass": "header__bottom-section-menu"
+        }
+    }
+}

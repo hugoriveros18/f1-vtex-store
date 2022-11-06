@@ -1,0 +1,136 @@
+{
+  "responsive-layout.desktop#desktop__home": {
+    "title": "Home Desktop",
+    "children": [
+      "flex-layout.row#desktop__home--slider",
+      "flex-layout.row#home__constructors",
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#home__section--two",
+      "flex-layout.row#home__section--three",
+      "flex-layout.row#home__welcome"
+    ]
+  },
+
+
+  ///////////////////////////////////////////////
+  "flex-layout.row#home__section--one": {
+    "title": "Home Images Section One",
+    "props": {
+      "fullWidth": true,
+      "colSizing": "equal",
+      "blockClass": "home__section--one"
+    },
+    "children": [
+      "image#section__one--hamilton",
+      "image#section__one--constructors"
+    ]
+  },
+  "flex-layout.row#home__section--two": {
+    "title": "Home Images Section Two",
+    "props": {
+      "fullWidth": true,
+      "colSizing": "equal",
+      "blockClass": "home__section--two"
+    },
+    "children": [
+      "image#section__two--ferrari",
+      "image#section__two--maclaren"
+    ]
+  },
+  "flex-layout.row#home__section--three": {
+    "title": "Home Images Section Three",
+    "props": {
+      "fullWidth": true,
+      "colSizing": "equal",
+      "blockClass": "home__section--three"
+    },
+    "children": [
+      "image#section__three--mexico",
+      "image#section__three--turbo"
+    ]
+  },
+
+
+  ///////////////////////////////////////////////
+  "image#section__one--hamilton": {
+    "title": "Hamilton Collection Image",
+    "props": {
+      "src": "assets/img/home/lewis-hamilton-collection-desktop.png",
+      "blockClass": "section__one--hamilton"
+    }
+  },
+  "image#section__one--constructors": {
+    "title": "constructors Collection Image",
+    "props": {
+      "src": "assets/img/home/constructors-champions-desktop.png",
+      "blockClass": "section__one--constructors"
+    }
+  },
+  "image#section__two--ferrari": {
+    "title": "Ferrai Collection Image",
+    "props": {
+      "src": "assets/img/home/ferrari-range-desktop.png",
+      "blockClass": "section__two--ferrari"
+    }
+  },
+  "image#section__two--maclaren": {
+    "title": "Maclaren Collection Image",
+    "props": {
+      "src": "assets/img/home/maclaren-gulf-desktop.png",
+      "blockClass": "section__two--maclaren"
+    }
+  },
+  "image#section__three--mexico": {
+    "title": "Mexico Collection Image",
+    "props": {
+      "src": "assets/img/home/mexico-gp-desktop.png",
+      "blockClass": "section__three--mexico"
+    }
+  },
+  "image#section__three--turbo": {
+    "title": "Turbo Collection Image",
+    "props": {
+      "src": "assets/img/home/turbo-attax-desktop.png",
+      "blockClass": "section__three--turbo"
+    }
+  }
+  // "search-result-layout.customQuery#home__search": {
+  //   "blocks": [
+  //     "search-result-layout.desktop#home__search--desktop",
+  //     "search-result-layout.mobile#home__search--mobile",
+  //     "search-not-found-layout"
+  //   ],
+  //   "props": {
+  //     "querySchema": {
+  //       "skusFilter": "ALL",
+  //       "simulationBehavior": "skip"
+  //     }
+  //   }
+  // },
+  // "search-result-layout.desktop#home__search--desktop": {
+  //   "children": [
+  //     "flex-layout.row#home__results"
+  //   ]
+  // },
+  // "search-result-layout.mobile#home__search--mobile": {
+  //   "children": [
+  //     "flex-layout.row#home__results"
+  //   ]
+  // },
+  // "flex-layout.row#home__results": {
+  //   "children": [
+  //     "flex-layout.col#home__results--search"
+  //   ]
+  // },
+  // "flex-layout.col#home__results--search": {
+  //   "children": [
+  //     "search-content#home__results--search"
+  //   ]
+  // },
+  // "search-content#home__results--search": {
+  //   "blocks": ["gallery","not-found"]
+  // },
+  // "gallery": {
+  //   "blocks": ["product-summary.shelf"]
+  // }
+}

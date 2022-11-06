@@ -1,0 +1,61 @@
+{
+    "responsive-layout.phone#phone__home": {
+        "title": "Home Phone",
+        "children": [
+            "flex-layout.row#phone__home--slider",
+            "flex-layout.row#home__constructors",
+            "image#home__section--one",
+            "image#home__section--two",
+            "image#home__section--three",
+            "image#home__section--four",
+            "image#home__section--five",
+            "image#home__section--six",
+            "flex-layout.row#home__welcome"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "image#home__section--one": {
+        "title": "Hamilton Home Image",
+        "props": {
+            "src": "assets/img/home/lewis-hamilton-collection-phone.png",
+            "blockClass": "home__section--one"
+        }
+    },
+    "image#home__section--two": {
+        "title": "Constructors Home Image",
+        "props": {
+            "src": "assets/img/home/constructors-champions-phone.png",
+            "blockClass": "home__section--two"
+        }
+    },
+    "image#home__section--three": {
+        "title": "Ferrari Home Image",
+        "props": {
+            "src": "assets/img/home/ferrari-range-phone.png",
+            "blockClass": "home__section--three"
+        }
+    },
+    "image#home__section--four": {
+        "title": "Maclaren Home Image",
+        "props": {
+            "src": "assets/img/home/maclaren-gulf-phone.png",
+            "blockClass": "home__section--four"
+        }
+    },
+    "image#home__section--five": {
+        "title": "Mexico Home Image",
+        "props": {
+            "src": "assets/img/home/mexico-gp-phone.png",
+            "blockClass": "home__section--five"
+        }
+    },
+    "image#home__section--six": {
+        "title": "Turbo Home Image",
+        "props": {
+            "src": "assets/img/home/turbo-attax-phone.png",
+            "blockClass": "home__section--six"
+        }
+    }
+}

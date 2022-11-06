@@ -1,0 +1,52 @@
+{
+    "flex-layout.row#phone__home--slider": {
+        "title": "Phone Home Slider",
+        "props": {
+            "blockClass": "phone__home--slider"
+        },
+        "children": [
+            "slider-layout#home__slider--principal"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "slider-layout#home__slider--principal": {
+        "title": "Home slider Main",
+        "props": {
+            "itemsPerPage": {
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always",
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            },
+            "fullWidth": true,
+            "arrowSize": 25,
+            "blockClass": "home__slider--principal"
+        },
+        "children": [
+            "image#slider__image--ricciardop",
+            "image#slider__image--ricciardop",
+            "image#slider__image--ricciardop"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "image#slider__image--ricciardop": {
+        "title": "Ricciardo Gulf Collection Image",
+        "props": {
+            "src": "assets/img/home/dr-maclaren-gulf-collection-phone.png",
+            "title": "ricciardo-collection",
+            "blockClass": "slider__image--phone",
+            "link": {
+                "attributeNofollow": false,
+                "url": "/"
+            }
+        }
+    }
+}

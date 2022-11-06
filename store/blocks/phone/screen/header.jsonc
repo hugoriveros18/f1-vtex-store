@@ -1,0 +1,69 @@
+{
+    ///////////////////////////////////////////////
+    "responsive-layout.phone": {
+        "title": "Header Phone",
+        "children": [
+            "header-row#header__top-section-phone",
+            "header-row#header__middle-section-phone",
+            "sticky-layout.stack-container#phone__header--sticky"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "header-row#header__top-section-phone": {
+        "title": "Header Top Row Phone",
+        "props": {
+            "blockClass": "header__top-phone-menu"
+        },
+        "children": [
+            "drawer#header__top-menu-mobile",
+            "logo#header__top-logo",
+            "header-spacer",
+            "login#header__mobile",
+            "minicart.v2#header__phone"
+        ]
+    },
+    "header-row#header__middle-section-phone": {
+        "title": "Header Middle Row Phone",
+        "props": {
+            "blockClass": "header__middle-phone-menu"
+        },
+        "children": [
+            "modal-trigger#header__top-registro-ahorro"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "drawer#header__top-menu-mobile": {
+        "title": "Header Mobile Menu",
+        "props": {
+            "blockClass": "header__top-mobile-menu"
+        },
+        "children": [
+
+        ]
+    },
+    "logo#header__top-logo": {
+        "title": "Logo Top Section Phone",
+        "props": {
+            "url": "assets/img/header/f1-logo.svg",
+            "href": "/",
+            "blockClass": "header__top-phone-logo"
+        }
+    },
+    "login#header__mobile": {
+        "title": "Phone Login",
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true,
+            "logInButtonBehavior": "link",
+            "blockClass": "header__top-section-login-phone"
+        }
+    }
+}

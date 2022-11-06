@@ -1,0 +1,8 @@
+.flexRowContent--home__welcome{
+    padding: 15px 20px;
+}
+.flexCol--welcome__description--conatiner{
+    max-height: 12.5rem;
+    padding-right: 1.25rem;
+    overflow: scroll;
+}
