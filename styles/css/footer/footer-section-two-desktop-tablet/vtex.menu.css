@@ -1,0 +1,23 @@
+.styledLinkContent--menu__politica,
+.styledLinkContent--menu__terminos,
+.styledLinkContent--menu__cookies,
+.styledLinkContent--menu__mapa,
+.styledLinkContent--menu__separator {
+    font-family: 'Open Sans';
+    font-size  : .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color      : #1b1b1b;
+}
+
+.styledLinkContent--menu__politica:hover,
+.styledLinkContent--menu__terminos:hover,
+.styledLinkContent--menu__cookies:hover,
+.styledLinkContent--menu__mapa:hover {
+    text-decoration: underline;
+    cursor         : pointer;
+}
+
+.styledLinkContent--menu__separator {
+    padding: 0px 10px;
+}

@@ -28,6 +28,9 @@
 :global(.vtex-button):hover {
     background-color: inherit;
 }
+:global(.vtex-minicart-2-x-cartIcon){
+    color: #ffff
+}
 
 
 @media screen and (max-width: 1024px) {

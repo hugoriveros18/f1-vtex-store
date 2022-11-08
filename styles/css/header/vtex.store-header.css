@@ -26,6 +26,7 @@
 }
 .headerRowContentContainer--top-padding-tablet :global(.vtex-minicart-2-x-minicartWrapperContainer){
     height : 41px;
+    background-color: #e10600;
 }
 
 .headerRowContainer--middle-height-tablet {

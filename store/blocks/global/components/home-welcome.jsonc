@@ -14,6 +14,7 @@
     "flex-layout.col#welcome__container": {
         "title": "Welcome Home Container",
         "props": {
+            "preventVerticalStretch": true,
             "blockClass": "welcome__container"
         },
         "children": [
