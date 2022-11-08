@@ -8,21 +8,25 @@
 }
 .paragraph--description__one{
     font-family: 'Open Sans';
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
     color: #242424;
     margin: 0px;
     margin: 15px 0px;
-    letter-spacing: 0.1px;
 }
 .paragraph--description__two{
     font-family: 'Open Sans';
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
     color: #242424;
     margin: 0px;
     margin-bottom: 14px;
-    letter-spacing: 0.1px;
+}
+@media screen and (max-width: 640px) {
+    .paragraph--description__one,
+    .paragraph--description__two{
+        font-size: 16px;
+    }
 }

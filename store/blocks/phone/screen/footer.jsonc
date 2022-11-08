@@ -1,0 +1,79 @@
+{
+    "responsive-layout.phone#phone__footer": {
+        "title": "Phone Footer",
+        "children": [
+            "flex-layout.row#phone__footer--one",
+            "flex-layout.row#desktop__footer--two"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.row#phone__footer--one": {
+        "title": "Footer Section One",
+        "props": {
+            "blockClass": "phone__footer--one"
+        },
+        "children": [
+            "flex-layout.col#footer__one"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.col#footer__one": {
+        "title": "Section One Container",
+        "props": {
+            "blockClass": "footer__one"
+        },
+        "children": [
+            "flex-layout.row#footer__one--menu",
+            "flex-layout.row#registroahorro__social--media"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.row#footer__one--menu": {
+        "title": "Ayuda y Plazdo de Devolucion",
+        "props": {
+            "blockClass": "footer__one--menu"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#one__menu"
+        ]
+    },
+    "flex-layout.row#footer__one--localizador": {
+        "title": "Localizador de Envios",
+        "props": {
+            "blockClass": "footer__one--localizador"
+        },
+        "children": [
+
+        ]
+    },
+    "flex-layout.row#footer__one--social": {
+        "title": "Social Media",
+        "props": {
+            "blockClass": "footer__one--social"
+        },
+        "children": [
+
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "vtex.menu@2.x:menu#one__menu": {
+        "title": "Footer Phone Menu",
+        "props": {
+            "blockClass": "one__menu",
+            "orientation": "horizontal"
+        },
+        "children": [
+            "menu-item#atencioncliente__menu--ayuda",
+            "menu-item#seguridadonline__menu--plazo",
+            "menu-item#atencioncliente__menu--localizador"
+        ]
+    }
+}

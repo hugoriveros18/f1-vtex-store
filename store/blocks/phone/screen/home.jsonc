@@ -11,6 +11,7 @@
             "image#home__section--five",
             "image#home__section--six",
             "flex-layout.row#home__welcome"
+            // "search-result-layout.customQuery#home__search"
         ]
     },
 

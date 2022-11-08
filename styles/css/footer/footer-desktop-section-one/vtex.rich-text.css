@@ -1,0 +1,29 @@
+.paragraph--atencioncliente__title,
+.paragraph--seguridadonline__title,
+.paragraph--informacion__title {
+    margin     : 0px;
+    padding    : 0.3125rem 0;
+    font-family: 'Open Sans';
+    font-size  : .875rem;
+    font-weight: 600;
+    line-height: 1.85;
+    color      : #242424;
+}
+
+.paragraph--registroahorro__description {
+    font-family  : 'Open Sans';
+    color        : #242424;
+    font-size    : .75rem;
+    line-height  : 1.85;
+    margin       : 0px;
+    margin-bottom: 0.625rem;
+}
+
+.paragraph--registroahorro__social {
+    margin     : 0px;
+    margin-top : 1.25rem;
+    font-size  : .875rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color      : #242424;
+}

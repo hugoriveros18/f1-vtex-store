@@ -1,0 +1,13 @@
+.flexRow--desktop__footer--one {
+    padding         : 1.875rem 0;
+    background-color: #f4f5f5
+}
+
+.flexCol--footer__layout {
+    margin   : 0 2.5rem;
+    max-width: none;
+}
+
+.flexRowContent--registroahorro__social--media {
+    justify-content: flex-start;
+}

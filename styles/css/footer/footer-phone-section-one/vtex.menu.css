@@ -1,0 +1,34 @@
+.menuContainer--one__menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+@media screen and (max-width: 640px) {
+    .menuItem--atencioncliente__menu--ayuda,
+    .menuItem--seguridadonline__menu--plazo{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .menuItem--atencioncliente__menu--localizador{
+        width: 100%;
+    }
+    .styledLinkContent--atencioncliente__menu--ayuda,
+    .styledLinkContent--seguridadonline__menu--plazo,
+    .styledLinkContent--atencioncliente__menu--localizador{
+        justify-content: center;
+    }
+    .styledLinkContent--seguridadonline__menu--plazo{
+        width: 163.19px;
+        white-space: unset;
+        text-align: center;
+    }
+    .menuContainer--layout__two--menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 50px 40px 15px;
+    }
+}

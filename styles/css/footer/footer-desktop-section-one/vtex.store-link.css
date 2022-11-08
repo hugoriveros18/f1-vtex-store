@@ -1,0 +1,11 @@
+.link--media__twitter,
+.link--media__instagram {
+    padding: 0.3125rem 0.625rem 0px 0px;
+    cursor : pointer;
+    color  : #242424;
+}
+
+.link--media__twitter:hover,
+.link--media__instagram:hover {
+    color: #3E3E3E;
+}
