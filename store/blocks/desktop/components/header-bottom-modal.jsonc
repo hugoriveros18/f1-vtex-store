@@ -1,5 +1,5 @@
 {
-    //NIVEL 1
+    ///////////////////////////////////////////////
     "flex-layout.row#header__sticky-container":{
         "title": "Distribucion Layout Container",
         "props": {
@@ -13,7 +13,7 @@
     },
 
 
-    //NIVEL 2
+    ///////////////////////////////////////////////
     "flex-layout.col#header__contenedor-texto-codigo": {
         "title": "Contenedor Layout Texto Codigo",
         "props": {
@@ -34,7 +34,7 @@
     },
 
 
-    //NIVEL 3
+    ///////////////////////////////////////////////
     "rich-text#header__codigo-descuento": {
         "title": "Mensaje Codigo Descuento",
         "props": {
@@ -55,7 +55,7 @@
     },
 
 
-    //NIVEL 4
+    ///////////////////////////////////////////////
     "image#header__modal-codigo": {
         "title": "Imagen Codigo Descuento",
         "props": {
@@ -74,7 +74,7 @@
     },
 
 
-    //NIVEL 5
+    ///////////////////////////////////////////////
     "flex-layout.col#header__modal-body-estructura": {
         "title": "Cuerpo Modal General",
         "props": {
@@ -88,7 +88,7 @@
     },
 
 
-    //NIVEL 6
+    ///////////////////////////////////////////////
     "flex-layout.row#header__modal-texto-boton": {
         "title": "Titulo Cierre Modal",
         "props": {
@@ -109,7 +109,7 @@
     },
 
 
-    //NIVEL 7
+    ///////////////////////////////////////////////
     "rich-text#header__modal-codigo-titulo": {
       "title": "Titulo Modal Codigo Descuento",
       "props": {

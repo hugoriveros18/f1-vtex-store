@@ -9,6 +9,8 @@
       "sticky-layout.stack-container#header__bottom-last-section"
     ]
   },
+
+
   ///////////////////////////////////////////////
   "header-row#header__top-section": {
     "title": "Header Top Row",
@@ -53,6 +55,8 @@
       "sticky-layout#header__codigo-descuento"
     ]
   },
+
+
   ///////////////////////////////////////////////
   "logo#header__middle-logo": {
     "title": "Logo Middle Section",

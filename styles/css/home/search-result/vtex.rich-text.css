@@ -1,0 +1,11 @@
+.paragraph--global__quick--view-trigger {
+    margin: 10px 0px 20px;
+    font-family: 'Open Sans';
+    font-size: .8rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.container--global__quick--view-trigger {
+    justify-content: center;
+}
