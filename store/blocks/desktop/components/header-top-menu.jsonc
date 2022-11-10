@@ -1,5 +1,5 @@
 {
-    //NIVEL 1
+    ///////////////////////////////////////////////
     "vtex.menu@2.x:menu#header__opciones-cuenta-menu": {
         "title": "Menu de Opciones de Cuenta",
         "children": [
@@ -12,7 +12,7 @@
     },
     
 
-    //NIVEL 2
+    ///////////////////////////////////////////////
     "menu-item#localizador-envios":{
         "title": "Opcion Localizador de Envios",
         "props": {
@@ -78,7 +78,7 @@
     },
 
 
-    //NIVEL 3
+    ///////////////////////////////////////////////
     "icon#header__arrow-down": {
         "title": "Arrow Down Icon",
         "props": {

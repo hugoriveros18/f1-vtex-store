@@ -20,8 +20,9 @@
             "drawer#header__top-menu-mobile",
             "logo#header__top-logo",
             "header-spacer",
+            "modal-trigger#phone__search--modal",
             "login#header__mobile",
-            "minicart.v2#header__phone"
+            "minicart.v2#phone__minicart"
         ]
     },
     "header-row#header__middle-section-phone": {

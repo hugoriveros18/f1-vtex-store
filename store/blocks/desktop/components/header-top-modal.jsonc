@@ -1,5 +1,5 @@
 {
-    //NIVEL 1
+    ///////////////////////////////////////////////
     "flex-layout.row#header__registro-descuento": {
         "title": "Contenedor Boton Registro y Descuento",
         "props": {
@@ -11,7 +11,7 @@
     },
 
 
-    //NIVEL 2
+    ///////////////////////////////////////////////
     "modal-trigger#header__top-registro-ahorro": {
         "title": "Contenedor Registro y Ahorro",
         "props": {
@@ -24,7 +24,7 @@
     },
 
 
-    //NIVEL 4
+    ///////////////////////////////////////////////
     "rich-text#boton-registro-descuento": {
         "title": "Texto Boton de Registro",
         "props": {

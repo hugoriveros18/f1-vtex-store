@@ -1,5 +1,5 @@
 {
-    //NIVEL 1
+    ///////////////////////////////////////////////
     "vtex.menu@2.x:menu#header__menu-categorias-general": {
         "title": "Menu de Categorias General",
         "children": [
@@ -15,7 +15,7 @@
     },
 
 
-    //NIVEL 2
+    ///////////////////////////////////////////////
     "menu-item#categorias__compra-equipo": {
         "title": "Categoria Compra por Equipo",
         "props": {

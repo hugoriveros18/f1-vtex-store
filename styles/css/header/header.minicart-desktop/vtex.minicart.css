@@ -31,10 +31,28 @@
 :global(.vtex-minicart-2-x-cartIcon){
     color: #ffff
 }
-
+:global(.vtex-minicart-2-x-openIconContainer--header__top-section-minicart) {
+    padding: 0px;
+}
 
 @media screen and (max-width: 1024px) {
     .minicartWrapperContainer--header__top-section-minicart {
         height: 41px;
+    }
+}
+@media screen and (max-width: 640px) {
+    :global(.vtex-minicart-2-x-cartIcon){
+        width: 26px;
+        height: 26px;
+    }
+    :global(.vtex-minicart-2-x-minicartWrapperContainer){
+        margin-right: 5px;
+    }
+    :global(.vtex-minicart-2-x-openIconContainer){
+        padding: 0px 2px;
+    }
+    :global(.vtex-minicart-2-x-minicartWrapperContainer){
+        margin: 0px;
+        margin-right: 3px;
     }
 }
