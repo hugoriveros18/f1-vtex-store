@@ -11,4 +11,5 @@
 
 .headerRowContentContainer--header__bottom-section-row :global(.vtex-menu-2-x-menuContainerNav) {
     width: 100%;
+    height: 100%;
 }

@@ -1,0 +1,19 @@
+.container--submenu__pilotos--title {
+    padding      : 0px 24px;
+    margin-bottom: 10px;
+}
+
+.container--submenu__legends--title {
+    padding      : 0px 24px 0px 17px;
+    margin-bottom: 10px;
+}
+
+.paragraph--submenu__pilotos--title,
+.paragraph--submenu__legends--title {
+    margin     : 0px;
+    font-family: 'Open Sans';
+    font-size  : 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color      : #000;
+}
