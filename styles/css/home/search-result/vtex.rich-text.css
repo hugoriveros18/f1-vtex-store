@@ -9,3 +9,17 @@
 .container--global__quick--view-trigger {
     justify-content: center;
 }
+
+.wrapper--search__not-found--text{
+    width: 100%;
+}
+
+.paragraph--search__not-found--text{
+    padding: 16px;
+    margin: 16px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Open Sans';
+    color: #242424;
+}

@@ -88,6 +88,15 @@
             "flex-layout.row#search__results"
         ]
     },
+    "search-not-found-layout": {
+        "title": "Search Not Found Result",
+        "props": {
+            "blockClass": "search-not-found-layout"
+        },
+        "children": [
+            "rich-text#search__not-found--text"
+        ]
+    },
 
 
     ///////////////////////////////////////////////
@@ -100,6 +109,15 @@
             "flex-layout.col#search__results--filter",
             "flex-layout.col#search__results--content"
         ]
+    },
+    "rich-text#search__not-found--text": {
+        "title": "Search Not Found Message",
+        "props": {
+            "text": "Lo sentimos su busqueda no coincide con ningun producto",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "search__not-found--text"
+        }
     },
 
 
@@ -260,7 +278,9 @@
             "product-summary-name",
             "product-summary-image",
             "product-selling-price",
-            "product-summary-quantity"
+            "product-summary-quantity",
+            "product-summary-sku-selector",
+            "add-to-cart-button"
         ]
     },
 

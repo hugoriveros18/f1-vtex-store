@@ -10,8 +10,8 @@
             "image#home__section--four",
             "image#home__section--five",
             "image#home__section--six",
-            "flex-layout.row#home__welcome"
-            // "search-result-layout.customQuery#home__search"
+            "flex-layout.row#home__welcome",
+            "search-result-layout.customQuery#home__search"
         ]
     },
 
