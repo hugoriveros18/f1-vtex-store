@@ -1,0 +1,8 @@
+.specificationName--details__section--product-title,
+.specificationValue--first {
+    font-family: 'Open Sans';
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.67;
+    color: #242424;
+}

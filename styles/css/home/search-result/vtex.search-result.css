@@ -16,9 +16,12 @@
 
 @media screen and (min-width: 640px) {
     .gallery--general-grid{
-        gap: 25px;
         justify-content: flex-start;
         padding: 0px;
+        border-bottom: 1px solid #D5D5D5;
+    }
+    .galleryItem--general-grid {
+        padding: 15px 15px 30px 15px;
     }
 }
 

@@ -1,0 +1,45 @@
+.paragraph--page__price--message {
+    font-family: 'Open Sans';
+    font-size  : .875rem;
+    color      : #242424;
+    line-height: 1.25rem;
+    font-weight: 600;
+    margin     : 0px;
+}
+
+.paragraph--product__page--name-mesagge {
+    margin     : 0px;
+    margin-top : 5px;
+    color      : #247e0c;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size  : .875rem;
+    line-height: 1.43;
+}
+
+.wrapper--product__page--name-mesagge {
+    width: 100%;
+}
+
+.container--product__page--name-mesagge {
+    margin        : 0px 15px;
+    padding-bottom: 15px;
+}
+
+.paragraph--product__disclosure--title {
+    margin: 0px;
+}
+
+.wrapper--product__disclosure--content {
+    padding: 10px 0px 10px 18px;
+}
+
+.paragraph--product__disclosure--content {
+    margin: 0px;
+    display: list-item;
+    font-family: 'Open Sans';
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.67;
+    color: #242424;
+}

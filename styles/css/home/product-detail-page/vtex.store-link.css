@@ -1,0 +1,11 @@
+.label--order__devolutions {
+    font-family    : 'Open Sans';
+    font-size      : .8125rem;
+    font-weight    : 400;
+    line-height    : 1.5;
+    color          : #3863a3;
+}
+
+.link--order__devolutions {
+    text-decoration: none;
+}

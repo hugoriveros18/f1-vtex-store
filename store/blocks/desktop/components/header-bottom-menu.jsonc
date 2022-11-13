@@ -899,7 +899,7 @@
         }
     },
     "menu-item#regalos__submenu--hogar-oficina": {
-        "title": "Subcategoria Hogas & Oficina",
+        "title": "Subcategoria Hogar & Oficina",
         "props": {
             "id": "hogar-oficina",
             "type": "custom",
@@ -907,7 +907,7 @@
                 "type": "internal",
                 "href": "#",
                 "tagTitle": "hogar-oficina",
-                "text": "Hogas & Oficina"
+                "text": "Hogar & Oficina"
             },
             "blockClass": ["regalos__submenu--general","regalos__submenu--hogar-oficina"]
         }
