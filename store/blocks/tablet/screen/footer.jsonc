@@ -1,0 +1,113 @@
+{
+    "responsive-layout.tablet#tablet__footer": {
+        "title": "Tablet Footer",
+        "children": [
+            "flex-layout.row#tablet__footer--one",
+            "flex-layout.row#desktop__footer--two"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.row#tablet__footer--one": {
+        "title": "Footer Container Section One",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "tablet__footer--one"
+        },
+        "children": [
+            "flex-layout.col#footer__one--layout"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.col#footer__one--layout": {
+        "title": "Footer Layout",
+        "props": {
+            "width": "100%",
+            "blockClass": "footer__one--layout"
+        },
+        "children": [
+            "flex-layout.row#one__layout--content1",
+            "flex-layout.row#one__layout--content2"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.row#one__layout--content1": {
+        "title": "Footer Content 1",
+        "props": {
+            "fullWidth": true,
+            "colSizing": "equal",
+            "blockClass": "one__layout--content1"
+        },
+        "children": [
+            "flex-layout.col#content__atencion-cliente",
+            "flex-layout.col#content__seguridad-online",
+            "flex-layout.col#content__informacion"
+        ]
+    },
+    "flex-layout.row#one__layout--content2": {
+        "title": "Footer Content 2",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "one__layout--content2"
+        },
+        "children": [
+            "flex-layout.col#content2__resgistro-ahorro"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.col#content2__resgistro-ahorro": {
+        "title": "Footer Registro y Ahorro",
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "content__resgistro-ahorro"
+        },
+        "children": [
+            "flex-layout.row#registroahorro__content"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.row#registroahorro__content": {
+        "title": "Registro y Ahorro Content",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "registroahorro__content"
+        },
+        "children": [
+            "flex-layout.col#registroahorro__content--one",
+            "flex-layout.col#registroahorro__content--two"
+        ]
+    },
+
+
+
+    "flex-layout.col#registroahorro__content--one": {
+        "title": "Footer Registro y Ahorro One",
+        "props": {
+            "blockClass": "registroahorro__content--one"
+        },
+        "children": [
+            "rich-text#registroahorro__description",
+            "modal-trigger#registroahorro__modal"
+        ]
+    },
+    "flex-layout.col#registroahorro__content--two": {
+        "title": "Footer Registro y Ahorro Two",
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "registroahorro__content--two"
+        },
+        "children": [
+            "rich-text#registroahorro__social",
+            "flex-layout.row#registroahorro__social--media"
+        ]
+    }
+}

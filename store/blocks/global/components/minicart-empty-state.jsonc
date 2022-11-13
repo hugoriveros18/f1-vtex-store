@@ -1,0 +1,42 @@
+{
+    "minicart-empty-state#global__minicart--content-empty": {
+        "children": [
+            "flex-layout.row#phone__minicart--empty"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.row#phone__minicart--empty": {
+        "children": [
+            "flex-layout.col#minicart__empty"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.col#minicart__empty": {
+        "props": {
+            "blockClass": "minicart__empty"
+        },
+        "children": [
+            "icon-cart#minicart__empty--icon",
+            "rich-text#minicart__empty--text"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "icon-cart#minicart__empty--icon": {
+        "props": {
+            "size": 100
+        }
+    },
+    "rich-text#minicart__empty--text": {
+        "props": {
+            "text": "Tu cesta esta vacia",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

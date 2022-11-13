@@ -1,0 +1,17 @@
+.imageElement--layout__two--payment-visa {
+    width : 45px;
+    height: 34px;
+}
+
+.imageElement--layout__two--payment-mastercard {
+    width : 35px;
+    height: 24px;
+}
+
+.imageElement--layout__two--payment-amex,
+.imageElement--layout__two--payment-paypal,
+.imageElement--layout__two--payment-jbc,
+.imageElement--layout__two--payment-maestro {
+    width : 25px;
+    height: 25px;
+}

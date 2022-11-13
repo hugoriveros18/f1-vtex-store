@@ -1,0 +1,16 @@
+.flexRow--phone__footer--one{
+    padding: 1.875rem 0;
+    background-color: #f4f5f5;
+}
+
+@media screen and (max-width: 640px) {
+    .flexRowContent--registroahorro__social--media{
+        justify-content: center;
+    }
+    .flexRow--layout__two--payment{
+        display: none;
+    }
+    .flexRow--registroahorro__social--media{
+        margin-top: 36px;
+    }
+}

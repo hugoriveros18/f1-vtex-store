@@ -18,7 +18,7 @@
         "flex-layout.row#header__registro-descuento",
         "header-spacer",
         "vtex.menu@2.x:menu#header__opciones-cuenta-menu",
-        "minicart.v2"
+        "minicart.v2#header__desktop"
     ],
     "props": {
         "blockClass": ["header__top-section-row","top-padding-tablet"]

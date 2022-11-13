@@ -1,0 +1,15 @@
+@media screen and (max-width: 1023px) {
+
+    .link--media__twitter,
+    .link--media__instagram {
+        padding: 5px 15px 0px 0px;
+        cursor : pointer;
+        color  : #242424;
+    }
+}
+@media screen and (max-width: 640px) {
+    .link--media__twitter,
+    .link--media__instagram{
+        padding: 5px 10px 0px 0px;
+    }
+}

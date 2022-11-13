@@ -1,0 +1,11 @@
+// {
+//     "store.custom#about-us": {
+//         "path": "/sobre-nosotros"
+//     }
+// }
+
+
+//EL CODIGO ESTA COMENTADO PORQUE EL ARCHIVO ES .jsonc PERO ES FUNDAMENTAL SABER QUE EL ARCHIVO NO VA FUNCIONAR SI NO ES .json
+{
+    
+}

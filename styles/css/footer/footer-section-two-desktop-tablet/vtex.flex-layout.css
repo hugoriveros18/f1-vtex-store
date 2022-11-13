@@ -1,0 +1,21 @@
+.flexRow--desktop__footer--two {
+    padding: 45px 40px 15px 40px;
+}
+
+.flexRowContent--layout__two--payment {
+    justify-content: flex-end;
+    align-items    : center;
+    gap            : 8px;
+}
+
+@media screen and (max-width: 1023px) {
+    .flexRowContent--layout__two--payment {
+        padding-right: 16px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .flexRow--desktop__footer--two {
+        padding: 0px;
+    }
+}

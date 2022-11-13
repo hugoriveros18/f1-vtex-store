@@ -1,0 +1,37 @@
+.styledLinkContent--atencioncliente__menu--ayuda,
+.styledLinkContent--atencioncliente__menu--localizador,
+.styledLinkContent--atencioncliente__menu--guia,
+.styledLinkContent--seguridadonline__menu--compra,
+.styledLinkContent--seguridadonline__menu--envio,
+.styledLinkContent--seguridadonline__menu--plazo,
+.styledLinkContent--informacion__menu--cuenta,
+.styledLinkContent--informacion__menu--nosotros {
+    padding    : 0.1875rem 0;
+    font-family: 'Open Sans';
+    color      : #242424;
+    font-size  : .75rem;
+    line-height: 1.85;
+    cursor     : pointer;
+}
+
+.menuItem--atencioncliente__menu--ayuda :global(.vtex-menu-2-x-styledLinkContainer),
+.menuItem--atencioncliente__menu--localizador :global(.vtex-menu-2-x-styledLinkContainer),
+.menuItem--atencioncliente__menu--guia :global(.vtex-menu-2-x-styledLinkContainer),
+.menuItem--seguridadonline__menu--compra :global(.vtex-menu-2-x-styledLinkContainer),
+.menuItem--seguridadonline__menu--envio :global(.vtex-menu-2-x-styledLinkContainer),
+.menuItem--seguridadonline__menu--plazo :global(.vtex-menu-2-x-styledLinkContainer),
+.menuItem--informacion__menu--cuenta :global(.vtex-menu-2-x-styledLinkContainer),
+.menuItem--informacion__menu--nosotros :global(.vtex-menu-2-x-styledLinkContainer) {
+    justify-content: flex-start;
+}
+
+.styledLinkContent--atencioncliente__menu--ayuda:hover,
+.styledLinkContent--atencioncliente__menu--localizador:hover,
+.styledLinkContent--atencioncliente__menu--guia:hover,
+.styledLinkContent--seguridadonline__menu--compra:hover,
+.styledLinkContent--seguridadonline__menu--envio:hover,
+.styledLinkContent--seguridadonline__menu--plazo:hover,
+.styledLinkContent--informacion__menu--cuenta:hover,
+.styledLinkContent--informacion__menu--nosotros:hover {
+    text-decoration: underline;
+}

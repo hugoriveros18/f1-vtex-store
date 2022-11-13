@@ -1,0 +1,14 @@
+{
+  "minicart.v2#header__desktop": {
+    "title": "Minicart",
+    "props": {
+      "variation": "drawer",
+      "itemCountMode": "total",
+      "quantityDisplay": "not-empty",
+      "blockClass": "header__top-section-minicart"
+    },
+    "children": [
+      "minicart-base-content#phone__minicart--content"
+    ]
+  }
+}
