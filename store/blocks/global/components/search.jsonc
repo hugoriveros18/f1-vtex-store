@@ -177,8 +177,7 @@
             "blockClass": "product-summary-shelf"
         },
         "children": [
-            "flex-layout.row#product__shelf",
-            "flex-layout.row#product__shelf--quick-view"
+            "flex-layout.row#product__shelf"
         ]
     },
 
@@ -194,16 +193,6 @@
         "children": [
             "flex-layout.col#product__shelf--image",
             "flex-layout.col#product__shelf--description"
-        ]
-    },
-    "flex-layout.row#product__shelf--quick-view": {
-        "title": "Product Summary Shelf Layout",
-        "props": {
-            "preserveLayoutOnMobile": true,
-            "blockClass": "product__shelf--quick-view"
-        },
-        "children": [
-            "modal-trigger#global__quick-view"
         ]
     },
 
@@ -233,12 +222,6 @@
             "add-to-cart-button"
         ]
     },
-    "modal-trigger#global__quick-view": {
-        "children": [
-            "rich-text#global__quick--view-trigger",
-            "modal-layout#global__quick--view-trigger"
-        ]
-    },
 
 
     ///////////////////////////////////////////////
@@ -253,9 +236,9 @@
             "highlight"
           ],
           "blockClass": "summary",
-          "message": "Selling price: {sellingPriceValue}"
+          "message": "{sellingPriceValue}"
         }
-      },
+    },
     "product-summary-sku-selector": {
         "props": {
             "displayMode": "select"
@@ -266,30 +249,14 @@
             "text": "Añadir",
             "blockClass": "add-to-cart-button"
         }
-    },
-    "rich-text#global__quick--view-trigger": {
-        "props": {
-            "text": "Vista rapida",
-            "blockClass": "global__quick--view-trigger"
-        }
-    },
-    "modal-layout#global__quick--view-trigger": {
-        "children": [
-            "product-summary-name",
-            "product-summary-image",
-            "product-selling-price",
-            "product-summary-quantity",
-            "product-summary-sku-selector",
-            "add-to-cart-button"
-        ]
-    },
+    }
 
 
     ///////////////////////////////////////////////
-    "product-summary-quantity": {
-        "props": {
-            "showLabel": false,
-            "blockClass": "product-summary-quantity"
-        }
-    }
+    // "product-summary-quantity": {
+    //     "props": {
+    //         "showLabel": false,
+    //         "blockClass": "product-summary-quantity"
+    //     }
+    // }
 }
