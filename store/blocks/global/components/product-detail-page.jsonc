@@ -29,12 +29,12 @@
         ]   
     },
     "flex-layout.row#product_tabs--container": {
-        "title": "",
+        "title": "Product General Tabs",
         "props": {
             "blockClass": "product_tabs--container"
         },
         "children": [
-
+            "tab-layout#product__tabs"
         ]   
     },
 
