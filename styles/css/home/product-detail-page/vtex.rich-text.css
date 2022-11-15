@@ -43,3 +43,26 @@
     line-height: 1.67;
     color: #242424;
 }
+
+.paragraph--tab__slider--price {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    color: #d52a1a;
+    margin: 0px; 
+}
+
+.paragraph--tab__slider--description {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: #262422;
+    margin: 0px;
+    margin-top: 8px;
+}
+
+.container--tab__slider--description {
+    align-items: flex-start;
+}

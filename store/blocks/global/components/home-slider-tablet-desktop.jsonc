@@ -30,8 +30,7 @@
             "blockClass": "home__slider--main"
         },
         "children": [
-            "image#slider__image--ricciardo",
-            "image#slider__image--ricciardo",
+            "image#slider__image--constructors",
             "image#slider__image--ricciardo"
         ]
     },
@@ -42,7 +41,13 @@
         "title": "Ricciardo Gulf Collection Image",
         "props": {
             "src": "assets/img/home/dr-maclaren-gulf-collection-desktop.png",
-            "title": "ricciardo-collection",
+            "blockClass": "slider__image--desktop"
+        }
+    },
+    "image#slider__image--constructors": {
+        "title": "All Constructors Champions Image",
+        "props": {
+            "src": "assets/img/home/all-constructors-champions-desktop.png",
             "blockClass": "slider__image--desktop"
         }
     }

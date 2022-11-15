@@ -29,8 +29,7 @@
             "blockClass": "home__slider--principal"
         },
         "children": [
-            "image#slider__image--ricciardop",
-            "image#slider__image--ricciardop",
+            "image#slider__image--constructorsp",
             "image#slider__image--ricciardop"
         ]
     },
@@ -41,12 +40,14 @@
         "title": "Ricciardo Gulf Collection Image",
         "props": {
             "src": "assets/img/home/dr-maclaren-gulf-collection-phone.png",
-            "title": "ricciardo-collection",
-            "blockClass": "slider__image--phone",
-            "link": {
-                "attributeNofollow": false,
-                "url": "/"
-            }
+            "blockClass": "slider__image--phone"
+        }
+    },
+    "image#slider__image--constructorsp": {
+        "title": "All Constructors Champions Image",
+        "props": {
+            "src": "assets/img/home/all-constructors-champions-phone.png",
+            "blockClass": "slider__image--phone"
         }
     }
 }

@@ -91,12 +91,19 @@
     border-top: 1px solid #d5d5d5;
 }
 
-
-
 .flexRowContent--simulator__visible {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+}
+
+.flexRow--product_tabs--container {
+    padding: 0px 30px;
+    margin-bottom: 30px;
+}
+
+.flexColChild--tab__layout--general {
+    height: auto !important;
 }
 
 @media screen and (max-width: 1023px) {
@@ -156,5 +163,9 @@
 
     .flexRow--page__order--devolutions {
         display: none;
+    }
+
+    .flexRow--product_tabs--container {
+        padding: 0px 15px;
     }
 }
