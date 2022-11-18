@@ -69,14 +69,9 @@
       ]
     }
   },
-  "autocomplete-result-list.v2": {
-    "blocks": [
-      "product-summary"
-    ]
-  },
   "search-bar#header__search-bar": {
     "blocks": [
-      "autocomplete-result-list.v2"
+      "autocomplete-result-list.v2#header__search-bar"
     ],
     "props": {
       "openAutocompleteOnFocus": true,
@@ -95,5 +90,19 @@
     "children": [
       "flex-layout.row#header__sticky-container"
     ]
+  },
+
+
+  ///////////////////////////////////////////////
+  "autocomplete-result-list.v2#header__search-bar": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      
+      "autocompleteWidth": 39.5,
+      "hideTitles": true,
+      "blockClass": "phone__search--bar-autocomplete"
+    }
   }
 }

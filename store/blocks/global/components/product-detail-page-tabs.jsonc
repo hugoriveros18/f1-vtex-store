@@ -19,7 +19,8 @@
         },
         "children": [
             "tab-list.item#tabs__list--recientes",
-            "tab-list.item#tabs__list--interesar"
+            "tab-list.item#tabs__list--interesar",
+            "tab-list.item#tabs__list--vendidos"
         ]
     },
     "tab-content#product__tabs--content": {
@@ -29,7 +30,8 @@
         },
         "children": [
             "tab-content.item#tabs__content--recientes",
-            "tab-content.item#tabs__content--interesar"
+            "tab-content.item#tabs__content--interesar",
+            "tab-content.item#tabs__content--vendidos"
         ]
     },
 
@@ -53,6 +55,15 @@
             "blockClass": "tabs__list--interesar"
         }
     },
+    "tab-list.item#tabs__list--vendidos": {
+        "title": "Tab List Mas Vendidos",
+        "props": {
+            "tabId": "mas-vendidos",
+            "label": "Más Vendidos",
+            "defaultActiveTab": false,
+            "blockClass": "tabs__list--vendidos"
+        }
+    },
     "tab-content.item#tabs__content--recientes": {
         "title": "Tab Content Vistos Recientemente",
         "props": {
@@ -71,7 +82,16 @@
             "flex-layout.row#content__interesar--slider"
         ]
     },
-
+    "tab-content.item#tabs__content--vendidos": {
+        "title": "Tab Content Mas Vendidos",
+        "props": {
+            "tabId": "mas-vendidos"
+        },
+        "children": [
+            "list-context.product-list#tabs__content--vendidos"
+        ]
+    },
+    
 
     ///////////////////////////////////////////////
     "flex-layout.row#content__recientes--slider": {
@@ -90,6 +110,18 @@
         },
         "children": [
             "slider-layout#content__interesar--slider"
+        ]
+    },
+    "list-context.product-list#tabs__content--vendidos": {
+        "title": "Mas Vendido List Context",
+        "blocks": [
+            "product-summary.shelf#content_vendidos--shelf"
+        ],
+        "props": {
+            "collection": "145"
+        },
+        "children": [
+            "slider-layout#content__vendidos--slider"
         ]
     },
 
@@ -148,6 +180,32 @@
             "flex-layout.col#interesar__mercedes--hoodie4",
             "flex-layout.col#interesar__mercedes--pants"
         ]
+    },
+    "product-summary.shelf#content_vendidos--shelf": {
+        "children": [
+          "product-summary-image#vendidos__shelf--image",
+          "product-selling-price#vendidos__shelf--price",
+          "product-summary-description#vendidos__shelf--description",
+          "product-summary-space",
+          "add-to-cart-button#vendidos__shelf--buy"
+        ]
+    },
+    "slider-layout#content__vendidos--slider": {
+        "title": "Tambien Te Puede Interesar Slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "showPaginationDots":"never",
+            "infinite": false,
+            "navigationStep": "page",
+            "fullWidth": true,
+            "centerMode": "to-the-left",
+            "showNavigationArrows":"always",
+            "blockClass": ["content__tabs--slider","content__vendidos--slider"]
+        }
     },
 
     
@@ -327,6 +385,32 @@
             "rich-text#mercedes__pants--price",
             "rich-text#mercedes__pants--description"
         ]
+    },
+    "product-summary-image#vendidos__shelf--image": {
+        "title": "Mas Vendidos Product Image",
+        "props": {
+            "aspectRatio": "1:1",
+            "blockClass": "vendidos__shelf--image"
+        }
+    },
+    "product-selling-price#vendidos__shelf--price": {
+        "title": "Mas Vendidos Product Price",
+        "props": {
+            "blockClass": "vendidos__shelf--price"
+        }
+    },
+    "product-summary-description#vendidos__shelf--description": {
+        "title": "Mas Vendidos Product Description",
+        "props": {
+            "blockClass": "vendidos__shelf--description"
+        }
+    },
+    "add-to-cart-button#vendidos__shelf--buy": {
+        "title": "Mas Vendidos Product Add To Cart Button",
+        "props": {
+            "blockClass": "vendidos__shelf--buy",
+            "text": "Añadir a la cesta"
+        }
     },
 
 

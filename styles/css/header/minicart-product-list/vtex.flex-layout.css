@@ -19,3 +19,29 @@
 .flexCol--list__content--remove {
     align-items: center;
 }
+
+.flexRowContent--minicart_footer :global(.vtex-button) {
+    background-color: #E10600;
+}
+
+.flexRowContent--minicart_footer :global(.vtex-button):hover {
+    background-color: #C70500;
+}
+
+.flexRowContent--minicart_footer :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 80% !important;
+}
+
+.flexRowContent--minicart_footer :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+    flex: initial;
+    text-transform: capitalize;
+}
+
+.flexRowContent--minicart_footer :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+    justify-content: center;
+    gap: 4px;
+}
+
+.flexRowContent--minicart_footer :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    text-align: center;
+}

@@ -1,0 +1,77 @@
+{
+    "responsive-layout.tablet#search__result--tablet": {
+        "title": "Search result Phone",
+        "children": [
+            "flex-layout.row#search__results--tablet"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.row#search__results--tablet": {
+        "title": "Search Result Container Tablet",
+        "props": {
+            "blockClass": "search__results--tablet"
+        },
+        "children": [
+            "flex-layout.col#search__results--filter-tablet",
+            "flex-layout.col#search__results--content",
+            "flex-layout.col#search__results--page-tablet"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.col#search__results--filter-tablet": {
+        "title": "Search Result Filter",
+        "props": {
+            "preventVerticalStretch": true,
+            "verticalAlign": "middle",
+            "blockClass": "search__results--filter-tablet"
+        },
+        "children": [
+            "flex-layout.row#results__filter--tablet-one",
+            "flex-layout.row#results__filter--tablet-two"
+        ]
+    },
+    "flex-layout.col#search__results--page-tablet": {
+        "title": "Search Result Change Page",
+        "props": {
+            "blockClass": "search__results--page-tablet"
+        },
+        "children": [
+            "search-products-count-per-page#count__tablet"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.row#results__filter--tablet-one": {
+        "title": "Search Result Filter Section One",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "results__filter--tablet-one"
+        },
+        "children": [
+            "total-products.v2#products__phone",
+            "filter-navigator.v3#filter__phone",
+            "order-by.v2#order__phone"
+        ]
+    },
+    "flex-layout.row#results__filter--tablet-two": {
+        "title": "Search Result Filter Section Two",
+        "props": {
+            "blockClass": "results__filter--tablet-two"
+        },
+        "children": [
+            "search-products-count-per-page#count__phone"
+        ]
+    },
+    "search-products-count-per-page#count__tablet": {
+        "title": "Products Count Tablet",
+        "props": {
+            "blockClass": "count__tablet"
+        }
+    }
+}

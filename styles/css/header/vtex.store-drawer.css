@@ -8,7 +8,7 @@
     height: 1.5rem;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 639px) {
     .menuIcon--header__top-mobile-menu {
         color: #ffffff
     }

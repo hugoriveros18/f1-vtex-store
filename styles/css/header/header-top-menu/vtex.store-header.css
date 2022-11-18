@@ -1,0 +1,12 @@
+.headerRowContainer--header__top-section-row {
+    align-items: flex-start;
+}
+
+.headerRowContainer--top-padding-tablet {
+    align-items: flex-start;
+}
+
+
+.headerRowContainer--header__top-section-row :global(.vtex-button) {
+    width: 100%;
+}

@@ -21,3 +21,10 @@
     height : 100%;
     padding: 0;
 }
+
+.minicartQuantityBadge--phone__minicart {
+    background-color: #ffffff;
+    color: #000000;
+    top: -0.4rem;
+    right: -0.55rem;
+}

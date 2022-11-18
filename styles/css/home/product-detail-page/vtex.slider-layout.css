@@ -13,6 +13,15 @@
     opacity: 1;
 }
 
+.slideChildrenContainer--content__vendidos--slider :global(.vtex-button) {
+    background-color: #E10600;
+    margin-top: 15px;
+}
+
+.slideChildrenContainer--content__vendidos--slider :global(.vtex-button):hover {
+    background-color: #C70500;
+}
+
 @media screen and (max-width: 640px) {
     .sliderArrows--content__tabs--slider {
         display: none;

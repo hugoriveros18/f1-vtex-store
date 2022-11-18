@@ -1,0 +1,125 @@
+.filtersWrapperMobile--filter__phone :global(.vtex-search-result-3-x-filterPopupButton) {
+    width         : 100%;
+    height        : 50px;
+    flex-direction: row-reverse;
+    gap           : 10px;
+    border: 1px solid #b5b5b5;
+    border-radius: 3px;
+}
+
+.filterPopupTitle--filter__phone,
+.filterPopupArrowIcon--filter__phone {
+    margin: 0px;
+}
+
+.filterPopupTitle--filter__phone,
+.filterPopupTitle--order__phone {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    line-height: 2.375rem;
+    color: #242424;
+    text-transform: capitalize;
+}
+
+.filterIcon--filter__phone {
+    width: 18px;
+    height: 20px;
+}
+
+.orderByButton--order__phone {
+    justify-content: space-between;
+    padding-left: 10px;
+    border: 1px solid #b5b5b5;
+    border-radius: 3px;
+    height        : 50px;
+}
+
+.filterPopupArrowIcon--order__phone {
+    padding: 0px;
+}
+
+.orderByDropdown--order__phone {
+    padding: 0px;
+    padding-left: 15px;
+}
+
+.orderByDropdown--order__phone :global(.vtex-search-result-3-x-orderByOptionsContainer) {
+    right: 0pc;
+}
+
+.showingProducts--count__phone {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.orderByText--order__phone {
+    display: none;
+}
+
+.closeIconButton--filter__phone {
+    padding: 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.closeIcon--filter__phone {
+    width: 0px;
+}
+
+.closeIconButton--filter__phone::before {
+    content: "Cancelar";
+    text-decoration: underline;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: .9375rem;
+    color: #000000;
+}
+
+@media screen and (min-width: 640px) {
+    .totalProductsMessage--products__phone {
+        color: #242424;
+    }
+
+    .orderByButton--order__phone {
+        padding: 12px 10px 10px 10px;
+        height: 40px;
+        gap: 30px;
+    }
+
+    .filterPopupTitle--filter__phone,
+    .filterPopupTitle--order__phone {
+        line-height: 1rem;
+    }
+
+    .filtersWrapperMobile--filter__phone :global(.vtex-search-result-3-x-filterPopupButton) {
+        height        : 40px;
+        padding: 0px 24px;
+    }
+
+    .showingProducts--count__phone {
+        padding: 10px 0px;
+        text-align: end;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .showingProducts--count__phone {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .filtersWrapper--filter__phone {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .filterMessage--filter__navigator {
+        display: none;
+    }
+}

@@ -37,15 +37,6 @@
 
 
     ///////////////////////////////////////////////
-    "drawer#header__top-menu-mobile": {
-        "title": "Header Mobile Menu",
-        "props": {
-            "blockClass": "header__top-mobile-menu"
-        },
-        "children": [
-
-        ]
-    },
     "logo#header__top-logo": {
         "title": "Logo Top Section Phone",
         "props": {

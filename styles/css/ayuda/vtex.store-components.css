@@ -1,0 +1,17 @@
+.imageElement--ayuda__icon--general {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+}
+
+.imageElement--ayuda__contacto {
+    width: 88px;
+    height: 88px;
+}
+
+@media screen and (min-width: 640px) {
+    .imageElement--ayuda__icon--general {
+        width: 60px;
+        height: 48px;
+    }
+}

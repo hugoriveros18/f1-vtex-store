@@ -1,0 +1,14 @@
+.logoImage--mobile__header--logo {
+    margin      : 18px 15px 15px 15px;
+    padding-left: 10px;
+    height      : 27px;
+}
+
+.logoContainer--mobile__header--logo {
+    padding: 0px;
+}
+
+.logoLink--mobile__header--logo {
+    background-color: #f5f6f8;
+    border-bottom: 1px solid #d5d5d5;
+}

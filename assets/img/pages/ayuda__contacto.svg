@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="100px" viewBox="0 0 101 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 6</title>
+    <defs>
+        <filter x="-16.0%" y="-16.5%" width="132.1%" height="132.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Mocks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Fanatics-Help-Desk-Home---Mobile" transform="translate(-10.000000, -688.000000)" fill="#FFFFFF" stroke="#242424" stroke-width="2">
+            <g id="Group-13" transform="translate(20.000000, 694.000000)">
+                <g id="Group-12" transform="translate(0.000000, 4.000000)">
+                    <g id="Group-6" filter="url(#filter-1)" transform="translate(0.000000, 0.500000)">
+                        <g id="Group-5" transform="translate(0.000000, 0.500000)">
+                            <path d="M24.986947,57.8900002 L24.8613861,57.9531166 C29.6363904,65.4138467 39.7348044,70.5745408 51.4562766,70.5745408 C53.6332797,70.5745408 55.7511954,70.3851916 57.7934053,70.0473332 L73.6140692,78 L73.6140692,62.9987161 C78.1970392,59.0743609 81,53.9377996 81,48.2981633 C81,42.536007 78.1010221,37.3270474 73.3407897,33.371134" id="Stroke-828"></path>
+                            <path d="M37.0915842,0 C16.6059022,0 0,13.1998582 0,29.4845361 C0,36.1075 2.78001423,42.1997423 7.41831683,47.121817 L7.41831683,66.3402062 L25.3428249,57.4340335 C29.0390012,58.4162371 32.9799821,58.9690722 37.0915842,58.9690722 C57.5772661,58.9690722 74.1831683,45.7692139 74.1831683,29.4845361 C74.1831683,13.1998582 57.5772661,0 37.0915842,0 L37.0915842,0 Z" id="Stroke-829"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

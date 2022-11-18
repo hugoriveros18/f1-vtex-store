@@ -8,7 +8,6 @@
 }
 
 .headerRowContentContainer--top-padding-desktop {
-    height : 40px;
     padding: 0 0 0 16px;
 }
 
@@ -21,11 +20,9 @@
 }
 
 .headerRowContentContainer--top-padding-tablet {
-    height : 41px;
     padding: 0 0 0 0.625rem;
 }
 .headerRowContentContainer--top-padding-tablet :global(.vtex-minicart-2-x-minicartWrapperContainer){
-    height : 41px;
     background-color: #e10600;
 }
 

@@ -5,10 +5,13 @@
         "children": [
             "menu-item#localizador-envios",
             "menu-item#ayuda",
-            "login",
-            "flex-layout.row#header__top-section-idioma",
-            "flex-layout.row#header__top-section-moneda"
-        ]
+            "login#desktop",
+            "menu-item#idioma",
+            "menu-item#moneda"
+        ],
+        "props": {
+            "blockClass": "header__opciones-cuenta-menu"
+        }
     },
     
 
@@ -34,14 +37,14 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/ayuda",
                 "tagTitle": "Ayuda",
                 "text": "Ayuda"
             },
             "blockClass": ["header__top-section-menu", "ayuda-item"]
         }
     },
-    "login": {
+    "login#desktop": {
         "title": "Login",
         "props": {
             "iconLabel": "Mi cuenta",
@@ -52,38 +55,6 @@
             "showPasswordVerificationIntoTooltip": true,
             "logInButtonBehavior": "link",
             "blockClass": "header__top-section-login"
-        }
-    },
-    "flex-layout.row#header__top-section-idioma": {
-        "title": "Contenedor Menu Idiomas",
-        "props": {
-            "preventHorizontalStretch": true,
-            "blockClass": "header__top-section-layout-idioma"
-        },
-        "children": [
-            "menu-item#idioma",
-            "icon#header__arrow-down"
-        ]
-    },
-    "flex-layout.row#header__top-section-moneda": {
-        "title": "Contendor Menu Moneda",
-        "props": {
-            "preventHorizontalStretch": true,
-            "blockClass": "header__top-section-layout-moneda"
-        },
-        "children": [
-            "menu-item#moneda",
-            "icon#header__arrow-down"
-        ]
-    },
-
-
-    ///////////////////////////////////////////////
-    "icon#header__arrow-down": {
-        "title": "Arrow Down Icon",
-        "props": {
-            "id": "arrow-down-icon",
-            "size": 10
         }
     },
     "menu-item#idioma": {
@@ -97,8 +68,16 @@
                 "tagTitle": "idioma",
                 "text": "Idioma"
             },
-            "blockClass": "header__top-section-menu"
-        }
+            "iconProps": {
+                "id": "arrow-down-icon",
+                "size": 10
+            },
+            "iconPosition": "right",
+            "blockClass": ["idioma-item","header__top-section-menu"]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#idioma__submenu"
+        ]
     },
     "menu-item#moneda": {
         "title": "Menu de Opciones Moneda",
@@ -111,7 +90,255 @@
                 "tagTitle": "moneda",
                 "text": "USD US$"
             },
-            "blockClass": "header__top-section-menu"
+            "iconProps": {
+                "id": "arrow-down-icon",
+                "size": 10
+            },
+            "iconPosition": "right",
+            "blockClass": ["moneda-item","header__top-section-menu"]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#moneda__submenu"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "vtex.menu@2.x:submenu#idioma__submenu": {
+        "title": "Idioma Submenu",
+        "props": {
+            "blockClass": ["submenu__top--general","idioma__submenu"]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#idioma__submenu--options"
+        ]
+    },
+    "vtex.menu@2.x:submenu#moneda__submenu": {
+        "title": "Moneda Submenu",
+        "props": {
+            "blockClass": ["submenu__top--general","moneda__submenu"]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#moneda__submenu--options"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "vtex.menu@2.x:menu#idioma__submenu--options": {
+        "title": "",
+        "props": {
+            "blockClass": ["general__submenu--options","idioma__submenu--options"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#idioma__submenu--options-english",
+            "menu-item#idioma__submenu--options-aleman",
+            "menu-item#idioma__submenu--options-español",
+            "menu-item#idioma__submenu--options-frances",
+            "menu-item#idioma__submenu--options-italiano",
+            "menu-item#idioma__submenu--options-mandarin",
+            "menu-item#idioma__submenu--options-japones"
+        ]
+    },
+    "vtex.menu@2.x:menu#moneda__submenu--options": {
+        "title": "",
+        "props": {
+            "blockClass": ["general__submenu--options","moneda__submenu--options"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#moneda__submenu--options-aud",
+            "menu-item#moneda__submenu--options-cny",
+            "menu-item#moneda__submenu--options-eur",
+            "menu-item#moneda__submenu--options-gbp",
+            "menu-item#moneda__submenu--options-jpy",
+            "menu-item#moneda__submenu--options-usd"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "menu-item#idioma__submenu--options-english": {
+        "title": "Idioma Ingles",
+        "props": {
+            "type": "custom",
+            "id": "idioma-ingles",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "idioma-ingles",
+                "text": "English"
+            },
+            "blockClass": ["idioma__submenu--options-general","idioma__submenu--options-english"]
+        }
+    },
+    "menu-item#idioma__submenu--options-aleman": {
+        "title": "Idioma Aleman",
+        "props": {
+            "type": "custom",
+            "id": "idioma-aleman",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "idioma-aleman",
+                "text": "Deutsch"
+            },
+            "blockClass": ["idioma__submenu--options-general","idioma__submenu--options-aleman"]
+        }
+    },
+    "menu-item#idioma__submenu--options-español": {
+        "title": "Idioma Español",
+        "props": {
+            "type": "custom",
+            "id": "idioma-español",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "idioma-español",
+                "text": "Español"
+            },
+            "blockClass": ["idioma__submenu--options-general","idioma__submenu--options-español"]
+        }
+    },
+    "menu-item#idioma__submenu--options-frances": {
+        "title": "Idioma Frances",
+        "props": {
+            "type": "custom",
+            "id": "idioma-frances",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "idioma-frances",
+                "text": "Français"
+            },
+            "blockClass": ["idioma__submenu--options-general","idioma__submenu--options-frances"]
+        }
+    },
+    "menu-item#idioma__submenu--options-italiano": {
+        "title": "Idioma Italiano",
+        "props": {
+            "type": "custom",
+            "id": "idioma-italiano",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "idioma-italiano",
+                "text": "Italiano"
+            },
+            "blockClass": ["idioma__submenu--options-general","idioma__submenu--options-italiano"]
+        }
+    },
+    "menu-item#idioma__submenu--options-mandarin": {
+        "title": "Idioma Mandarin",
+        "props": {
+            "type": "custom",
+            "id": "idioma-mandarin",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "idioma-mandarin",
+                "text": "日本語"
+            },
+            "blockClass": ["idioma__submenu--options-general","idioma__submenu--options-mandarin"]
+        }
+    },
+    "menu-item#idioma__submenu--options-japones": {
+        "title": "Idioma Japones",
+        "props": {
+            "type": "custom",
+            "id": "idioma-japones",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "idioma-japones",
+                "text": "中文"
+            },
+            "blockClass": ["idioma__submenu--options-general","idioma__submenu--options-japones"]
+        }
+    },
+    "menu-item#moneda__submenu--options-aud": {
+        "title": "Monda AUD",
+        "props": {
+            "type": "custom",
+            "id": "moneda-aud",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "moneda-aud",
+                "text": "AUD"
+            },
+            "blockClass": ["idioma__submenu--options-general","moneda__submenu--options-aud"]
+        }
+    },
+    "menu-item#moneda__submenu--options-cny": {
+        "title": "Monda CNY",
+        "props": {
+            "type": "custom",
+            "id": "moneda-cny",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "moneda-cny",
+                "text": "CNY"
+            },
+            "blockClass": ["idioma__submenu--options-general","moneda__submenu--options-cny"]
+        }
+    },
+    "menu-item#moneda__submenu--options-eur": {
+        "title": "Monda EUR",
+        "props": {
+            "type": "custom",
+            "id": "moneda-eur",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "moneda-eur",
+                "text": "EUR €"
+            },
+            "blockClass": ["idioma__submenu--options-general","moneda__submenu--options-eur"]
+        }
+    },
+    "menu-item#moneda__submenu--options-gbp": {
+        "title": "Monda GBP",
+        "props": {
+            "type": "custom",
+            "id": "moneda-gbp",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "moneda-gbp",
+                "text": "GBP"
+            },
+            "blockClass": ["idioma__submenu--options-general","moneda__submenu--options-gbp"]
+        }
+    },
+    "menu-item#moneda__submenu--options-jpy": {
+        "title": "Monda JPY",
+        "props": {
+            "type": "custom",
+            "id": "moneda-jpy",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "moneda-jpy",
+                "text": "JPY"
+            },
+            "blockClass": ["idioma__submenu--options-general","moneda__submenu--options-jpy"]
+        }
+    },
+    "menu-item#moneda__submenu--options-usd": {
+        "title": "Monda USD",
+        "props": {
+            "type": "custom",
+            "id": "moneda-usd",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "moneda-usd",
+                "text": "USD US$"
+            },
+            "blockClass": ["idioma__submenu--options-general","moneda__submenu--options-usd"]
         }
     }
 }
