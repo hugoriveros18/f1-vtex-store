@@ -4,18 +4,66 @@
         "children": [
             "flex-layout.row#phone__home--slider",
             "flex-layout.row#home__constructors",
-            "image#home__section--one",
-            "image#home__section--two",
-            "image#home__section--three",
-            "image#home__section--four",
-            "image#home__section--five",
-            "image#home__section--six",
+            "image#home__christmas",
+            "flex-layout.row#home__section--first",
+            "flex-layout.row#home__section--second",
+            "flex-layout.row#home__section--third",
             "flex-layout.row#home__welcome"
+        ]
+    }
+    ,
+
+
+    ///////////////////////////////////////////////
+    "image#home__christmas": {
+        "title": "Home Christmas Section",
+        "props": {
+            "src": "assets/img/home/f1-christmas-phone.png",
+            "blockClass": "home__christmas--section"
+        }
+    },
+    "flex-layout.row#home__section--first": {
+        "title": "",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "home__section--first",
+            "colSizing": "equal",
+            "fullWidth": true
+        },
+        "children": [
+            "image#home__section--one",
+            "image#home__section--two"
+        ]
+    },
+    "flex-layout.row#home__section--second": {
+        "title": "",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "home__section--second",
+            "colSizing": "equal",
+            "fullWidth": true
+        },
+        "children": [
+            "image#home__section--three",
+            "image#home__section--four"
+        ]
+    },
+    "flex-layout.row#home__section--third": {
+        "title": "",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "home__section--third",
+            "colSizing": "equal",
+            "fullWidth": true
+        },
+        "children": [
+            "image#home__section--five",
+            "image#home__section--six"
         ]
     },
 
 
-    ///////////////////////////////////////////////
+    ///////////////////////////////////////////////        
     "image#home__section--one": {
         "title": "Hamilton Home Image",
         "props": {

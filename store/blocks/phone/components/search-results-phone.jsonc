@@ -1,0 +1,111 @@
+{
+    "responsive-layout.phone#search__result--phone": {
+        "title": "Search result Phone",
+        "children": [
+            "flex-layout.row#search__results--phone"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.row#search__results--phone": {
+        "title": "Search Result Container Phone",
+        "props": {
+            "blockClass": "search__results--phone"
+        },
+        "children": [
+            "flex-layout.col#search__results--filter-phone",
+            "flex-layout.col#search__results--content",
+            "flex-layout.col#search__results--page"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.col#search__results--filter-phone": {
+        "title": "Search Result Filter",
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "search__results--filter-phone"
+        },
+        "children": [
+            "flex-layout.row#results__filter--one",
+            "flex-layout.row#results__filter--two"
+        ]
+    },
+    "flex-layout.col#search__results--page": {
+        "title": "Search Result Change Page",
+        "props": {
+            "blockClass": "search__results--page"
+        },
+        "children": [
+            "search-products-count-per-page#count__phone"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.row#results__filter--one": {
+        "title": "Search Result Filter Section One",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "results__filter--one"
+        },
+        "children": [
+            "filter-navigator.v3#filter__phone",
+            "order-by.v2#order__phone"
+        ]
+    },
+    "flex-layout.row#results__filter--two": {
+        "title": "Search Result Filter Section Two",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "results__filter--two"
+        },
+        "children": [
+            "total-products.v2#products__phone",
+            "search-products-count-per-page#count__phone"
+        ]
+    },
+    "search-products-count-per-page#count__phone": {
+        "title": "Products Count Phone",
+        "props": {
+            "blockClass": "count__phone"
+        }
+    },
+
+
+    ///////////////////////////////////////////////
+    "filter-navigator.v3#filter__phone": {
+        "title": "Filter Navigator Phone",
+        "blocks": [
+            "sidebar-close-button#filter__phone"
+        ],
+        "props": {
+            "updateOnFilterSelectionOnMobile": true,
+            "initiallyCollapsed": true,
+            "navigationTypeOnMobile": "collapsible",
+            "blockClass": "filter__phone"
+        }
+    },
+    "order-by.v2#order__phone": {
+        "title": "Order By Phone",
+        "props": {
+            "blockClass": "order__phone"
+        }
+    },
+    "total-products.v2#products__phone": {
+        "title": "Total Porducts Phone",
+        "props": {
+            "blockClass": "products__phone"
+        }
+    },
+
+
+    ///////////////////////////////////////////////
+    "sidebar-close-button#filter__phone": {
+        "props": {
+            "blockClass": "filter__phone"
+        }
+    }
+}

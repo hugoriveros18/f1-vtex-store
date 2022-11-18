@@ -195,7 +195,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/ayuda",
                 "tagTitle": "Ayuda",
                 "text": "Ayuda"
             },

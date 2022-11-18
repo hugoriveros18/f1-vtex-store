@@ -1,16 +1,17 @@
 .container {
     display        : flex;
     justify-content: center;
-    width          : 69px;
-    height         : 40px;
     margin-left    : 10px;
 }
 
 .buttonLink {
     display        : flex;
     justify-content: center;
-    width          : 69px;
     padding        : 0;
+}
+
+.buttonLink .vtex-button{
+    width: 100%;
 }
 
 .label {
@@ -19,9 +20,8 @@
     line-height   : 18px;
     color         : #1b1b1b;
     text-transform: initial;
-    padding       : 0;
+    padding       : 0px 5px 0px 7px;
     margin-top    : 2.1px;
-    display       : flex;
     letter-spacing: 0.25px;
 }
 
@@ -35,6 +35,22 @@
     color : #ffffff;
 }
 
+.profile {
+    display: flex;
+    font-family   : 'Open Sans';
+    font-size     : 12px;
+    line-height   : 18px;
+    color         : #1b1b1b;
+    text-transform: initial;
+    padding       : 0px 5px 0px 7px;
+    margin-top    : 2.1px;
+    letter-spacing: 0.25px;
+}
+
+.profile:hover {
+    text-decoration: underline;
+}
+
 
 @media screen and (max-width: 1024px) {
     .label {
@@ -46,18 +62,41 @@
     }
 }
 
-@media screen and (max-width: 640px) {
-    .container {
-        width       : 36px;
-        margin-left : 0px;
-        margin-right: 2px;
+@media screen and (max-width: 768px) {
+    .profile {
+        max-width: 98px;
     }
+}
+
+@media screen and (max-width: 680px) {
+    .profile {
+        max-width: 86px;
+    }
+}
+
+@media screen and (max-width: 640px) {
 
     .buttonLink {
         width: 36px;
     }
+    
+}
+
+@media screen and (max-width: 639px) {
+    .container {
+        width       : 36px;
+    }
 
     .label {
+        display: none;
+    }
+
+    .container {
+        margin-left : 0px;
+        margin-right: 2px;
+    }
+    
+    .profile {
         display: none;
     }
 }

@@ -1,5 +1,4 @@
 .flexRow--header__top-section-layout-resgistro {
-    height : 40px;
     padding: 0;
 }
 
@@ -9,6 +8,6 @@
 
 @media screen and (max-width: 800px) {
     .flexRow--header__top-section-layout-resgistro {
-        height: 41px;
+        
     }
 }

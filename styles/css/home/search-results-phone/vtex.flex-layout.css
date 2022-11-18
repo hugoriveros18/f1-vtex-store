@@ -1,0 +1,43 @@
+.flexCol--search__results--filter-phone {
+    padding: 0px 10px;
+}
+
+.flexRow--results__filter--one {
+    padding: 16px 0px 8px;
+}
+
+.flexRowContent--results__filter--one {
+    gap: 15px;
+}
+
+.flexRowContent--results__filter--two :global(.vtex-search-result-3-x-totalProducts--layout) {
+    padding: 12px 0px;
+    text-align: start;
+    color: #b5b5b5 !important;
+    font-family: 'Open Sans';
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: none;
+}
+
+.flexColChild--search__results--filter-phone:last-child {
+    padding-top: 8px;
+    margin-top: 12px;
+    border-top: 1px solid #d5d5d5;
+}
+
+.flexCol--search__results--page {
+    padding: 0px 10px;
+}
+
+.flexColChild--search__results--page {
+    padding: 25px 0px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+@media screen and (min-width: 640px) {
+    .flexRowContent--results__filter--two :global(.vtex-search-result-3-x-totalProductsMessage) {
+        color: #242424 !important;
+    }
+}

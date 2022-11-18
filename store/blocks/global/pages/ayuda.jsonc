@@ -1,0 +1,397 @@
+{
+    "store.custom#ayuda": {
+        "blocks": [
+            "flex-layout.row#ayuda"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.row#ayuda": {
+        "title": "Ayuda Custom Page",
+        "props": {
+            "blockClass": "ayuda"
+        },
+        "children": [
+            "flex-layout.col#ayuda__section--one",
+            "flex-layout.col#ayuda__section--two"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.col#ayuda__section--one": {
+        "title": "Ayuda Custom Page Section One",
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "ayuda__section--one"
+        },
+        "children": [
+            "flex-layout.row#ayuda__cuenta",
+            "flex-layout.row#ayuda__pedido",
+            "flex-layout.row#ayuda__envio",
+            "flex-layout.row#ayuda__tallas",
+            "flex-layout.row#ayuda__devoluciones",
+            "flex-layout.row#ayuda__ofertas",
+            "flex-layout.row#ayuda__seguimiento",
+            "flex-layout.row#ayuda__seguridad",
+            "flex-layout.row#ayuda__terminos",
+            "flex-layout.row#ayuda__privacidad",
+            "flex-layout.row#ayuda__cookies",
+            "flex-layout.row#ayuda__contactenos"
+        ]
+    },
+    "flex-layout.col#ayuda__section--two": {
+        "title": "Ayuda Custom Page Section Two",
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "ayuda__section--two"
+        },
+        "children": [
+            "image#ayuda__contacto",
+            "rich-text#ayuda__contacto",
+            "link#ayuda__contacto"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.row#ayuda__cuenta": {
+        "title": "Ayuda - Tu Cuenta",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": ["ayuda__row--general","ayuda__cuenta"]
+        },
+        "children": [
+            "image#cuenta__icon",
+            "rich-text#cuenta__text"
+        ]
+    },
+    "flex-layout.row#ayuda__pedido": {
+        "title": "Ayuda - Realiza un pedido",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": ["ayuda__row--general","ayuda__pedido"]
+        },
+        "children": [
+            "image#pedido__icon",
+            "rich-text#pedido__text"
+        ]
+    },
+    "flex-layout.row#ayuda__envio": {
+        "title": "Ayuda - Envio y entrega",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": ["ayuda__row--general","ayuda__envio"]
+        },
+        "children": [
+            "image#envio__icon",
+            "rich-text#envio__text"
+        ]
+    },
+    "flex-layout.row#ayuda__tallas": {
+        "title": "Ayuda - Guia de tallas",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": ["ayuda__row--general","ayuda__tallas"]
+        },
+        "children": [
+            "image#tallas__icon",
+            "rich-text#tallas__text"
+        ]
+    },
+    "flex-layout.row#ayuda__devoluciones": {
+        "title": "Ayuda - Informacion sobre devoluciones",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": ["ayuda__row--general","ayuda__devoluciones"]
+        },
+        "children": [
+            "image#devoluciones__icon",
+            "rich-text#devoluciones__text"
+        ]
+    },
+    "flex-layout.row#ayuda__ofertas": {
+        "title": "Ayuda - Ofertas",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": ["ayuda__row--general","ayuda__ofertas"]
+        },
+        "children": [
+            "image#ofertas__icon",
+            "rich-text#ofertas__text"
+        ]
+    },
+    "flex-layout.row#ayuda__seguimiento": {
+        "title": "Ayuda - Información de seguimiento",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": ["ayuda__row--general","ayuda__seguimiento"]
+        },
+        "children": [
+            "image#seguimiento__icon",
+            "rich-text#seguimiento__text"
+        ]
+    },
+    "flex-layout.row#ayuda__seguridad": {
+        "title": "Ayuda - Tu seguridad",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": ["ayuda__row--general","ayuda__seguridad"]
+        },
+        "children": [
+            "image#seguridad__icon",
+            "rich-text#seguridad__text"
+        ]
+    },
+    "flex-layout.row#ayuda__terminos": {
+        "title": "Ayuda - Ofertas",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": ["ayuda__row--general","ayuda__terminos"]
+        },
+        "children": [
+            "image#terminos__icon",
+            "rich-text#terminos__text"
+        ]
+    },
+    "flex-layout.row#ayuda__privacidad": {
+        "title": "Ayuda - Politica de privacidad",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": ["ayuda__row--general","ayuda__privacidad"]
+        },
+        "children": [
+            "image#privacidad__icon",
+            "rich-text#privacidad__text"
+        ]
+    },
+    "flex-layout.row#ayuda__cookies": {
+        "title": "Ayuda - Politica de cookies",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": ["ayuda__row--general","ayuda__cookies"]
+        },
+        "children": [
+            "image#cookies__icon",
+            "rich-text#cookies__text"
+        ]
+    },
+    "flex-layout.row#ayuda__contactenos": {
+        "title": "Ayuda - Ofertas",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": ["ayuda__row--general","ayuda__contactenos"]
+        },
+        "children": [
+            "image#contactenos__icon",
+            "rich-text#contactenos__text"
+        ]
+    },
+    "image#ayuda__contacto": {
+        "title": "Ayuda - Contacto Image",
+        "props": {
+            "src": "assets/img/pages/ayuda__contacto.svg",
+            "blockClass": "ayuda__contacto"
+        }
+    },
+    "rich-text#ayuda__contacto": {
+        "title": "Ayuda - Contacto Text",
+        "props": {
+            "text": "¿No encuentras lo que estas buscando?",
+            "blockClass": "ayuda__contacto"
+        }
+    },
+    "link#ayuda__contacto": {
+        "title": "Ayuda - Contacto Link",
+        "props": {
+            "displayMode": "button",
+            "href": "#",
+            "label": "Habla Con Nosotros",
+            "blockClass": "ayuda__contacto"
+        }
+    },
+
+
+    ///////////////////////////////////////////////
+    "image#cuenta__icon": {
+        "title": "Tu Cuenta Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__cuenta.svg",
+            "blockClass": ["ayuda__icon--general","cuenta__icon"]
+        }
+    },
+    "rich-text#cuenta__text": {
+        "title": "Tu Cuenta Text",
+        "props": {
+            "text": "Tu cuenta",
+            "blockClass": ["ayuda__text--general","cuenta__text"]
+        }
+    },
+    "image#pedido__icon": {
+        "title": "Realiza un pedido Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__pedido.svg",
+            "blockClass": ["ayuda__icon--general","pedido__icon"]
+        }
+    },
+    "rich-text#pedido__text": {
+        "title": "Realiza un pedido Text",
+        "props": {
+            "text": "Realiza un pedido",
+            "blockClass": ["ayuda__text--general","pedido__text"]
+        }
+    },
+    "image#envio__icon": {
+        "title": "Envío y entrega Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__envio.svg",
+            "blockClass": ["ayuda__icon--general","envio__icon"]
+        }
+    },
+    "rich-text#envio__text": {
+        "title": "Envío y entrega Text",
+        "props": {
+            "text": "Envio y entrega",
+            "blockClass": ["ayuda__text--general","envio__text"]
+        }
+    },
+    "image#tallas__icon": {
+        "title": "Guia de tallas Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__tallas.svg",
+            "blockClass": ["ayuda__icon--general","tallas__icon"]
+        }
+    },
+    "rich-text#tallas__text": {
+        "title": "Guia de tallas Text",
+        "props": {
+            "text": "Guía de tallas",
+            "blockClass": ["ayuda__text--general","tallas__text"]
+        }
+    },
+    "image#devoluciones__icon": {
+        "title": "Información sobre devoluciones Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__devoluciones.svg",
+            "blockClass": ["ayuda__icon--general","devoluciones__icon"]
+        }
+    },
+    "rich-text#devoluciones__text": {
+        "title": "Información sobre devoluciones Text",
+        "props": {
+            "text": "Información sobre devoluciones",
+            "blockClass": ["ayuda__text--general","devoluciones__text"]
+        }
+    },
+    "image#ofertas__icon": {
+        "title": "Ofertas Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__ofertas.svg",
+            "blockClass": ["ayuda__icon--general","ofertas__icon"]
+        }
+    },
+    "rich-text#ofertas__text": {
+        "title": "Ofertas Text",
+        "props": {
+            "text": "Ofertas",
+            "blockClass": ["ayuda__text--general","ofertas__text"]
+        }
+    },
+    "image#seguimiento__icon": {
+        "title": "Información de seguimiento Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__seguimiento.svg",
+            "blockClass": ["ayuda__icon--general","seguimiento__icon"]
+        }
+    },
+    "rich-text#seguimiento__text": {
+        "title": "Información de seguimiento Text",
+        "props": {
+            "text": "Información de seguimiento",
+            "blockClass": ["ayuda__text--general","seguimiento__text"]
+        }
+    },
+    "image#seguridad__icon": {
+        "title": "Tu seguridad Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__seguridad.svg",
+            "blockClass": ["ayuda__icon--general","seguridad__icon"]
+        }
+    },
+    "rich-text#seguridad__text": {
+        "title": "Tu seguridad Text",
+        "props": {
+            "text": "Tu seguridad",
+            "blockClass": ["ayuda__text--general","seguridad__text"]
+        }
+    },
+    "image#terminos__icon": {
+        "title": "Términos y condiciones Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__terminos.svg",
+            "blockClass": ["ayuda__icon--general","terminos__icon"]
+        }
+    },
+    "rich-text#terminos__text": {
+        "title": "Términos y condiciones Text",
+        "props": {
+            "text": "Términos y condiciones",
+            "blockClass": ["ayuda__text--general","terminos__text"]
+        }
+    },
+    "image#privacidad__icon": {
+        "title": "Politica de privacidad Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__privacidad.svg",
+            "blockClass": ["ayuda__icon--general","privacidad__icon"]
+        }
+    },
+    "rich-text#privacidad__text": {
+        "title": "Politica de privacidad Text",
+        "props": {
+            "text": "Politica de privacidad",
+            "blockClass": ["ayuda__text--general","privacidad__text"]
+        }
+    },
+    "image#cookies__icon": {
+        "title": "Politica de cookies Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__cookies.svg",
+            "blockClass": ["ayuda__icon--general","cookies__icon"]
+        }
+    },
+    "rich-text#cookies__text": {
+        "title": "Politica de cookies Text",
+        "props": {
+            "text": "Politica de cookies",
+            "blockClass": ["ayuda__text--general","cookies__text"]
+        }
+    },
+    "image#contactenos__icon": {
+        "title": "Contactenos Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__contactenos.svg",
+            "blockClass": ["ayuda__icon--general","contactenos__icon"]
+        }
+    },
+    "rich-text#contactenos__text": {
+        "title": "Contactenos Text",
+        "props": {
+            "text": "Contactenos",
+            "blockClass": ["ayuda__text--general","contactenos__text"]
+        }
+    }
+}

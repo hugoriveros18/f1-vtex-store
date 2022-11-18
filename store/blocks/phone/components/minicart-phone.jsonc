@@ -4,7 +4,8 @@
         "props":{
             "variation": "popup",
             "itemCountMode": "total",
-            "quantityDisplay": "not-empty"
+            "quantityDisplay": "not-empty",
+            "blockClass": "phone__minicart"
         },
         "children": [
             "minicart-base-content#phone__minicart--content"

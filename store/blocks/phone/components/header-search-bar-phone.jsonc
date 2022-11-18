@@ -71,7 +71,7 @@
 
     ///////////////////////////////////////////////
     "search-bar#phone__search--bar": {
-        "blocks": ["autocomplete-result-list.v2"],
+        "blocks": ["autocomplete-result-list.v2#phone__search--bar-autocomplete"],
         "props": {
             "openAutocompleteOnFocus": true,
             "displayMode": "clear-button",
@@ -90,6 +90,17 @@
         "props": {
             "text": "Cerrar",
             "blockClass": "search__close--text"
+        }
+    },
+
+
+    ///////////////////////////////////////////////
+    "autocomplete-result-list.v2#phone__search--bar-autocomplete": {
+        "blocks": ["product-summary"],
+        "props": {
+            "hideTitles": true,
+            "autocompleteWidth": 85,
+            "blockClass": "phone__search--bar-autocomplete"
         }
     }
 }
