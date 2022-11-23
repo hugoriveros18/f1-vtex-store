@@ -6,7 +6,8 @@
         },
         "children": [
             "flex-layout.col#search__results--filter-desktop",
-            "flex-layout.col#search__results--content"
+            "flex-layout.col#search__results--content",
+            "modal-trigger#product__add-to-cart-info"
         ]
     },
     "rich-text#search__not-found--text": {
@@ -18,8 +19,6 @@
             "blockClass": "search__not-found--text"
         }
     },
-
-
     ///////////////////////////////////////////////
     "flex-layout.col#search__results--filter-desktop": {
         "title": "Search Reasult Filter",
@@ -43,8 +42,6 @@
             "flex-layout.row#search__results--page-tablet"
         ]
     },
-
-
     ///////////////////////////////////////////////
     "flex-layout.row#results__filter--desktop": {
         "title": "Search Result Filters",
@@ -79,8 +76,6 @@
             "search-products-count-per-page#count__tablet"
         ]
     },
-
-
     ///////////////////////////////////////////////
     "filter-navigator.v3": {
         "title": "Filter Navigator",
@@ -115,8 +110,6 @@
             "GeneralGrid": "product-summary.shelf#search__shelf"
         }
     },
-
-
     ///////////////////////////////////////////////
     "product-summary.shelf#search__shelf": {
         "title": "Product Summary Shelf",
@@ -127,8 +120,6 @@
             "flex-layout.row#product__shelf"
         ]
     },
-
-
     ///////////////////////////////////////////////
     "flex-layout.row#product__shelf": {
         "title": "Product Summary Shelf Layout",
@@ -142,8 +133,6 @@
             "flex-layout.col#product__shelf--description"
         ]
     },
-
-
     ///////////////////////////////////////////////
     "flex-layout.col#product__shelf--image": {
         "title": "Product Summary Image Container",
@@ -168,8 +157,6 @@
             "add-to-cart-button"
         ]
     },
-
-
     ///////////////////////////////////////////////
     "flex-layout.row#product__shelf--details": {
         "title": "Product Shelf Details",
@@ -200,17 +187,17 @@
     },
     "product-selling-price#product__shelf--price": {
         "props": {
-          "markers": [
-            "highlight"
-          ],
-          "blockClass": "product__shelf--price",
-          "message": "{sellingPriceValue}"
+            "markers": [
+                "highlight"
+            ],
+            "blockClass": "product__shelf--price",
+            "message": "{sellingPriceValue}"
         }
     },
     "product-summary-sku-selector": {
         "props": {
             "displayMode": "select"
-        }  
+        }
     },
     "add-to-cart-button": {
         "props": {

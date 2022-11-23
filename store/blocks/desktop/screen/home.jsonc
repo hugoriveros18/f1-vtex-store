@@ -2,6 +2,8 @@
   "responsive-layout.desktop#desktop__home": {
     "title": "Home Desktop",
     "children": [
+      "whatsapp-button",
+      // "list-context.bullet-group",
       "flex-layout.row#desktop__home--slider",
       "flex-layout.row#home__constructors",
       "image#home__christmas--section",
@@ -11,9 +13,89 @@
       "flex-layout.row#home__welcome"
     ]
   },
-
-
   ///////////////////////////////////////////////
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/home/whatsapp-icon.svg",
+      "phone": "3163042458",
+      "message": "Bienvenido a la tienda oficial de Formula 1, dejanos tu mensaje"
+    }
+  },
+  // "list-context.bullet-group": {
+  //   "props": {
+  //     "bullets": [
+  //       {
+  //         "image": "assets/img/home/icon-ferrari.svg",
+  //         "titleBullet": "Computadores",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       },
+  //       {
+  //         "image": "assets/img/home/icon-mercedes.svg",
+  //         "titleBullet": "Ropa",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       },
+  //       {
+  //         "image": "assets/img/home/icon-ferrari.svg",
+  //         "titleBullet": "Computadores",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       },
+  //       {
+  //         "image": "assets/img/home/icon-mercedes.svg",
+  //         "titleBullet": "Ropa",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       },
+  //       {
+  //         "image": "assets/img/home/icon-ferrari.svg",
+  //         "titleBullet": "Computadores",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       },
+  //       {
+  //         "image": "assets/img/home/icon-mercedes.svg",
+  //         "titleBullet": "Ropa",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       },
+  //       {
+  //         "image": "assets/img/home/icon-ferrari.svg",
+  //         "titleBullet": "Computadores",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       },
+  //       {
+  //         "image": "assets/img/home/icon-mercedes.svg",
+  //         "titleBullet": "Ropa",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       }
+  //     ]
+  //   },
+  //   "children": [
+  //     "slider-layout#bullet__group"
+  //   ]
+  // },
+  // "slider-layout#bullet__group": {
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 5,
+  //       "tablet": 5,
+  //       "phone": 5
+  //     },
+  //     "infinite": true
+  //   }
+  // },
   "image#home__christmas--section": {
     "title": "Home Christmas Section",
     "props": {
@@ -57,8 +139,6 @@
       "image#section__three--turbo"
     ]
   },
-
-
   ///////////////////////////////////////////////
   "image#section__one--hamilton": {
     "title": "Hamilton Collection Image",

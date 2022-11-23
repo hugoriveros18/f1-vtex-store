@@ -106,6 +106,10 @@
     height: auto !important;
 }
 
+.flexRow--product_breadcrumb--container :global(.vtex-store-components-3-x-container) {
+    max-width: none;
+}
+
 @media screen and (max-width: 1023px) {
     .flexRowContent--product_info--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
         width: 50% !important;

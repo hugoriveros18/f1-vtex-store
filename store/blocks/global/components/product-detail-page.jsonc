@@ -3,7 +3,8 @@
         "children": [
             "flex-layout.row#product_breadcrumb--container",
             "flex-layout.row#product_info--container",
-            "flex-layout.row#product_tabs--container"
+            "flex-layout.row#product_tabs--container",
+            "modal-trigger#product__add-to-cart-info"
         ]
     },
 
@@ -36,6 +37,16 @@
         "children": [
             "tab-layout#product__tabs"
         ]   
+    },
+    "modal-trigger#product__add-to-cart-info": {
+        "title": "Add To Cart info Modal",
+        "props": {
+            "customPixelEventName": "addToCart",
+            "blockClass": "product__add-to-cart-info"
+        },
+        "children": [
+            "modal-layout#add-to-cart-info"
+        ]
     },
 
 
@@ -75,6 +86,15 @@
             "flex-layout.row#product__page--delivery",
             "flex-layout.row#product__page--details",
             "flex-layout.row#product__page--description"
+        ]
+    },
+    "modal-layout#add-to-cart-info": {
+        "title": "Add To Cart Info Modal Layout",
+        "props": {
+            "blockClass": "add-to-cart-info"
+        },
+        "children": [
+            "add-to-cart-info"
         ]
     },
 

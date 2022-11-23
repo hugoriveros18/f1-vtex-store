@@ -1,0 +1,39 @@
+.container--search__result--breadcrumb {
+    padding      : 17px 30px 10px;
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom: 15px;
+}
+
+.homeLink--search__result--breadcrumb {
+    display: none;
+}
+
+.link--search__result--breadcrumb {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #242424;
+    text-transform: uppercase;
+}
+
+.homeLink--breadcrumb__layout :global(.vtex-breadcrumb-1-x-caretIcon):first-child {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .container--search__result--breadcrumb {
+        padding      : 17px 30px 10px 16px;
+        margin-bottom: 0px;
+    }
+    .link--search__result--breadcrumb {
+        text-transform: capitalize;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container--search__result--breadcrumb {
+        padding      : 14px 15px 10px;
+        border: none;
+    }
+}

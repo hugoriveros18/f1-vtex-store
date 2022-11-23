@@ -2,7 +2,9 @@
     "responsive-layout.phone#search__result--phone": {
         "title": "Search result Phone",
         "children": [
-            "flex-layout.row#search__results--phone"
+            "flex-layout.row#search__results--breadcrumb",
+            "flex-layout.row#search__results--phone",
+            "modal-trigger#product__add-to-cart-info"
         ]
     },
 

@@ -2,6 +2,8 @@
     "responsive-layout.phone#phone__home": {
         "title": "Home Phone",
         "children": [
+            "whatsapp-button",
+            // "list-context.bullet-group",
             "flex-layout.row#phone__home--slider",
             "flex-layout.row#home__constructors",
             "image#home__christmas",
@@ -10,10 +12,7 @@
             "flex-layout.row#home__section--third",
             "flex-layout.row#home__welcome"
         ]
-    }
-    ,
-
-
+    },
     ///////////////////////////////////////////////
     "image#home__christmas": {
         "title": "Home Christmas Section",
@@ -61,8 +60,6 @@
             "image#home__section--six"
         ]
     },
-
-
     ///////////////////////////////////////////////        
     "image#home__section--one": {
         "title": "Hamilton Home Image",

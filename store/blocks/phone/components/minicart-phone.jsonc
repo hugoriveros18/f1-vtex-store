@@ -1,7 +1,7 @@
 {
     ///////////////////////////////////////////////
     "minicart.v2#phone__minicart": {
-        "props":{
+        "props": {
             "variation": "popup",
             "itemCountMode": "total",
             "quantityDisplay": "not-empty",
@@ -11,8 +11,6 @@
             "minicart-base-content#phone__minicart--content"
         ]
     },
-
-
     ///////////////////////////////////////////////
     "minicart-base-content#phone__minicart--content": {
         "title": "Minicart Phone Content",
@@ -24,11 +22,11 @@
             "flex-layout.row#minicart_footer"
         ]
     },
-
-
     ///////////////////////////////////////////////
     "minicart-product-list#phone__minicart--content-products": {
-        "blocks": ["product-list#minicart"]
+        "blocks": [
+            "product-list#minicart"
+        ]
     },
     "flex-layout.row#minicart_footer": {
         "props": {
@@ -40,5 +38,4 @@
             "minicart-checkout-button"
         ]
     }
-    
 }

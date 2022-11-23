@@ -2,6 +2,8 @@
     "responsive-layout.tablet#tablet__home": {
         "title": "Home Tablet",
         "children": [
+            "whatsapp-button",
+            // "list-context.bullet-group",
             "flex-layout.row#desktop__home--slider",
             "flex-layout.row#home__constructors",
             "image#home__christmas--section",

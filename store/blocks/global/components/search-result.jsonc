@@ -82,6 +82,7 @@
             "preventRouteChange": true
         },
         "children": [
+            "flex-layout.row#search__results--breadcrumb",
             "flex-layout.row#search__results--desktop"
         ]
     },
@@ -103,5 +104,23 @@
         "children": [
             "rich-text#search__not-found--text"
         ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#search__results--breadcrumb": {
+        "title": "Search Result Breadcrumb Container",
+        "props": {
+            "blockClass": "search__results--breadcrumb"
+        },
+        "children": [
+            "breadcrumb.search"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "breadcrumb.search": {
+        "title": "Search Result Breadcrum",
+        "props": {
+            "showOnMobile": true,
+            "blockClass": "search__result--breadcrumb"
+        }
     }
 }
