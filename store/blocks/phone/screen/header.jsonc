@@ -5,11 +5,10 @@
         "children": [
             "header-row#header__top-section-phone",
             "header-row#header__middle-section-phone",
+            "quick-order",
             "sticky-layout.stack-container#phone__header--sticky"
         ]
     },
-
-
     ///////////////////////////////////////////////
     "header-row#header__top-section-phone": {
         "title": "Header Top Row Phone",
@@ -34,8 +33,6 @@
             "modal-trigger#header__top-registro-ahorro"
         ]
     },
-
-
     ///////////////////////////////////////////////
     "logo#header__top-logo": {
         "title": "Logo Top Section Phone",

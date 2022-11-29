@@ -13,6 +13,13 @@
     border-radius: 0.9375rem;
     overflow     : hidden;
 }
-.flexRowContent--sticky__layout--internal{
-    height: 52.47px;
+.flexColChild--layout__internal-one {
+    background-color: #E20600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexRowContent--sticky__layout--internal {
+    max-height: 58px;
 }

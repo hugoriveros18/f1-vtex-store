@@ -2,12 +2,12 @@
     margin: 0px;
     font-family: 'Open Sans';
     font-size: .75rem;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: underline;
     padding: 0.125rem;
     opacity: .8;
     color: #242424;
 }
 .container--search__close--text {
-    margin-bottom: 8px;
+    margin-bottom: 0.125rem 8px;
 }
