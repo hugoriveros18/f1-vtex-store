@@ -20,7 +20,7 @@
             "blockClass": "header__contenedor-texto-layout"
         },
         "children": [
-            "rich-text#header__codigo-descuento"
+            "custom-countdown"
         ]
     },
     "flex-layout.col#header__contenedor-modal-codigo": {
@@ -35,14 +35,14 @@
 
 
     ///////////////////////////////////////////////
-    "rich-text#header__codigo-descuento": {
-        "title": "Mensaje Codigo Descuento",
-        "props": {
-            "text": "DEAL ENDS SOON",
-            "textAlignment": "CENTER",
-            "blockClass": ["header__bottom-last-section-texto-codigo", "sticky-text-desktop"]
-        }
-    },
+    // "rich-text#header__codigo-descuento": {
+    //     "title": "Mensaje Codigo Descuento",
+    //     "props": {
+    //         "text": "DEAL ENDS SOON",
+    //         "textAlignment": "CENTER",
+    //         "blockClass": ["header__bottom-last-section-texto-codigo", "sticky-text-desktop"]
+    //     }
+    // },
     "modal-trigger#header__codigo-descuento": {
         "title": "Contenedor Imagen Codigo Descuento",
         "props": {

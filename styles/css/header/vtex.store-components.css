@@ -87,3 +87,12 @@
     height: 18px;
     color : #686868;
 }
+
+.autoCompleteOuterContainer--header__search-bar-desktop :global(.vtex-styleguide-9-x-input) {
+    font-family: 'Open Sans';
+    font-size: 0.75rem;
+    color: #242424;
+}
+.autoCompleteOuterContainer--header__search-bar-desktop :global(.vtex-styleguide-9-x-input)::placeholder {
+    color: #242424;
+}

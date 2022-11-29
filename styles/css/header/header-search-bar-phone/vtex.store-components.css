@@ -37,3 +37,8 @@
     font-family: 'Open Sans';
     font-size  : 1rem;
 }
+
+.autoCompleteOuterContainer--phone__search--bar :global(.vtex-styleguide-9-x-input) {
+    padding-left: 10px;
+    color: #242424;
+}

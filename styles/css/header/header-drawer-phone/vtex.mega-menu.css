@@ -23,11 +23,21 @@
 }
 
 :global(.vtex-mega-menu-2-x-styledLinkText) {
+    width: 100%;
     font-family: 'Open Sans';
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
 }
+
+:global(.vtex-mega-menu-2-x-styledLinkText)::after {
+    content: url('assets/img/header/header__right-arrow-icon.svg');
+}
+
+:global(.vtex-mega-menu-2-x-accordionIconContainer--isClosed) {
+    display: none;
+}
+
 
 :global(.vtex-mega-menu-2-x-goBackButtonText) {
     display: none;

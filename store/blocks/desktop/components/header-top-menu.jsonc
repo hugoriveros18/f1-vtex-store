@@ -48,12 +48,8 @@
         "title": "Login",
         "props": {
             "iconLabel": "Mi cuenta",
-            "emailAndPasswordTitle": "LOG-IN",
-            "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
-            "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true,
             "logInButtonBehavior": "link",
+            "accountOptionsButtonBehavior": "popover",
             "blockClass": "header__top-section-login"
         }
     },

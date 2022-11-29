@@ -88,7 +88,7 @@
     "rich-text#search__close--text": {
         "title": "Modal Close Text",
         "props": {
-            "text": "Cerrar",
+            "text": "cerrar",
             "blockClass": "search__close--text"
         }
     },

@@ -31,7 +31,9 @@
     "title": "Header Middle Row",
     "children": [
       "logo#header__middle-logo",
-      "search-bar#header__search-bar"
+      "search-bar#header__search-bar",
+      "header-spacer",
+      "quick-order"
     ],
     "props": {
       "blockClass": [
