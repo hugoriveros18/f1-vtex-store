@@ -1,0 +1,28 @@
+{
+    "store.login": {
+        "title": "Global Login Content",
+        "children": [
+            "flex-layout.row#global__login--content"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#global__login--content": {
+        "title": "Login Content Layout",
+        "props": {
+            "blockClass": "global__login--content"
+        },
+        "children": [
+            "login-content"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "login-content": {
+        "props": {
+            "defaultOption": 1,
+            "emailAndPasswordTitle": "INICIAR SESIÓN",
+            "emailPlaceholder": "Correo Electronico*",
+            "passwordPlaceholder": "Contraseña*",
+            "accessCodeTitle": "RECIBIR CORREO ELECTRONICO"
+        }
+    }
+}

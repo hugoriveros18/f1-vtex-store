@@ -3,8 +3,7 @@
     "title": "Home Tablet",
     "children": [
       "whatsapp-button",
-      // "custom-grid",
-      // "list-context.bullet-group",
+      "cart-total-price",
       "flex-layout.row#desktop__home--slider",
       "flex-layout.row#home__constructors",
       "image#home__christmas--section",

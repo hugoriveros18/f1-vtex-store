@@ -3,7 +3,7 @@
         "title": "Home Phone",
         "children": [
             "whatsapp-button",
-            // "list-context.bullet-group",
+            "cart-total-price",
             "flex-layout.row#phone__home--slider",
             "flex-layout.row#home__constructors",
             "image#home__christmas",
