@@ -54,6 +54,33 @@
             "iconLabel": "Mi cuenta",
             "logInButtonBehavior": "link",
             "accountOptionsButtonBehavior": "popover",
+            "accountOptionLinks": [
+                {
+                    "label": "Mi Cuenta",
+                    "path": "/account",
+                    "cssClass": "account"
+                },
+                {
+                    "label": "Mis Detalles",
+                    "path": "/account#/profile",
+                    "cssClass": "account"
+                },
+                {
+                    "label": "Mi Historial De Pedidos",
+                    "path": "/account#/orders-history",
+                    "cssClass": "account"
+                },
+                {
+                    "label": "Mi Libreta De Direcciones",
+                    "path": "/account#/addresses",
+                    "cssClass": "account"
+                },
+                {
+                    "label": "Metodos De Pago",
+                    "path": "/account#/cards",
+                    "cssClass": "account"
+                }
+            ],
             "blockClass": "header__top-section-login"
         }
     },

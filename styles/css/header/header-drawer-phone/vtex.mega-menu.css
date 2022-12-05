@@ -23,6 +23,7 @@
 }
 
 :global(.vtex-mega-menu-2-x-styledLinkText) {
+    justify-content: flex-start;
     width: 100%;
     font-family: 'Open Sans';
     font-size: 1rem;
@@ -31,7 +32,14 @@
 }
 
 :global(.vtex-mega-menu-2-x-styledLinkText)::after {
+    position: absolute;
+    right: 10px;
     content: url('assets/img/header/header__right-arrow-icon.svg');
+}
+
+:global(.vtex-mega-menu-2-x-styledLinkIcon):nth-last-child() {
+    width: 40px;
+    height: 40px;
 }
 
 :global(.vtex-mega-menu-2-x-accordionIconContainer--isClosed) {
@@ -55,7 +63,6 @@
     background: #f5f6f8;
     border: none;
     border-bottom: 1px solid #f5f6f8;
-
     display: grid;
     align-items: center;
 }
@@ -82,3 +89,6 @@
 :global(.vtex__icon-caret-up) {
     margin-right: 16px;
 }
+:global(.vtex-mega-menu-2-x-collapsibleContent) :global(.vtex-mega-menu-2-x-styledLinkText)::after {
+    display: none;
+} 

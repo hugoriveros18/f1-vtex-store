@@ -6,7 +6,6 @@
     align-items: flex-start;
 }
 
-
 .headerRowContainer--header__top-section-row :global(.vtex-button) {
     width: 100%;
 }

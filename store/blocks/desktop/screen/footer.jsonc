@@ -296,7 +296,9 @@
     "link#media__instagram": {
         "title": "Instagram Icon Container",
         "props": {
-            "href": "https://www.instagram.com/",
+            "rel": "external",
+            "target": "_blank",
+            "href": "https://www.instagram.com/f1/",
             "blockClass": "media__instagram"
         },
         "children": [
@@ -306,7 +308,9 @@
     "link#media__twitter": {
         "title": "Twitter Icon Container",
         "props": {
-            "href": "https://twitter.com/?lang=es",
+            "rel": "external",
+            "target": "_blank",
+            "href": "https://twitter.com/f1",
             "blockClass": "media__twitter"
         },
         "children": [

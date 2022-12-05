@@ -17,8 +17,15 @@
     text-transform: uppercase;
 }
 
-.homeLink--breadcrumb__layout :global(.vtex-breadcrumb-1-x-caretIcon):first-child {
+.homeLink--breadcrumb__layout :global(.vtex-breadcrumb-1-x-caretIcon):first-child,
+.caretIcon--breadcrumb__layout,
+.termArrow--breadcrumb__layout {
     display: none;
+}
+
+.link--breadcrumb__layout::after {
+    content: "/";
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 1024px) {
