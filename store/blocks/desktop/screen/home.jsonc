@@ -3,9 +3,7 @@
     "title": "Home Desktop",
     "children": [
       "whatsapp-button",
-      // "pdf-reader",
-      // "list-context.bullet-group",
-      // "custom-grid",
+      "cart-total-price",
       "flex-layout.row#desktop__home--slider",
       "flex-layout.row#home__constructors",
       "image#home__christmas--section",
@@ -24,97 +22,6 @@
       "message": "Bienvenido a la tienda oficial de Formula 1, ¿En que podemos ayudarte?"
     }
   },
-  // "custom-grid": {
-  //   "children": [
-  //     "rich-text#custom-grid-1",
-  //     "rich-text#custom-grid-2",
-  //     "rich-text#custom-grid-3",
-  //     "rich-text#custom-grid-4",
-  //     "rich-text#custom-grid-5"
-  //   ]
-  // },
-  // "pdf-reader": {
-  //   "props": {
-  //     "pdfUrl": "assets/documents/extenciones.pdf",
-  //     "width": 500,
-  //     "height": 800
-  //   }
-  // },
-  // "list-context.bullet-group": {
-  //   "props": {
-  //     "bullets": [
-  //       {
-  //         "image": "assets/img/home/icon-ferrari.svg",
-  //         "titleBullet": "Computadores",
-  //         "link": {
-  //           "url": "/"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/img/home/icon-mercedes.svg",
-  //         "titleBullet": "Ropa",
-  //         "link": {
-  //           "url": "/"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/img/home/icon-ferrari.svg",
-  //         "titleBullet": "Computadores",
-  //         "link": {
-  //           "url": "/"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/img/home/icon-mercedes.svg",
-  //         "titleBullet": "Ropa",
-  //         "link": {
-  //           "url": "/"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/img/home/icon-ferrari.svg",
-  //         "titleBullet": "Computadores",
-  //         "link": {
-  //           "url": "/"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/img/home/icon-mercedes.svg",
-  //         "titleBullet": "Ropa",
-  //         "link": {
-  //           "url": "/"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/img/home/icon-ferrari.svg",
-  //         "titleBullet": "Computadores",
-  //         "link": {
-  //           "url": "/"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/img/home/icon-mercedes.svg",
-  //         "titleBullet": "Ropa",
-  //         "link": {
-  //           "url": "/"
-  //         }
-  //       }
-  //     ]
-  //   },
-  //   "children": [
-  //     "slider-layout#bullet__group"
-  //   ]
-  // },
-  // "slider-layout#bullet__group": {
-  //   "props": {
-  //     "itemsPerPage": {
-  //       "desktop": 5,
-  //       "tablet": 5,
-  //       "phone": 5
-  //     },
-  //     "infinite": true
-  //   }
-  // },
   "image#home__christmas--section": {
     "title": "Home Christmas Section",
     "props": {
@@ -159,31 +66,6 @@
     ]
   },
   ///////////////////////////////////////////////
-  // "rich-text#custom-grid-1": {
-  //   "props": {
-  //     "text": "Grilla 1"
-  //   }
-  // },
-  // "rich-text#custom-grid-2": {
-  //   "props": {
-  //     "text": "Grilla 2"
-  //   }
-  // },
-  // "rich-text#custom-grid-3": {
-  //   "props": {
-  //     "text": "Grilla 3"
-  //   }
-  // },
-  // "rich-text#custom-grid-4": {
-  //   "props": {
-  //     "text": "Grilla 4"
-  //   }
-  // },
-  // "rich-text#custom-grid-5": {
-  //   "props": {
-  //     "text": "Grilla 5"
-  //   }
-  // },
   "image#section__one--hamilton": {
     "title": "Hamilton Collection Image",
     "props": {
