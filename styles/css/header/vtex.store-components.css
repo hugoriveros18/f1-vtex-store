@@ -79,7 +79,7 @@
 }
 
 .searchBarIcon--header__search-bar-desktop {
-    padding: 1px 6px;
+    padding: 1px 9px;
 }
 
 .searchIcon--header__search-bar-desktop {
@@ -92,6 +92,7 @@
     font-family: 'Open Sans';
     font-size: 0.75rem;
     color: #242424;
+    padding: 0px 10px;
 }
 .autoCompleteOuterContainer--header__search-bar-desktop :global(.vtex-styleguide-9-x-input)::placeholder {
     color: #242424;

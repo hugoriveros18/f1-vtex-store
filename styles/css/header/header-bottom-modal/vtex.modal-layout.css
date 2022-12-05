@@ -29,3 +29,8 @@
 .container--header__modal-layout-general :global(.vtex-modal-layout-0-x-paper) {
     width: 600px;
 }
+
+.paper--registroahorro__modal--layout {
+    border-radius: 0.9375rem;
+    background-color: transparent;
+}

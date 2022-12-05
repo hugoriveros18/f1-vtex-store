@@ -4,6 +4,7 @@
     "children": [
       "whatsapp-button",
       "cart-total-price",
+      "icon#example",
       "flex-layout.row#desktop__home--slider",
       "flex-layout.row#home__constructors",
       "image#home__christmas--section",
@@ -14,6 +15,12 @@
     ]
   },
   ///////////////////////////////////////////////
+  "icon#example": {
+    "props": {
+      "id": "f1-store-icon",
+      "size": 16
+    }
+  },
   "whatsapp-button": {
     "title": "Whatsapp Button",
     "props": {

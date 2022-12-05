@@ -39,7 +39,27 @@
 
 .flexRowContent--minicart_footer :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
     justify-content: center;
+    align-items: flex-end;
     gap: 4px;
+}
+
+.flexRowContent--minicart_footer :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    font-weight: 600;
+}
+.flexRowContent--minicart_footer :global(.vtex-checkout-summary-0-x-price) {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
+.flexRowContent--minicart_footer :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 600;
+}
+.flexRowContent--minicart_footer :global(.vtex-checkout-summary-0-x-summaryItemLabel)::after {
+    content: ":";
 }
 
 .flexRowContent--minicart_footer :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {

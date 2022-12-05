@@ -108,11 +108,19 @@
 .caretIcon--info__image {
     width: 14px;
     height: 14px;
-    color: #ffffff;
+    fill: #ffffff;
 }
 
 .productImagesThumb--info__image {
     margin-right: 15px;
+}
+
+.skuSelectorSubcontainer--talla {
+    margin-bottom: 0px;
+}
+
+.productImagesGallerySwiperContainer--info__image :global(.vtex-store-components-3-x-swiper-pagination) {
+    height: 10px;
 }
 
 @media screen and (max-width: 1023px) {

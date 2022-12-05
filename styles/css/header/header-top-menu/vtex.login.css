@@ -3,6 +3,12 @@
     justify-content: center;
     margin-left    : 10px;
 }
+:global(.vtex-login-2-x-container):hover {
+    background-color: #ffffff;
+}
+:global(.vtex-login-2-x-container):active :global(.vtex-login-2-x-container):hover {
+    background-color: #ffffff;
+}
 
 .buttonLink {
     display        : flex;
@@ -49,6 +55,10 @@
 
 .profile:hover {
     text-decoration: underline;
+}
+
+:global(.vtex-login-2-x-container) :global(.vtex-button):focus {
+    background-color: #ffffff;
 }
 
 
