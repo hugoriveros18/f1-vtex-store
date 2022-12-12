@@ -2,112 +2,100 @@
     "responsive-layout.tablet#tablet__footer": {
         "title": "Tablet Footer",
         "children": [
-            "flex-layout.row#tablet__footer--one",
-            "flex-layout.row#desktop__footer--two"
+            "flex-layout.row#tablet__footer--section-one",
+            "flex-layout.row#global__footer--section-two"
         ]
     },
-
-
     ///////////////////////////////////////////////
-    "flex-layout.row#tablet__footer--one": {
-        "title": "Footer Container Section One",
+    "flex-layout.row#tablet__footer--section-one": {
+        "title": "Footer Section One",
         "props": {
             "fullWidth": true,
-            "blockClass": "tablet__footer--one"
+            "blockClass": "tablet__footer--section-one"
         },
         "children": [
-            "flex-layout.col#footer__one--layout"
+            "flex-layout.col#footer__section-one--layout"
         ]
     },
-
-
     ///////////////////////////////////////////////
-    "flex-layout.col#footer__one--layout": {
-        "title": "Footer Layout",
+    "flex-layout.col#footer__section-one--layout": {
+        "title": "Section One Layout",
         "props": {
             "width": "100%",
-            "blockClass": "footer__one--layout"
+            "blockClass": "footer__section-one--layout"
         },
         "children": [
-            "flex-layout.row#one__layout--content1",
-            "flex-layout.row#one__layout--content2"
+            "flex-layout.row#footer__section-one--row-one",
+            "flex-layout.row#footer__section-one--row-two"
         ]
     },
-
-
     ///////////////////////////////////////////////
-    "flex-layout.row#one__layout--content1": {
-        "title": "Footer Content 1",
+    "flex-layout.row#footer__section-one--row-one": {
+        "title": "Row One",
         "props": {
             "fullWidth": true,
             "colSizing": "equal",
-            "blockClass": "one__layout--content1"
+            "blockClass": "footer__section-one--row-one"
         },
         "children": [
-            "flex-layout.col#content__atencion-cliente",
-            "flex-layout.col#content__seguridad-online",
-            "flex-layout.col#content__informacion"
+            "flex-layout.col#footer__section-one--customer-service",
+            "flex-layout.col#footer__section-one--online-shopping",
+            "flex-layout.col#footer__section-one--information"
         ]
     },
-    "flex-layout.row#one__layout--content2": {
-        "title": "Footer Content 2",
+    "flex-layout.row#footer__section-one--row-two": {
+        "title": "Row Two",
         "props": {
             "fullWidth": true,
-            "blockClass": "one__layout--content2"
+            "blockClass": "footer__section-one--row-two"
         },
         "children": [
-            "flex-layout.col#content2__resgistro-ahorro"
+            "flex-layout.col#row-two__sign-safe"
         ]
     },
-
-
     ///////////////////////////////////////////////
-    "flex-layout.col#content2__resgistro-ahorro": {
-        "title": "Footer Registro y Ahorro",
+    "flex-layout.col#row-two__sign-safe": {
+        "title": "Sign and Safe",
         "props": {
             "preventVerticalStretch": true,
-            "blockClass": "content__resgistro-ahorro"
+            "blockClass": "row-two__sign-safe"
         },
         "children": [
-            "flex-layout.row#registroahorro__content"
+            "flex-layout.row#row-two__sign-safe--layout"
         ]
     },
-
-
     ///////////////////////////////////////////////
-    "flex-layout.row#registroahorro__content": {
-        "title": "Registro y Ahorro Content",
+    "flex-layout.row#row-two__sign-safe--layout": {
+        "title": "Sign and Safe Layout",
         "props": {
             "fullWidth": true,
-            "blockClass": "registroahorro__content"
+            "blockClass": "row-two__sign-safe--layout"
         },
         "children": [
-            "flex-layout.col#registroahorro__content--one",
-            "flex-layout.col#registroahorro__content--two"
+            "flex-layout.col#row-two__sign-safe--column-one",
+            "flex-layout.col#row-two__sign-safe--column-two"
         ]
     },
-
-
-
-    "flex-layout.col#registroahorro__content--one": {
-        "title": "Footer Registro y Ahorro One",
+    ///////////////////////////////////////////////
+    "flex-layout.col#row-two__sign-safe--column-one": {
+        "title": "Column One",
         "props": {
-            "blockClass": "registroahorro__content--one"
+            "blockClass": "row-two__sign-safe--column-one"
         },
         "children": [
-            "rich-text#registroahorro__description",
+            "rich-text#sign-safe__text",
             "modal-trigger#registroahorro__modal"
         ]
     },
-    "flex-layout.col#registroahorro__content--two": {
-        "title": "Footer Registro y Ahorro Two",
+    "flex-layout.col#row-two__sign-safe--column-two": {
+        "title": "Column Two",
         "props": {
             "preventVerticalStretch": true,
-            "blockClass": "registroahorro__content--two"
+            "blockClass": "row-two__sign-safe--column-two"
         },
         "children": [
-            "rich-text#registroahorro__social",
-            "flex-layout.row#registroahorro__social--media"
+            "rich-text#sign-safe__social-media--title",
+            "flex-layout.row#sign-safe__social-media--layout"
         ]
     }
 }

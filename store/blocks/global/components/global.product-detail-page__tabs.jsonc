@@ -1,0 +1,949 @@
+{
+    "tab-layout#pdp__product-tabs": {
+        "title": "Products Tab Layout",
+        "props": {
+            "blockClass": "pdp__product-tabs"
+        },
+        "children": [
+            "tab-list#pdp__product-tabs--lists",
+            "tab-content#pdp__product-tabs--shelf"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "tab-list#pdp__product-tabs--lists": {
+        "title": "Products Lists",
+        "props": {
+            "blockClass": "pdp__product-tabs--lists"
+        },
+        "children": [
+            "tab-list.item#product-tabs__lists--recent",
+            "tab-list.item#product-tabs__lists--interesting",
+            "tab-list.item#product-tabs__lists--top-sales"
+        ]
+    },
+    "tab-content#pdp__product-tabs--shelf": {
+        "title": "Products Shelf",
+        "props": {
+            "blockClass": "pdp__product-tabs--shelf"
+        },
+        "children": [
+            "tab-content.item#product-tabs__shelf--recent",
+            "tab-content.item#product-tabs__shelf--interesting",
+            "tab-content.item#product-tabs__shelf--top-sales"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "tab-list.item#product-tabs__lists--recent": {
+        "title": "Recently Viewed List",
+        "props": {
+            "tabId": "recently-viewed",
+            "label": "Visto Recientemente",
+            "defaultActiveTab": true,
+            "blockClass": "product-tabs__lists--recent"
+        }
+    },
+    "tab-list.item#product-tabs__lists--interesting": {
+        "title": "Of Interest List",
+        "props": {
+            "tabId": "of-interest",
+            "label": "Tambien Te Puede Interesar",
+            "defaultActiveTab": false,
+            "blockClass": "product-tabs__lists--interesting"
+        }
+    },
+    "tab-list.item#product-tabs__lists--top-sales": {
+        "title": "Top Sales List",
+        "props": {
+            "tabId": "top-sales",
+            "label": "Más Vendidos",
+            "defaultActiveTab": false,
+            "blockClass": "product-tabs__lists--top-sales"
+        }
+    },
+    "tab-content.item#product-tabs__shelf--recent": {
+        "title": "Recently Viewed Products Shelf",
+        "props": {
+            "tabId": "recently-viewed"
+        },
+        "children": [
+            "flex-layout.row#products-tabs__shelf--recent-layout"
+        ]
+    },
+    "tab-content.item#product-tabs__shelf--interesting": {
+        "title": "Of Interest Products Shelf",
+        "props": {
+            "tabId": "of-interest"
+        },
+        "children": [
+            "flex-layout.row#product-tabs__shelf--interesting-layout"
+        ]
+    },
+    "tab-content.item#product-tabs__shelf--top-sales": {
+        "title": "Top Sales Products Shelf",
+        "props": {
+            "tabId": "top-sales"
+        },
+        "children": [
+            "list-context.product-list#product-tabs__shelf--top-sales-layout"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#products-tabs__shelf--recent-layout": {
+        "title": "Recently Viewed Layout",
+        "props": {
+            "blockClass": [
+                "products-tabs__shelf--layout",
+                "products-tabs__shelf-recent-layout"
+            ]
+        },
+        "children": [
+            "slider-layout#products-tabs__shelf--recent-slider"
+        ]
+    },
+    "flex-layout.row#product-tabs__shelf--interesting-layout": {
+        "title": "Of Interest Layout",
+        "props": {
+            "blockClass": [
+                "products-tabs__shelf--layout",
+                "product-tabs__shelf--interesting-layout"
+            ]
+        },
+        "children": [
+            "slider-layout#product-tabs__shelf--interesting-slider"
+        ]
+    },
+    "list-context.product-list#product-tabs__shelf--top-sales-layout": {
+        "title": "Top Sales Layout",
+        "blocks": [
+            "product-summary.shelf#shelf__top-sales--product-summary"
+        ],
+        "props": {
+            "collection": "145"
+        },
+        "children": [
+            "slider-layout#product-tabs__shelf--top-sales-slider"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "slider-layout#products-tabs__shelf--recent-slider": {
+        "title": "Recently Viewed Slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "showPaginationDots": "never",
+            "infinite": false,
+            "navigationStep": "page",
+            "fullWidth": true,
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "always",
+            "blockClass": [
+                "products-tabs__shelf--layout",
+                "products-tabs__shelf--recent-slider"
+            ]
+        },
+        "children": [
+            "flex-layout.col#shelf__recent--hamilton-militar",
+            "flex-layout.col#shelf__recent--hamilton-petronas-one",
+            "flex-layout.col#shelf__recent--f1-christmas",
+            "flex-layout.col#shelf__recent--hamilton-auto",
+            "flex-layout.col#shelf__recent--hamilton-petronas-two",
+            "flex-layout.col#shelf__recent--redbull-champions",
+            "flex-layout.col#shelf__recent--mclaren-gulf",
+            "flex-layout.col#shelf__recent--lando-helmet"
+        ]
+    },
+    "slider-layout#product-tabs__shelf--interesting-slider": {
+        "title": "Of Interest Slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "showPaginationDots": "never",
+            "infinite": false,
+            "navigationStep": "page",
+            "fullWidth": true,
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "always",
+            "blockClass": [
+                "products-tabs__shelf--layout",
+                "product-tabs__shelf--interesting-slider"
+            ]
+        },
+        "children": [
+            "flex-layout.col#shelf__interesting--hamilton-hat",
+            "flex-layout.col#shelf__interesting--mercedes-hoodie-one",
+            "flex-layout.col#shelf__interesting--mercedes-hoodie-two",
+            "flex-layout.col#shelf__interesting--mercedes-cap-one",
+            "flex-layout.col#shelf__interesting--mercedes-hoodie-three",
+            "flex-layout.col#shelf__interesting--mercedes-cap-two",
+            "flex-layout.col#shelf__interesting--mercedes-hoodie-four",
+            "flex-layout.col#shelf__interesting--mercedes-pants"
+        ]
+    },
+    "product-summary.shelf#shelf__top-sales--product-summary": {
+        "children": [
+            "product-summary-image#top-sales__product-summary--image",
+            "product-selling-price#top-sales__product-summary--price",
+            "product-summary-description#top-sales__product-summary--description",
+            "product-summary-space",
+            "add-to-cart-button#top-sales__product-summary--buy-button"
+        ]
+    },
+    "slider-layout#product-tabs__shelf--top-sales-slider": {
+        "title": "Top Sales Slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "showPaginationDots": "never",
+            "infinite": false,
+            "navigationStep": "page",
+            "fullWidth": true,
+            "centerMode": "to-the-left",
+            "showNavigationArrows": "always",
+            "blockClass": [
+                "products-tabs__shelf--layout",
+                "product-tabs__shelf--top-sales-slider"
+            ]
+        }
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.col#shelf__recent--hamilton-militar": {
+        "title": "Hamilton Militar Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__recent--hamilton-militar"
+            ]
+        },
+        "children": [
+            "image#recent__hamilton-militar--image",
+            "rich-text#recent__hamilton-militar--price",
+            "rich-text#recent__hamilton-militar--description"
+        ]
+    },
+    "flex-layout.col#shelf__recent--hamilton-petronas-one": {
+        "title": "Hamilton Petronas Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__recent--hamilton-petronas-one"
+            ]
+        },
+        "children": [
+            "image#recent__hamilton-petronas-one--image",
+            "rich-text#recent__hamilton-petronas-one--price",
+            "rich-text#recent__hamilton-petronas-one--description"
+        ]
+    },
+    "flex-layout.col#shelf__recent--f1-christmas": {
+        "title": "F1 Christmas Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__recent--f1-christmas"
+            ]
+        },
+        "children": [
+            "image#recent__f1-christmas--image",
+            "rich-text#recent__f1-christmas--price",
+            "rich-text#recent__f1-christmas--description"
+        ]
+    },
+    "flex-layout.col#shelf__recent--hamilton-auto": {
+        "title": "Hamilton Mini Car Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__recent--hamilton-auto"
+            ]
+        },
+        "children": [
+            "image#recent__hamilton-auto--image",
+            "rich-text#recent__hamilton-auto--price",
+            "rich-text#recent__hamilton-auto--description"
+        ]
+    },
+    "flex-layout.col#shelf__recent--hamilton-petronas-two": {
+        "title": "Hamilton Petronas Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__recent--hamilton-petronas-two"
+            ]
+        },
+        "children": [
+            "image#recent__hamilton-petronas-two--image",
+            "rich-text#recent__hamilton-petronas-two--price",
+            "rich-text#recent__hamilton-petronas-two--description"
+        ]
+    },
+    "flex-layout.col#shelf__recent--redbull-champions": {
+        "title": "Red Bull Champions Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__recent--redbull-champions"
+            ]
+        },
+        "children": [
+            "image#recent__redbull-champions--image",
+            "rich-text#recent__redbull-champions--price",
+            "rich-text#recent__redbull-champions--description"
+        ]
+    },
+    "flex-layout.col#shelf__recent--mclaren-gulf": {
+        "title": "McLaren Gulf Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__recent--mclaren-gulf"
+            ]
+        },
+        "children": [
+            "image#recent__mclaren-gulf--image",
+            "rich-text#recent__mclaren-gulf--price",
+            "rich-text#recent__mclaren-gulf--description"
+        ]
+    },
+    "flex-layout.col#shelf__recent--lando-helmet": {
+        "title": "Lando Helmet Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__recent--lando-helmet"
+            ]
+        },
+        "children": [
+            "image#recent__lando-helmet--image",
+            "rich-text#recent__lando-helmet--price",
+            "rich-text#recent__lando-helmet--description"
+        ]
+    },
+    "flex-layout.col#shelf__interesting--hamilton-hat": {
+        "title": "Hamilton Hat Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "col#shelf__interesting--hamilton-hat"
+            ]
+        },
+        "children": [
+            "image#interesting__hamilton-hat--image",
+            "rich-text#interesting__hamilton-hat--price",
+            "rich-text#interesting__hamilton-hat--description"
+        ]
+    },
+    "flex-layout.col#shelf__interesting--mercedes-hoodie-one": {
+        "title": "Mercedes Hoodie One Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__interesting--mercedes-hoodie-one"
+            ]
+        },
+        "children": [
+            "image#interesting__mercedes-hoodie-one--image",
+            "rich-text#interesting__mercedes-hoodie-one--price",
+            "rich-text#interesting__mercedes-hoodie-one--description"
+        ]
+    },
+    "flex-layout.col#shelf__interesting--mercedes-hoodie-two": {
+        "title": "Mercedes Hoodie Two Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__interesting--mercedes-hoodie-two"
+            ]
+        },
+        "children": [
+            "image#interesting__mercedes-hoodie-two--image",
+            "rich-text#interesting__mercedes-hoodie-two--price",
+            "rich-text#interesting__mercedes-hoodie-two--description"
+        ]
+    },
+    "flex-layout.col#shelf__interesting--mercedes-cap-one": {
+        "title": "Mercedes Cap One Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__interesting--mercedes-cap-one"
+            ]
+        },
+        "children": [
+            "image#interesting__mercedes-cap-one--image",
+            "rich-text#interesting__mercedes-cap-one--price",
+            "rich-text#interesting__mercedes-cap-one--description"
+        ]
+    },
+    "flex-layout.col#shelf__interesting--mercedes-hoodie-three": {
+        "title": "Mercedes Hoodie Three Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__interesting--mercedes-hoodie-three"
+            ]
+        },
+        "children": [
+            "image#interesting__mercedes-hoodie-three--image",
+            "rich-text#interesting__mercedes-hoodie-three--price",
+            "rich-text#interesting__mercedes-hoodie-three--description"
+        ]
+    },
+    "flex-layout.col#shelf__interesting--mercedes-cap-two": {
+        "title": "Mercedes Cap Two Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__interesting--mercedes-cap-two"
+            ]
+        },
+        "children": [
+            "image#interesting__mercedes-cap-two--image",
+            "rich-text#interesting__mercedes-cap-two--price",
+            "rich-text#interesting__mercedes-cap-two--description"
+        ]
+    },
+    "flex-layout.col#shelf__interesting--mercedes-hoodie-four": {
+        "title": "Mercedes Hoodie Four Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__interesting--mercedes-hoodie-four"
+            ]
+        },
+        "children": [
+            "image#interesting__mercedes-hoodie-four--image",
+            "rich-text#interesting__mercedes-hoodie-four--price",
+            "rich-text#interesting__mercedes-hoodie-four--description"
+        ]
+    },
+    "flex-layout.col#shelf__interesting--mercedes-pants": {
+        "title": "Mercedes Pants Layout",
+        "props": {
+            "blockClass": [
+                "shelf__layout--general",
+                "shelf__interesting--mercedes-pants"
+            ]
+        },
+        "children": [
+            "image#interesting__mercedes-pants--image",
+            "rich-text#interesting__mercedes-pants--price",
+            "rich-text#interesting__mercedes-pants--description"
+        ]
+    },
+    "product-summary-image#top-sales__product-summary--image": {
+        "title": "Product Image",
+        "props": {
+            "aspectRatio": "1:1",
+            "blockClass": "top-sales__product-summary--image"
+        }
+    },
+    "product-selling-price#top-sales__product-summary--price": {
+        "title": "Product Price",
+        "props": {
+            "blockClass": "top-sales__product-summary--price"
+        }
+    },
+    "product-summary-description#top-sales__product-summary--description": {
+        "title": "Product Description",
+        "props": {
+            "blockClass": "top-sales__product-summary--description"
+        }
+    },
+    "add-to-cart-button#top-sales__product-summary--buy-button": {
+        "title": "Product Add To Cart Button",
+        "props": {
+            "blockClass": "top-sales__product-summary--buy-button",
+            "text": "Añadir a la cesta"
+        }
+    },
+    ///////////////////////////////////////////////
+    "image#recent__hamilton-militar--image": {
+        "title": "Hamilton Militar Image",
+        "props": {
+            "src": "assets/img/home/recientes-hamilton-militar.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "recent__hamilton-militar--image"
+            ]
+        }
+    },
+    "rich-text#recent__hamilton-militar--price": {
+        "title": "Hamilton Militar Price",
+        "props": {
+            "text": "S/ 85,40",
+            "blockClass": [
+                "tab__slider--price",
+                "recent__hamilton-militar--price"
+            ]
+        }
+    },
+    "rich-text#recent__hamilton-militar--description": {
+        "title": "Hamilton Militar Description",
+        "props": {
+            "text": "Sudadera con capucha Mercedes AMG Petronas F1 Lewis Hamilton 2022 Edición especial - EE. UU.",
+            "blockClass": [
+                "tab__slider--description",
+                "recent__hamilton-militar--description"
+            ]
+        }
+    },
+    "image#recent__hamilton-petronas-one--image": {
+        "title": "Hamilton Petronas Image",
+        "props": {
+            "src": "assets/img/home/recientes-hamilton-petronas.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "recientes__hamilton--petronas"
+            ]
+        }
+    },
+    "rich-text#recent__hamilton-petronas-one--price": {
+        "title": "Hamilton Petronas Price",
+        "props": {
+            "text": "S/ 44,10",
+            "blockClass": [
+                "tab__slider--price",
+                "hamilton__petronas--price"
+            ]
+        }
+    },
+    "rich-text#recent__hamilton-petronas-one--description": {
+        "title": "Hamilton Petronas Description",
+        "props": {
+            "text": "Camiseta deportiva Mercedes AMG Petronas F1 Lewis Hamilton # 44",
+            "blockClass": [
+                "tab__slider--description",
+                "hamilton__petronas--description"
+            ]
+        }
+    },
+    "image#recent__f1-christmas--image": {
+        "title": "F1 Navidad Image",
+        "props": {
+            "src": "assets/img/home/recientes-f1-christmas.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "recent__f1-christmas--image"
+            ]
+        }
+    },
+    "rich-text#recent__f1-christmas--price": {
+        "title": "F1 Navidad Price",
+        "props": {
+            "text": "S/ 31,50",
+            "blockClass": [
+                "tab__slider--price",
+                "recent__f1-christmas--price"
+            ]
+        }
+    },
+    "rich-text#recent__f1-christmas--description": {
+        "title": "F1 Navidad Description",
+        "props": {
+            "text": "Jersey navideño retro Farisle de Fórmula 1",
+            "blockClass": [
+                "tab__slider--description",
+                "recent__f1-christmas--description"
+            ]
+        }
+    },
+    "image#recent__hamilton-auto--image": {
+        "title": "Hamilton Mini Auto Image",
+        "props": {
+            "src": "assets/img/home/recientes-hamilton-auto.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "recent__hamilton-auto--image"
+            ]
+        }
+    },
+    "rich-text#recent__hamilton-auto--price": {
+        "title": "Hamilton Mini Auto Price",
+        "props": {
+            "text": "S/ 79,10",
+            "blockClass": [
+                "tab__slider--price",
+                "recent__hamilton-auto--price"
+            ]
+        }
+    },
+    "rich-text#recent__hamilton-auto--description": {
+        "title": "Hamilton Mini Auto Description",
+        "props": {
+            "text": "Mercedes AMG Petronas F1 No.44 W13 E Performance - 3er lugar GP de Bahrein 2022 - Modelo Lewis Hamilton 1:43",
+            "blockClass": [
+                "tab__slider--description",
+                "recent__hamilton-auto--description"
+            ]
+        }
+    },
+    "image#recent__hamilton-petronas-two--image": {
+        "title": "Hamilton Petronas White Image",
+        "props": {
+            "src": "assets/img/home/recientes-hamilton-petronas-blanco.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "recent__hamilton-petronas-two--image"
+            ]
+        }
+    },
+    "rich-text#recent__hamilton-petronas-two--price": {
+        "title": "Hamilton Petronas White Price",
+        "props": {
+            "text": "S/ 39,90",
+            "blockClass": [
+                "tab__slider--price",
+                "recent__hamilton-petronas-two--price"
+            ]
+        }
+    },
+    "rich-text#recent__hamilton-petronas-two--description": {
+        "title": "Hamilton Petronas White Description",
+        "props": {
+            "text": "Camiseta Mercedes AMG Petronas F1 Lewis Hamilton 2022 Edición especial - EE. UU.",
+            "blockClass": [
+                "tab__slider--description",
+                "recent__hamilton-petronas-two--description"
+            ]
+        }
+    },
+    "image#recent__redbull-champions--image": {
+        "title": "Red Bull Champions Image",
+        "props": {
+            "src": "assets/img/home/recientes-redbull-champions.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "recent__redbull-champions--image"
+            ]
+        }
+    },
+    "rich-text#recent__redbull-champions--price": {
+        "title": "Red Bull Champions Price",
+        "props": {
+            "text": "S/ 120,00",
+            "blockClass": [
+                "tab__slider--price",
+                "recent__redbull-champions--price"
+            ]
+        }
+    },
+    "rich-text#recent__redbull-champions--description": {
+        "title": "Red Bull Champions Description",
+        "props": {
+            "text": "Camiseta Campeón del Mundo de Constructores Red Bull Racing 2022",
+            "blockClass": [
+                "tab__slider--description",
+                "recent__redbull-champions--description"
+            ]
+        }
+    },
+    "image#recent__mclaren-gulf--image": {
+        "title": "McLaren Gulf Image",
+        "props": {
+            "src": "assets/img/home/recientes-mclaren-gulf.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "recent__mclaren-gulf--image"
+            ]
+        }
+    },
+    "rich-text#recent__mclaren-gulf--price": {
+        "title": "McLaren Gulf Price",
+        "props": {
+            "text": "S/ 79,10",
+            "blockClass": [
+                "tab__slider--price",
+                "recent__mclaren-gulf--price"
+            ]
+        }
+    },
+    "rich-text#recent__mclaren-gulf--description": {
+        "title": "McLaren Gulf Description",
+        "props": {
+            "text": "McLaren Gulf Racing Hoodie - Blue",
+            "blockClass": [
+                "tab__slider--description",
+                "recent__mclaren-gulf--description"
+            ]
+        }
+    },
+    "image#recent__lando-helmet--image": {
+        "title": "Lando Helmet Image",
+        "props": {
+            "src": "assets/img/home/recientes-lando-helmet.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "recent__lando-helmet--image"
+            ]
+        }
+    },
+    "rich-text#recent__lando-helmet--price": {
+        "title": "Lando Helmet Price",
+        "props": {
+            "text": "S/ 39,90",
+            "blockClass": [
+                "tab__slider--price",
+                "recent__mclaren-gulf--price"
+            ]
+        }
+    },
+    "rich-text#recent__lando-helmet--description": {
+        "title": "Lando Helmet Description",
+        "props": {
+            "text": "McLaren Lando Norris Miami 2022 Casco Modelo Especial",
+            "blockClass": [
+                "tab__slider--description",
+                "recent__mclaren-gulf--description"
+            ]
+        }
+    },
+    "image#interesting__hamilton-hat--image": {
+        "title": "Hamilton Gorra Image",
+        "props": {
+            "src": "assets/img/home/interesar-hamilton-hat.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "interesting__hamilton-hat--image"
+            ]
+        }
+    },
+    "rich-text#interesting__hamilton-hat--price": {
+        "title": "Hamilton Gorra Price",
+        "props": {
+            "text": "S/ 39,90",
+            "blockClass": [
+                "tab__slider--price",
+                "interesting__hamilton-hat--price"
+            ]
+        }
+    },
+    "rich-text#interesting__hamilton-hat--description": {
+        "title": "Hamilton Gorra Description",
+        "props": {
+            "text": "Mercedes AMG Petronas F1 Lewis Hamilton 2022 Special Edition Party Bucket Hat - EE. UU.",
+            "blockClass": [
+                "tab__slider--description",
+                "interesting__hamilton-hat--description"
+            ]
+        }
+    },
+    "image#interesting__mercedes-hoodie-one--image": {
+        "title": "Mercedes Hoodie One Image",
+        "props": {
+            "src": "assets/img/home/interesar-mercedes-hoodie-one.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "interesting__mercedes-hoodie-one--image"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-hoodie-one--price": {
+        "title": "Mercedes Hoodie One Price",
+        "props": {
+            "text": "S/ 100,00",
+            "blockClass": [
+                "tab__slider--price",
+                "interesting__mercedes-hoodie-one--price"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-hoodie-one--description": {
+        "title": "Mercedes Hoodie One Description",
+        "props": {
+            "text": "Sudadera con capucha Mercedes AMG Petronas F1 Statement by Puma - Negro",
+            "blockClass": [
+                "tab__slider--description",
+                "interesting__mercedes-hoodie-one--description"
+            ]
+        }
+    },
+    "image#interesting__mercedes-hoodie-two--image": {
+        "title": "Mercedes Hoodie Two Image",
+        "props": {
+            "src": "assets/img/home/interesar-mercedes-hoodie-two.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "interesting__mercedes-hoodie-two--image"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-hoodie-two--price": {
+        "title": "Mercedes Hoodie Two Price",
+        "props": {
+            "text": "S/ 80,00",
+            "blockClass": [
+                "tab__slider--price",
+                "interesting__mercedes-hoodie-two--price"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-hoodie-two--description": {
+        "title": "Mercedes Hoodie Two Description",
+        "props": {
+            "text": "Sudadera con capucha Mercedes AMG Petronas F1 Star by Puma - Negro",
+            "blockClass": [
+                "tab__slider--description",
+                "interesting__mercedes-hoodie-two--description"
+            ]
+        }
+    },
+    "image#interesting__mercedes-cap-one--image": {
+        "title": "Mercedes Cachucha One Image",
+        "props": {
+            "src": "assets/img/home/interesar-mercedes-cap-one.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "interesting__mercedes-cap-one--image"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-cap-one--price": {
+        "title": "Mercedes Cachucha One Price",
+        "props": {
+            "text": "S/ 39,00",
+            "blockClass": [
+                "tab__slider--price",
+                "interesting__mercedes-cap-one--price"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-cap-one--description": {
+        "title": "Mercedes Cachucha One Description",
+        "props": {
+            "text": "Mercedes AMG Petronas F1 Lewis Hamilton 2022 Gorra de baloncesto de edición especial - Singapur",
+            "blockClass": [
+                "tab__slider--description",
+                "interesting__mercedes-cap-one--description"
+            ]
+        }
+    },
+    "image#interesting__mercedes-hoodie-three--image": {
+        "title": "Mercedes Hoodie Three Image",
+        "props": {
+            "src": "assets/img/home/interesar-mercedes-hoodie-three.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "interesting__mercedes-hoodie-three--image"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-hoodie-three--price": {
+        "title": "Mercedes Hoodie Three Price",
+        "props": {
+            "text": "S/ 114,00",
+            "blockClass": [
+                "tab__slider--price",
+                "interesting__mercedes-hoodie-three--price"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-hoodie-three--description": {
+        "title": "Mercedes Hoodie Three Description",
+        "props": {
+            "text": "Sudadera con capucha Mercedes AMG Petronas F1 Statement by Puma - Blanco",
+            "blockClass": [
+                "tab__slider--description",
+                "interesting__mercedes-hoodie-three--description"
+            ]
+        }
+    },
+    "image#interesting__mercedes-cap-two--image": {
+        "title": "Mercedes Cachucha Two Image",
+        "props": {
+            "src": "assets/img/home/interesar-mercedes-cap-two.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "interesting__mercedes-cap-two--image"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-cap-two--price": {
+        "title": "Mercedes Cachucha Two Price",
+        "props": {
+            "text": "S/ 45,50",
+            "blockClass": [
+                "tab__slider--price",
+                "interesting__mercedes-cap-two--price"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-cap-two--description": {
+        "title": "Mercedes Cachucha Two Description",
+        "props": {
+            "text": "Mercedes AMG Petronas F1 Lewis Hamilton 2022 Special Edition Party Trucker Gorra - EE. UU.",
+            "blockClass": [
+                "tab__slider--description",
+                "interesting__mercedes-cap-two--description"
+            ]
+        }
+    },
+    "image#interesting__mercedes-hoodie-four--image": {
+        "title": "Mercedes Hoodie Four Image",
+        "props": {
+            "src": "assets/img/home/interesar-mercedes-hoodie-four.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "interesting__mercedes-hoodie-four--image"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-hoodie-four--price": {
+        "title": "Mercedes Hoodie Four Price",
+        "props": {
+            "text": "S/ 70,70",
+            "blockClass": [
+                "tab__slider--price",
+                "interesting__mercedes-hoodie-four--price"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-hoodie-four--description": {
+        "title": "Mercedes Hoodie Four Description",
+        "props": {
+            "text": "Sudadera con capucha Mercedes AMG Petronas F1 Logo - Negro",
+            "blockClass": [
+                "tab__slider--description",
+                "interesting__mercedes-hoodie-four--description"
+            ]
+        }
+    },
+    "image#interesting__mercedes-pants--image": {
+        "title": "Mercedes Pants Image",
+        "props": {
+            "src": "assets/img/home/interesar-mercedes-pants.jpg",
+            "blockClass": [
+                "tab__slider--image",
+                "interesting__mercedes-pants--image"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-pants--price": {
+        "title": "Mercedes Pants Price",
+        "props": {
+            "text": "S/ 70,70",
+            "blockClass": [
+                "tab__slider--price",
+                "interesting__mercedes-pants--price"
+            ]
+        }
+    },
+    "rich-text#interesting__mercedes-pants--description": {
+        "title": "Mercedes Pants Description",
+        "props": {
+            "text": "Sudadera con capucha Mercedes AMG Petronas F1 Logo - Negro",
+            "blockClass": [
+                "tab__slider--description",
+                "interesting__mercedes-pants--description"
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.container--promotion-layout__content--title {
+    height: 37px;
+}
+
+.wrapper--promotion-layout__content--title {
+    height: 100%;
+    width : 100%;
+}
+
+.paragraph--promotion-layout__content--title {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    color          : #fff;
+    height         : 100%;
+    font-family    : 'Open Sans';
+    font-weight    : 600;
+    font-size      : 20px;
+    margin         : 0px;
+    letter-spacing : 1px;
+}

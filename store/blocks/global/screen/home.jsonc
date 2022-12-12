@@ -1,10 +1,19 @@
 {
     "store.home": {
-        "title": "Home Global", 
+        "title": "Home Global",
         "blocks": [
             "responsive-layout.desktop#desktop__home",
             "responsive-layout.tablet#tablet__home",
             "responsive-layout.phone#phone__home"
         ]
+    },
+    ///////////////////////////////////////////////
+    "whatsapp-button": {
+        "title": "Whatsapp Button",
+        "props": {
+            "logo": "assets/img/home/whatsapp-icon.svg",
+            "phone": "+573115292688",
+            "message": "¡Hola! Quisiera recibir más información acerca de las promociones de navidad"
+        }
     }
 }

@@ -1,0 +1,21 @@
+{
+    "responsive-layout.phone#phone__search-result": {
+        "title": "Search result Phone",
+        "children": [
+            "flex-layout.row#global__search-result--breadcrumb",
+            "flex-layout.row#phone__search-result",
+            "modal-trigger#global__add-to-cart-info"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#phone__search-result": {
+        "title": "Search Result Phone Layout",
+        "props": {
+            "blockClass": "phone__search-result"
+        },
+        "children": [
+            "flex-layout.col#phone__search-result--filters",
+            "flex-layout.col#global__search-result--content"
+        ]
+    }
+}

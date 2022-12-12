@@ -1,0 +1,93 @@
+.flexColChild--global__search-result--content:first-child {
+    display: none;
+}
+
+.flexCol--search-result__filters--layout {
+    padding: 6px 0px;
+}
+
+.flexRow--gallery__product-shelf--layout {
+    padding: 0px;
+}
+
+.flexCol--product-summary__description--layout {
+    padding        : 0px;
+    padding-left   : 10px;
+    justify-content: space-around;
+}
+
+.flexColChild--product-summary__description--layout :global(.vtex-product-summary-2-x-nameContainer) {
+    padding        : 0px;
+    justify-content: flex-start;
+}
+
+.flexColChild--product-summary__description--layout {
+    margin-bottom: 7px;
+    text-align   : start;
+}
+
+.flexColChild--product-summary__description--layout :global(.vtex-button):hover {
+    background-color: #376bd4;
+}
+.flexColChild--product-summary__description--layout :global(.vtex-button) {
+    background-color: var(--main-button-color);
+    border-radius   : 5px;
+}
+
+.flexColChild--product-summary__description--layout :global(.vtex-button):hover {
+    background-color: var(--main-button-hover-color);
+}
+
+.flexRowContent--product-summary__details--layout {
+    flex-direction: column;
+    margin-top    : 5px;
+}
+
+@media screen and (min-width: 640px) {
+    .flexColChild--global__search-result--content {
+        padding: 0px 15px;
+    }
+    
+    .flexRowContent--gallery__product-shelf--layout {
+        flex-direction: column;
+    }
+
+    .flexRowContent--gallery__product-shelf--layout :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+
+    .flexCol--product-summary__image--layout :global(.vtex-product-summary-2-x-imageContainer) {
+        padding: 0px;
+    }
+
+    .flexCol--product-summary__description--layout {
+        gap            : 5px;
+        justify-content: center;
+    }
+    .flexColChild--product-summary__description--layout :global(.vtex-product-summary-2-x-nameContainer) {
+        height: 45px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .flexColChild--global__search-result--content:first-child {
+        height : auto !important;
+        display: initial;
+    }
+
+    .flexColChild--global__search-result--content:last-child {
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .flexRow--search-result__content--filters {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .flexCol--product-summary__description--layout {
+        padding: 0px 32px;
+    }
+}

@@ -1,0 +1,14 @@
+.logoLink--phone__header--logo {
+    width : auto;
+    height: 100%;
+}
+
+.logoContainer--phone__header--logo {
+    padding     : 0px;
+    padding-left: 4px;
+}
+
+.logoImage--phone__header--logo {
+    width     : 162px;
+    margin-top: 2px;
+}

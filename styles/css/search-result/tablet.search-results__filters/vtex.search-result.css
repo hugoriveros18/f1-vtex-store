@@ -1,0 +1,4 @@
+.showingProducts--search-result__items-counter {
+    padding      : 20px 0px;
+    border-bottom: 1px solid var(--secondary-background-color);
+}

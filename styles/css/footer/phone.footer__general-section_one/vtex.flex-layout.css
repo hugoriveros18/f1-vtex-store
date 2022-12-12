@@ -1,0 +1,18 @@
+.flexRow--phone__footer--section-one {
+    padding         : 1.875rem 0;
+    background-color: #f4f5f5;
+}
+
+@media screen and (max-width: 640px) {
+    .flexRowContent--sign-safe__social-media--layout {
+        justify-content: center;
+    }
+
+    .flexRow--layout__two--payment {
+        display: none;
+    }
+
+    .flexRow--sign-safe__social-media--layout {
+        margin-top: 36px;
+    }
+}

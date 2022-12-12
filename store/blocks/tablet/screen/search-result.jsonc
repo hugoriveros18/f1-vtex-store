@@ -1,0 +1,22 @@
+{
+    "responsive-layout.tablet#tablet__search-result": {
+        "title": "Search result Tablet",
+        "children": [
+            "flex-layout.row#global__search-result--breadcrumb",
+            "flex-layout.row#tablet__search-result",
+            "modal-trigger#global__add-to-cart-info"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#tablet__search-result": {
+        "title": "Search Result Tablet Layout",
+        "props": {
+            "blockClass": "tablet__search-result"
+        },
+        "children": [
+            "flex-layout.col#tablet__search-result--filters",
+            "flex-layout.col#global__search-result--content",
+            "flex-layout.col#tablet__search-result--items-counter"
+        ]
+    }
+}

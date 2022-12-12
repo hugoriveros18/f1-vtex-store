@@ -1,0 +1,94 @@
+.container,
+.buttonLink {
+    display        : flex;
+    justify-content: center;
+}
+
+.buttonLink {
+    padding: 0;
+}
+
+:global(.vtex-login-2-x-container):hover,
+:global(.vtex-login-2-x-container):active,
+:global(.vtex-login-2-x-container):not(:hover),
+:global(.vtex-login-2-x-container) :global(.vtex-button):focus,
+:global(.vtex-login-2-x-container) :global(.vtex-button):active,
+:global(.vtex-login-2-x-container) :global(.vtex-button):not(:hover),
+.profileIcon--phone__header--login,
+:global(.vtex-login-2-x-container):active :global(.vtex-login-2-x-container):hover,
+:global(.vtex-login-2-x-container):active :global(.vtex-login-2-x-container):active,
+:global(.vtex-login-2-x-container):active :global(.vtex-login-2-x-container):not(:hover) {
+    color: var(--font-color-white);
+}
+
+.buttonLink .vtex-button {
+    width: 100%;
+}
+
+.label,
+.profile {
+    font-family   : var(--primary-font-family);
+    font-size     : 12px;
+    line-height   : 18px;
+    color         : var(--font-color-lightblack);
+    text-transform: initial;
+    padding       : 0px 5px 0px 7px;
+    margin-top    : 2.1px;
+    letter-spacing: 0.25px;
+}
+
+.profile {
+    display: flex;
+}
+
+.label:hover,
+.profile:hover {
+    text-decoration: underline;
+}
+
+.profileIcon--phone__header--login {
+    width : 24px;
+    height: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .label {
+        letter-spacing: .20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile {
+        max-width: 98px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .profile {
+        max-width: 86px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .buttonLink {
+        width: 36px;
+    }
+
+}
+
+@media screen and (max-width: 639px) {
+    .container {
+        width: 36px;
+    }
+
+    .label,
+    .profile {
+        display: none;
+    }
+
+    .container {
+        margin-left : 0px;
+        margin-right: 2px;
+    }
+}

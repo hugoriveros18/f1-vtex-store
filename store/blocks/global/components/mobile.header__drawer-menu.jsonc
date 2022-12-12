@@ -1,0 +1,668 @@
+{
+    "drawer#mobile__header--menu": {
+        "title": "Mobile Menu",
+        "props": {
+            "blockClass": "mobile__header--menu"
+        },
+        "children": [
+            "drawer-close-button",
+            "flex-layout.row#mobile__menu--header",
+            "flex-layout.row#mobile__menu--back-button",
+            "mega-menu#mobile__menu--content",
+            "flex-layout.row#mobile__menu--footer"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "drawer-close-button": {
+        "title": "Drawer Close Button",
+        "props": {
+            "size": 36,
+            "blockClass": "drawer-close-button"
+        }
+    },
+    "flex-layout.row#mobile__menu--header": {
+        "title": "Mobile Menu Header",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true,
+            "blockClass": "mobile__menu--header"
+        },
+        "children": [
+            "logo#menu__header--logo"
+        ]
+    },
+    "flex-layout.row#mobile__menu--back-button": {
+        "title": "Mobile Menu Go Back Button",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "mobile__menu--back-button"
+        },
+        "children": [
+            "mega-menu-go-back-btn"
+        ]
+    },
+    "mega-menu#mobile__menu--content": {
+        "props": {
+            "orientation": "vertical",
+            "openOnly": "vertical"
+        }
+    },
+    "flex-layout.row#mobile__menu--footer": {
+        "title": "Mobile Menu Footer",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "mobile__menu--footer"
+        },
+        "children": [
+            "flex-layout.col#menu__footer--column-language",
+            "flex-layout.col#menu__footer--column-currency"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "logo#menu__header--logo": {
+        "title": "F1 Logo",
+        "props": {
+            "width": 130,
+            "url": "assets/img/header/f1-logo-mobile.svg",
+            "href": "/",
+            "blockClass": "menu__header--logo"
+        }
+    },
+    "flex-layout.col#menu__footer--column-language": {
+        "title": "Menu Footer Language Column",
+        "props": {
+            "horizontalAlign": "right",
+            "verticalAlign": "top",
+            "blockClass": [
+                "menu__footer--column",
+                "menu__footer--column-language"
+            ]
+        },
+        "children": [
+            "rich-text#footer__column-language--title",
+            "flex-layout.row#footer__column-language--content"
+        ]
+    },
+    "flex-layout.col#menu__footer--column-currency": {
+        "title": "Menu Footer Currency Column",
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "top",
+            "blockClass": [
+                "menu__footer--column",
+                "menu__footer--column-currency"
+            ]
+        },
+        "children": [
+            "rich-text#footer__column-currency--title",
+            "flex-layout.row#footer__column-currency--content"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "rich-text#footer__column-language--title": {
+        "title": "Language Title",
+        "props": {
+            "text": "Idioma:",
+            "blockClass": [
+                "footer__column--title",
+                "footer__column-language--title"
+            ]
+        }
+    },
+    "flex-layout.row#footer__column-language--content": {
+        "title": "Language Menu Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "footer__column-language--content"
+        },
+        "children": [
+            "image#column-language__content--flag",
+            "vtex.menu@2.x:menu#column-language__content--menu"
+        ]
+    },
+    "rich-text#footer__column-currency--title": {
+        "title": "Currency Title",
+        "props": {
+            "text": "Moneda:",
+            "blockClass": [
+                "footer__column--title",
+                "footer__column-currency--title"
+            ]
+        }
+    },
+    "flex-layout.row#footer__column-currency--content": {
+        "title": "Currency Menu Section",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "footer__column-currency--content"
+        },
+        "children": [
+            "image#column-currency__content--flag",
+            "vtex.menu@2.x:menu#column-currency__content--menu"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "image#column-language__content--flag": {
+        "title": "Spanish Language Flag",
+        "props": {
+            "src": "assets/img/header/spain-flag.svg",
+            "blockClass": [
+                "column__content--flag",
+                "column-language__content--flag"
+            ]
+        }
+    },
+    "vtex.menu@2.x:menu#column-language__content--menu": {
+        "title": "Language Menu",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "column-language__content--menu"
+        },
+        "children": [
+            "menu-item#mobile__language--item"
+        ]
+    },
+    "image#column-currency__content--flag": {
+        "title": "Englosh Language Flag",
+        "props": {
+            "src": "assets/img/header/united-states-flag.svg",
+            "blockClass": [
+                "column__content--flag",
+                "column-currency__content--flag"
+            ]
+        }
+    },
+    "vtex.menu@2.x:menu#column-currency__content--menu": {
+        "title": "Currency Menu",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "column-currency__content--menu"
+        },
+        "children": [
+            "menu-item#mobile__currency--item"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "menu-item#mobile__language--item": {
+        "title": "Language Menu Item",
+        "props": {
+            "id": "language",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "language",
+                "text": "es-ES"
+            },
+            "blockClass": [
+                "mobile__item--footer",
+                "mobile__language--item"
+            ]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#language__submenu-accordion"
+        ]
+    },
+    "menu-item#mobile__currency--item": {
+        "title": "Currency Menu Item",
+        "props": {
+            "id": "currency",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "currency",
+                "text": "USD US$"
+            },
+            "blockClass": [
+                "mobile__item--footer",
+                "mobile__currency--item"
+            ]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#currency__submenu-accordion"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "vtex.menu@2.x:submenu.accordion#language__submenu-accordion": {
+        "title": "Language Submenu Accordion",
+        "props": {
+            "blockClass": [
+                "mobile__submenu-accordion",
+                "language__submenu-accordion"
+            ]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#language__submenu-accordion--items"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#currency__submenu-accordion": {
+        "title": "Currency Submenu Accordion",
+        "props": {
+            "blockClass": [
+                "mobile__submenu-accordion",
+                "currency__submenu-accordion"
+            ]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#currency__submenu-accordion--items"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "vtex.menu@2.x:menu#language__submenu-accordion--items": {
+        "title": "Language Submenu Items",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "general__submenu-accordion--items",
+                "language__submenu-accordion--items"
+            ]
+        },
+        "children": [
+            "flex-layout.row#submenu-accordion__english--layout",
+            "flex-layout.row#submenu-accordion__german--layout",
+            "flex-layout.row#submenu-accordion__spanish--layout",
+            "flex-layout.row#submenu-accordion__french--layout",
+            "flex-layout.row#submenu-accordion__italian--layout",
+            "flex-layout.row#submenu-accordion__japanese--layout",
+            "flex-layout.row#submenu-accordion__mandarin--layout"
+        ]
+    },
+    "vtex.menu@2.x:menu#currency__submenu-accordion--items": {
+        "title": "Currency Submenu Items",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "general__submenu-accordion--items",
+                "currency__submenu-accordion--items"
+            ]
+        },
+        "children": [
+            "menu-item#submenu-accordion__aud",
+            "menu-item#submenu-accordion__cny",
+            "menu-item#submenu-accordion__eur",
+            "menu-item#submenu-accordion__gbp",
+            "menu-item#submenu-accordion__jpy",
+            "menu-item#submenu-accordion__usd"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#submenu-accordion__english--layout": {
+        "title": "English Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "submenu-accordion__english--layout"
+        },
+        "children": [
+            "image#submenu-accordion__english--flag",
+            "menu-item#submenu-accordion__english--item"
+        ]
+    },
+    "flex-layout.row#submenu-accordion__german--layout": {
+        "title": "German Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "submenu-accordion__german--layout"
+        },
+        "children": [
+            "image#submenu-accordion__german--flag",
+            "menu-item#submenu-accordion__german--item"
+        ]
+    },
+    "flex-layout.row#submenu-accordion__spanish--layout": {
+        "title": "Spanish Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "submenu-accordion__spanish--layout"
+        },
+        "children": [
+            "image#submenu-accordion__spanish--flag",
+            "menu-item#submenu-accordion__spanish--item"
+        ]
+    },
+    "flex-layout.row#submenu-accordion__french--layout": {
+        "title": "French Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "submenu-accordion__french--layout"
+        },
+        "children": [
+            "image#submenu-accordion__french--flag",
+            "menu-item#submenu-accordion__french--item"
+        ]
+    },
+    "flex-layout.row#submenu-accordion__italian--layout": {
+        "title": "Italian Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "submenu-accordion__italian--layout"
+        },
+        "children": [
+            "image#submenu-accordion__italian--flag",
+            "menu-item#submenu-accordion__italian--item"
+        ]
+    },
+    "flex-layout.row#submenu-accordion__japanese--layout": {
+        "title": "Japanese Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "submenu-accordion__japanese--layout"
+        },
+        "children": [
+            "image#submenu-accordion__japanese--flag",
+            "menu-item#submenu-accordion__japanese--item"
+        ]
+    },
+    "flex-layout.row#submenu-accordion__mandarin--layout": {
+        "title": "Mandarin Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "submenu-accordion__mandarin--layout"
+        },
+        "children": [
+            "image#submenu-accordion__mandarin--flag",
+            "menu-item#submenu-accordion__mandarin--item"
+        ]
+    },
+    "menu-item#submenu-accordion__aud": {
+        "title": "AUD",
+        "props": {
+            "id": "aud",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "aud",
+                "text": "AUD"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__aud"
+        ]
+        }
+    },
+    "menu-item#submenu-accordion__cny": {
+        "title": "CNY",
+        "props": {
+            "id": "cny",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "cny",
+                "text": "CNY"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__cny"
+        ]
+        }
+    },
+    "menu-item#submenu-accordion__eur": {
+        "title": "EUR",
+        "props": {
+            "id": "eur",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "eur",
+                "text": "EUR €"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__eur"
+        ]
+        }
+    },
+    "menu-item#submenu-accordion__gbp": {
+        "title": "GBP",
+        "props": {
+            "id": "gbp",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "gbp",
+                "text": "GBP"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__gbp"
+        ]
+        }
+    },
+    "menu-item#submenu-accordion__jpy": {
+        "title": "JPY",
+        "props": {
+            "id": "jpy",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "jpy",
+                "text": "JPY"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__jpy"
+        ]
+        }
+    },
+    "menu-item#submenu-accordion__usd": {
+        "title": "USD",
+        "props": {
+            "id": "usd",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "usd",
+                "text": "USD US$"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__usd"
+        ]
+        }
+    },
+    ///////////////////////////////////////////////
+    "image#submenu-accordion__english--flag": {
+        "title": "Unite States Flag",
+        "props": {
+            "src": "assets/img/header/united-kingdom-flag.svg",
+            "blockClass": [
+                "submenu-accordion__item--flag",
+                "submenu-accordion__english--flag"
+            ]
+        }
+    },
+    "menu-item#submenu-accordion__english--item": {
+        "title": "English",
+        "props": {
+            "id": "english",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "english",
+                "text": "English"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__english--item"
+            ]
+        }
+    },
+    "image#submenu-accordion__german--flag": {
+        "title": "Germany Flag",
+        "props": {
+            "src": "assets/img/header/germany-flag.svg",
+            "blockClass": [
+                "submenu-accordion__item--flag",
+                "submenu-accordion__german--flag"
+            ]
+        }
+    },
+    "menu-item#submenu-accordion__german--item": {
+        "title": "German",
+        "props": {
+            "id": "german",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "german",
+                "text": "Deutsch"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__german--item"
+            ]
+        }
+    },
+    "image#submenu-accordion__spanish--flag": {
+        "title": "Spain Flag",
+        "props": {
+            "src": "assets/img/header/spain-flag.svg",
+            "blockClass": [
+                "submenu-accordion__item--flag",
+                "submenu-accordion__spanish--flag"
+            ]
+        }
+    },
+    "menu-item#submenu-accordion__spanish--item": {
+        "title": "Spanish",
+        "props": {
+            "id": "spanish",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "spanish",
+                "text": "Español"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__spanish--item"
+            ]
+        }
+    },
+    "image#submenu-accordion__french--flag": {
+        "title": "France Flag",
+        "props": {
+            "src": "assets/img/header/france-flag.svg",
+            "blockClass": [
+                "submenu-accordion__item--flag",
+                "submenu-accordion__french--flag"
+            ]
+        }
+    },
+    "menu-item#submenu-accordion__french--item": {
+        "title": "French",
+        "props": {
+            "id": "french",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "french",
+                "text": "Français"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__french--item"
+            ]
+        }
+    },
+    "image#submenu-accordion__italian--flag": {
+        "title": "Italy Flag",
+        "props": {
+            "src": "assets/img/header/italy-flag.svg",
+            "blockClass": [
+                "submenu-accordion__item--flag",
+                "submenu-accordion__italian--flag"
+            ]
+        }
+    },
+    "menu-item#submenu-accordion__italian--item": {
+        "title": "Italian",
+        "props": {
+            "id": "italian",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "italian",
+                "text": "Italiano"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__italian--item"
+            ]
+        }
+    },
+    "image#submenu-accordion__japanese--flag": {
+        "title": "Japan Flag",
+        "props": {
+            "src": "assets/img/header/japan-flag.svg",
+            "blockClass": [
+                "submenu-accordion__item--flag",
+                "submenu-accordion__japanese--flag"
+            ]
+        }
+    },
+    "menu-item#submenu-accordion__japanese--item": {
+        "title": "Japanese",
+        "props": {
+            "id": "japanese",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "japanese",
+                "text": "日本語"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__japanese--item"
+            ]
+        }
+    },
+    "image#submenu-accordion__mandarin--flag": {
+        "title": "China Flag",
+        "props": {
+            "src": "assets/img/header/china-flag.svg",
+            "blockClass": [
+                "submenu-accordion__item--flag",
+                "submenu-accordion__mandarin--flag"
+            ]
+        }
+    },
+    "menu-item#submenu-accordion__mandarin--item": {
+        "title": "Mandarin",
+        "props": {
+            "id": "mandarin",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "mandarin",
+                "text": "中文"
+            },
+            "blockClass": [
+                "submenu-accordion__item",
+                "submenu-accordion__mandarin--item"
+            ]
+        }
+    }
+}

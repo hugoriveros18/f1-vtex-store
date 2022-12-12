@@ -1,0 +1,15 @@
+.paragraph--registroahorro__modal--title {
+    margin          : 0px;
+    padding         : 7px 19px;
+    font-family     : var(--primary-font-family);
+    font-size       : .875rem;
+    max-width       : 15.3125rem;
+    background-color: var(--main-button-color);
+    line-height     : 1.85;
+    color           : var(--font-color-white);
+    cursor          : pointer;
+}
+
+.paragraph--registroahorro__modal--title:hover {
+    background-color: var(--main-button-hover-color);
+}

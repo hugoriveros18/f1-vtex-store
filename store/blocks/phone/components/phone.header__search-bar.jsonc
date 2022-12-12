@@ -1,0 +1,101 @@
+{
+    "modal-trigger#phone__header--search-modal": {
+        "title": "Search Bar Modal",
+        "props": {
+            "blockClass": "phone__header--search-modal"
+        },
+        "children": [
+            "icon#phone__search-bar--icon",
+            "modal-layout#header__search-modal--layout"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "icon#phone__search-bar--icon": {
+        "title": "Search Bar Icon",
+        "props": {
+            "id": "search-loop-custom-icon",
+            "size": 26
+        }
+    },
+    "modal-layout#header__search-modal--layout": {
+        "title": "Search Bar Modal Layout",
+        "props": {
+            "blockClass": "header__search-modal--layout"
+        },
+        "children": [
+            "flex-layout.row#search-bar__layout"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#search-bar__layout": {
+        "title": "Search Bar Modal Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "search-bar__layout"
+        },
+        "children": [
+            "flex-layout.col#search-bar__layout--input",
+            "flex-layout.col#search-bar__layout--close"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.col#search-bar__layout--input": {
+        "title": "Search Bar Layout",
+        "props": {
+            "width": "grow",
+            "blockClass": "search-bar__layout--input"
+        },
+        "children": [
+            "search-bar#phone__search-bar"
+        ]
+    },
+    "flex-layout.col#search-bar__layout--close": {
+        "title": "Search Modal Close Button",
+        "props": {
+            "width": "30%",
+            "blockClass": "search-bar__layout--close"
+        },
+        "children": [
+            "modal-header#search-bar__layout--close-button",
+            "rich-text#search-bar__layout--close-text"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "search-bar#phone__search-bar": {
+        "blocks": [
+            "autocomplete-result-list.v2#phone__search-bar--autocomplete"
+        ],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "displayMode": "clear-button",
+            "blockClass": "phone__search--bar"
+        }
+    },
+    "modal-header#search-bar__layout--close-button": {
+        "title": "Modal Close Action",
+        "props": {
+            "showCloseButton": true,
+            "blockClass": "search-bar__layout--close-button"
+        }
+    },
+    "rich-text#search-bar__layout--close-text": {
+        "title": "Modal Close Text",
+        "props": {
+            "text": "cerrar",
+            "blockClass": "search-bar__layout--close-text"
+        }
+    },
+    ///////////////////////////////////////////////
+    "autocomplete-result-list.v2#phone__search-bar--autocomplete": {
+        "title": "Autocomplete Feature",
+        "blocks": [
+            "product-summary"
+        ],
+        "props": {
+            "hideTitles": true,
+            "autocompleteWidth": 85,
+            "blockClass": "header__search-bar--autocomplete"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "flex-layout.row#desktop-tablet__home--slider-layout": {
+        "title": "Home Slider Layout",
+        "props": {
+            "blockClass": "desktop-tablet__home--slider-layout"
+        },
+        "children": [
+            "slider-layout#desktop-tablet__home--slider"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "slider-layout#desktop-tablet__home--slider": {
+        "title": "Home slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always",
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            },
+            "fullWidth": true,
+            "arrowSize": 25,
+            "blockClass": "desktop-tablet__home--slider"
+        },
+        "children": [
+            "image#desktop-tablet__home--slider-constructors",
+            "image#desktop-tablet__home--slider-ricciardo"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "image#desktop-tablet__home--slider-constructors": {
+        "title": "All Constructors Champions Image",
+        "props": {
+            "src": "assets/img/home/all-constructors-champions-desktop.png",
+            "link": {
+                "url": "/madera"
+            },
+            "blockClass": "desktop-tablet__home--slider-image"
+        }
+    },
+    "image#desktop-tablet__home--slider-ricciardo": {
+        "title": "Ricciardo Gulf Collection Image",
+        "props": {
+            "src": "assets/img/home/dr-maclaren-gulf-collection-desktop.png",
+            "link": {
+                "url": "/sol"
+            },
+            "blockClass": "desktop-tablet__home--slider-image"
+        }
+    }
+}

@@ -1,7 +1,0 @@
-@media screen and (max-width: 1023px) {
-    .flexRowContent--home__section--one,
-    .flexRowContent--home__section--two,
-    .flexRowContent--home__section--three{
-        display: none;
-    }
-}

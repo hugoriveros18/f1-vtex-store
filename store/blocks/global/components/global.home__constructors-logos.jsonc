@@ -1,0 +1,192 @@
+{
+    "flex-layout.row#global__home--constructors": {
+        "title": "Home Constructors",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "global__home--constructors"
+        },
+        "children": [
+            "flex-layout.col#home__constructors--layout"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.col#home__constructors--layout": {
+        "title": "Constructors Layout",
+        "props": {
+            "blockClass": "home__constructors--layout"
+        },
+        "children": [
+            "rich-text#home__constructors--title",
+            "flex-layout.row#home__constructors--logos"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "rich-text#home__constructors--title": {
+        "title": "Constructors Title",
+        "props": {
+            "text": "Comprar por equipo",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "home__constructors--title" 
+        }
+    },
+    "flex-layout.row#home__constructors--logos": {
+        "title": "Constructors Logos",
+        "props": {
+            "colSizing": "auto",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true,
+            "blockClass": "home__constructors--logos"
+        },
+        "children": [
+            "image#constructors__logos-mercedes",
+            "image#constructors__logos-red-bull",
+            "image#constructors__logos-ferrari",
+            "image#constructors__logos-maclaren",
+            "image#constructors__logos-alfa-romeo",
+            "image#constructors__logos-aston-martin",
+            "image#constructors__logos-alpine",
+            "image#constructors__logos-alpha-tauri",
+            "image#constructors__logos-williams",
+            "image#constructors__logos-f1"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "image#constructors__logos-mercedes": {
+        "title": "Mercedes Logo",
+        "props": {
+            "src": "assets/img/home/icon-mercedes.svg",
+            "link": {
+                "url": "/madera"
+            },
+            "blockClass": [
+                "constructors__logos",
+                "constructors__logos-mercedes"
+            ]
+        }
+    },
+    "image#constructors__logos-red-bull": {
+        "title": "Red Bull Logo",
+        "props": {
+            "src": "assets/img/home/icon-red-bull.svg",
+            "link": {
+                "url": "/madera"
+            },
+            "blockClass": [
+                "constructors__logos"
+                ,"constructors__logos-red-bull"
+            ]
+        }
+    },
+    "image#constructors__logos-ferrari": {
+        "title": "Ferrari Logo",
+        "props": {
+            "src": "assets/img/home/icon-ferrari.svg",
+            "link": {
+                "url": "/madera"
+            },
+            "blockClass": [
+                "constructors__logos",
+                "constructors__logos-ferrari"
+            ]
+        }
+    },
+    "image#constructors__logos-maclaren": {
+        "title": "McLaren Logo",
+        "props": {
+            "src": "assets/img/home/icon-maclaren.svg",
+            "link": {
+                "url": "/madera"
+            },
+            "blockClass": [
+                "constructors__logos",
+                "constructors__logos-maclaren"
+            ]
+        }
+    },
+    "image#constructors__logos-alfa-romeo": {
+        "title": "Alfa Romeo Logo",
+        "props": {
+            "src": "assets/img/home/icon-alfa-romeo.svg",
+            "link": {
+                "url": "/madera"
+            },
+            "blockClass": [
+                "constructors__logos"
+                ,"constructors__logos-alfa-romeo"
+            ]
+        }
+    },
+    "image#constructors__logos-aston-martin": {
+        "title": "Aston Martin Logo",
+        "props": {
+            "src": "assets/img/home/icon-aston-martin.svg",
+            "link": {
+                "url": "/madera"
+            },
+            "blockClass": [
+                "constructors__logos"
+                ,"constructors__logos-aston-martin"
+            ]
+        }
+    },
+    "image#constructors__logos-alpine": {
+        "title": "Alpine Logo",
+        "props": {
+            "src": "assets/img/home/icon-alpine.svg",
+            "link": {
+                "url": "/madera"
+            },
+            "blockClass": [
+                "constructors__logos",
+                "constructors__logos-alpine"
+            ]
+        }
+    },
+    "image#constructors__logos-alpha-tauri": {
+        "title": "Alpha Tauri Logo",
+        "props": {
+            "src": "assets/img/home/icon-alpha-tauri.svg",
+            "link": {
+                "url": "/madera"
+            },
+            "blockClass": [
+                "constructors__logos"
+                ,"constructors__logos-alpha-tauri"
+            ]
+        }
+    },
+    "image#constructors__logos-williams": {
+        "title": "Williams Logo",
+        "props": {
+            "src": "assets/img/home/icon-williams.svg",
+            "link": {
+                "url": "/madera"
+            },
+            "blockClass": [
+                "constructors__logos",
+                "constructors__logos-williams"
+            ]
+        }
+    },
+    "image#constructors__logos-f1": {
+        "title": "F1 Logo",
+        "props": {
+            "src": "assets/img/home/icon-f1-logo.svg",
+            "link": {
+                "url": "/madera"
+            },
+            "blockClass": [
+                "constructors__logos",
+                "constructors__logos-f1"
+            ]
+        }
+    }
+}

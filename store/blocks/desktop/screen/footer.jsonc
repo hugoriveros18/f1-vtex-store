@@ -2,333 +2,380 @@
     "footer-layout.desktop": {
         "title": "Desktop Footer",
         "children": [
-            "flex-layout.row#desktop__footer--one",
-            "flex-layout.row#desktop__footer--two"
+            "flex-layout.row#desktop__footer--section-one",
+            "flex-layout.row#global__footer--section-two"
         ]
     },
 
 
     ///////////////////////////////////////////////
-    "flex-layout.row#desktop__footer--one": {
-        "title": "Footer Container Section One",
+    "flex-layout.row#desktop__footer--section-one": {
+        "title": "Footer Section One",
         "props": {
             "fullWidth": true,
-            "blockClass": "desktop__footer--one"
+            "blockClass": "desktop__footer--section-one"
         },
         "children": [
-            "flex-layout.col#footer__layout"
+            "flex-layout.col#footer__section-one--layout-external"
         ]
     },
 
 
     ///////////////////////////////////////////////
-    "flex-layout.col#footer__layout": {
-        "title": "Footer Layout",
+    "flex-layout.col#footer__section-one--layout-external": {
+        "title": "External Layout",
         "props": {
             "width": "100%",
-            "blockClass": "footer__layout"
+            "blockClass": "footer__section-one--layout"
         },
         "children": [
-            "flex-layout.row#layout__content"
+            "flex-layout.row#footer__section-one--layout-internal"
         ]
     },
 
 
     ///////////////////////////////////////////////
-    "flex-layout.row#layout__content": {
-        "title": "Footer Content",
+    "flex-layout.row#footer__section-one--layout-internal": {
+        "title": "Internal Layout",
         "props": {
             "fullWidth": true,
             "colSizing": "equal",
-            "blockClass": "layout__content"
+            "blockClass": "footer__section-one--layout-internal"
         },
         "children": [
-            "flex-layout.col#content__atencion-cliente",
-            "flex-layout.col#content__seguridad-online",
-            "flex-layout.col#content__informacion",
-            "flex-layout.col#content__resgistro-ahorro"
+            "flex-layout.col#footer__section-one--customer-service",
+            "flex-layout.col#footer__section-one--online-shopping",
+            "flex-layout.col#footer__section-one--information",
+            "flex-layout.col#footer__section-one--sign-safe"
         ]
     },
 
 
     ///////////////////////////////////////////////
-    "flex-layout.col#content__atencion-cliente": {
-        "title": "Footer Atencion al Cliente",
+    "flex-layout.col#footer__section-one--customer-service": {
+        "title": "Customer Service Column",
         "props": {
             "preventVerticalStretch": true,
-            "blockClass": "content__atencion-cliente"
+            "blockClass": "footer__section-one--customer-service"
         },
         "children": [
-            "rich-text#atencioncliente__title",
-            "vtex.menu@2.x:menu#atencioncliente__menu"
+            "rich-text#customer-service__title",
+            "vtex.menu@2.x:menu#customer-service__menu"
 
         ]
     },
-    "flex-layout.col#content__seguridad-online": {
-        "title": "Footer Seguridad Online",
+    "flex-layout.col#footer__section-one--online-shopping": {
+        "title": "Online Shopping Column",
         "props": {
             "preventVerticalStretch": true,
-            "blockClass": "content__seguridad-online"
+            "blockClass": "footer__section-one--online-shopping"
         },
         "children": [
-            "rich-text#seguridadonline__title",
-            "vtex.menu@2.x:menu#seguridadonline__menu"
+            "rich-text#online-shopping__title",
+            "vtex.menu@2.x:menu#online-shopping__menu"
         ]
     },
-    "flex-layout.col#content__informacion": {
-        "title": "Footer Informacion",
+    "flex-layout.col#footer__section-one--information": {
+        "title": "Information Column",
         "props": {
             "preventVerticalStretch": true,
-            "blockClass": "content__informacion"
+            "blockClass": "footer__section-one--information"
         },
         "children": [
-            "rich-text#informacion__title",
-            "vtex.menu@2.x:menu#informacion__menu"
+            "rich-text#information__title",
+            "vtex.menu@2.x:menu#information__menu"
         ]
     },
-    "flex-layout.col#content__resgistro-ahorro": {
-        "title": "Footer Registro y ahorro",
+    "flex-layout.col#footer__section-one--sign-safe": {
+        "title": "Sign and Safe Column",
         "props": {
             "preventVerticalStretch": true,
-            "blockClass": "content__resgistro-ahorro"
+            "blockClass": "footer__section-one--sign-safe"
         },
         "children": [
-            "rich-text#registroahorro__description",
+            "rich-text#sign-safe__text",
             "modal-trigger#registroahorro__modal",
-            "rich-text#registroahorro__social",
-            "flex-layout.row#registroahorro__social--media"
+            "rich-text#sign-safe__social-media--title",
+            "flex-layout.row#sign-safe__social-media--layout"
         ]
     },
 
 
     ///////////////////////////////////////////////
-    "rich-text#atencioncliente__title": {
-        "title": "Atencion al Cliente Title",
+    "rich-text#customer-service__title": {
+        "title": "Customer Service Title",
         "props": {
             "text": "Atención al cliente",
-            "blockClass": "atencioncliente__title"
+            "blockClass": [
+                "section-one__menu--title",
+                "customer-service__title"
+            ]
         }
     },
-    "vtex.menu@2.x:menu#atencioncliente__menu": {
-        "title": "Atencion al Cliente Menu",
+    "vtex.menu@2.x:menu#customer-service__menu": {
+        "title": "Customer Service Menu",
         "props": {
             "orientation": "vertical",
-            "blockClass": "atencioncliente__menu"
+            "blockClass": "customer-service__menu"
         },
         "children": [
-            "menu-item#atencioncliente__menu--ayuda",
-            "menu-item#atencioncliente__menu--localizador",
-            "menu-item#atencioncliente__menu--guia"
+            "menu-item#customer-service__menu--help",
+            "menu-item#customer-service__menu--track-order",
+            "menu-item#customer-service__menu--size-chart"
         ]
     },
-    "rich-text#seguridadonline__title": {
-        "title": "Seguridad Online Title",
+    "rich-text#online-shopping__title": {
+        "title": "Online Shopping Title",
         "props": {
             "text": "Seguridad Online",
-            "blockClass": "seguridadonline__title"
+            "blockClass": [
+                "section-one__menu--title",
+                "online-shopping__title"
+            ]
         }
     },
-    "vtex.menu@2.x:menu#seguridadonline__menu": {
-        "title": "Seguridad Online Menu",
+    "vtex.menu@2.x:menu#online-shopping__menu": {
+        "title": "Online Shopping Menu",
         "props": {
             "orientation": "vertical",
-            "blockClass": "seguridadonline__menu"
+            "blockClass": "online-shopping__menu"
         },
         "children": [
-            "menu-item#seguridadonline__menu--compra",
-            "menu-item#seguridadonline__menu--envio",
-            "menu-item#seguridadonline__menu--plazo"
+            "menu-item#online-shopping__menu--safe-shopping",
+            "menu-item#online-shopping__menu--delivery",
+            "menu-item#online-shopping__menu--returns"
         ]
     },
-    "rich-text#informacion__title": {
-        "title": "Informacion Title",
+    "rich-text#information__title": {
+        "title": "Information Title",
         "props": {
             "text": "Información",
-            "blockClass": "informacion__title"
+            "blockClass": [
+                "section-one__menu--title",
+                "information__title"
+            ]
         }
     },
-    "vtex.menu@2.x:menu#informacion__menu": {
-        "title": "Informacion Menu",
+    "vtex.menu@2.x:menu#information__menu": {
+        "title": "Information Menu",
         "props": {
             "orientation": "vertical",
-            "blockClass": "informacion__menu"
+            "blockClass": "information__menu"
         },
         "children": [
-            "menu-item#informacion__menu--cuenta",
-            "menu-item#informacion__menu--nosotros"
+            "menu-item#information__menu--my-account",
+            "menu-item#information__menu--about-us"
         ]
     },
-    "rich-text#registroahorro__description": {
-        "title": "Registro y Ahorro Description",
+    "rich-text#sign-safe__text": {
+        "title": "Sign and Safe Text",
         "props": {
             "text": "Mantente informado acerca de ofertas, nuevos productos y más",
-            "blockClass": "registroahorro__description"
+            "blockClass": "sign-safe__text"
         }
     },
-    "rich-text#registroahorro__social": {
-        "title": "Social Media Footer Title",
+    "rich-text#sign-safe__social-media--title": {
+        "title": "Social Media Title",
         "props": {
             "text": "Conecta con nosotros",
-            "blockClass": "registroahorro__social"
+            "blockClass": "sign-safe__social-media--title"
         }
     },
-    "flex-layout.row#registroahorro__social--media": {
-        "title": "Footer Content",
+    "flex-layout.row#sign-safe__social-media--layout": {
+        "title": "Social Media Layout",
         "props": {
             "fullWidth": true,
             "colSizing": "auto",
             "preventHorizontalStretch": true,
             "preserveLayoutOnMobile": true,
-            "blockClass": "registroahorro__social--media"
+            "blockClass": "sign-safe__social-media--layout"
         },
         "children": [
-            "link#media__twitter",
-            "link#media__instagram"
+            "link#social-media__twitter-link",
+            "link#social-media__instagram-link"
         ]
     },
 
 
     ///////////////////////////////////////////////
-    "menu-item#atencioncliente__menu--ayuda": {
+    "menu-item#customer-service__menu--help": {
+        "title": "Help",
         "props": {
-            "id": "footer-ayuda",
+            "id": "help",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
                 "href": "/ayuda",
-                "tagTitle": "Ayuda",
+                "tagTitle": "help",
                 "text": "Ayuda"
             },
-            "blockClass": "atencioncliente__menu--ayuda"
+            "blockClass": [
+                "footer__section-one--menu-general",
+                "customer-service__menu--help"
+            ]
         }
     },
-    "menu-item#atencioncliente__menu--localizador": {
+    "menu-item#customer-service__menu--track-order": {
+        "title": "Track Order",
         "props": {
-            "id": "footer-localizador",
+            "id": "track-order",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
-                "tagTitle": "Localizador de envios",
+                "href": "/ayuda",
+                "tagTitle": "track-order",
                 "text": "Localizador de envíos"
             },
-            "blockClass": "atencioncliente__menu--localizador"
+            "blockClass": [
+                "footer__section-one--menu-general",
+                "customer-service__menu--track-order"
+            ]
         }
     },
-    "menu-item#atencioncliente__menu--guia": {
+    "menu-item#customer-service__menu--size-chart": {
+        "title": "Size Chart",
         "props": {
-            "id": "footer-guia",
+            "id": "size-chart",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
-                "tagTitle": "Guia de tallas",
+                "href": "/ayuda",
+                "tagTitle": "size-chart",
                 "text": "Guía de tallas"
             },
-            "blockClass": "atencioncliente__menu--guia"
+            "blockClass": [
+                "footer__section-one--menu-general",
+                "customer-service__menu--size-chart"
+            ]
         }
     },
-    "menu-item#seguridadonline__menu--compra": {
+    "menu-item#online-shopping__menu--safe-shopping": {
+        "title": "Safe Shopping",
         "props": {
-            "id": "footer-compra",
+            "id": "safe-shopping",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
-                "tagTitle": "Compra segura",
+                "href": "/ayuda",
+                "tagTitle": "safe-shopping",
                 "text": "Compra segura"
             },
-            "blockClass": "seguridadonline__menu--compra"
+            "blockClass": [
+                "footer__section-one--menu-general",
+                "online-shopping__menu--safe-shopping"
+            ]
         }
     },
-    "menu-item#seguridadonline__menu--envio": {
+    "menu-item#online-shopping__menu--delivery": {
+        "title": "Delivery and Shipping",
         "props": {
-            "id": "footer-envio",
+            "id": "delivery-and-shipping",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
-                "tagTitle": "Envio y entrega",
+                "href": "/ayuda",
+                "tagTitle": "delivery-and-shipping",
                 "text": "Envío y entrega"
             },
-            "blockClass": "seguridadonline__menu--envio"
+            "blockClass": [
+                "footer__section-one--menu-general",
+                "online-shopping__menu--delivery"
+            ]
         }
     },
-    "menu-item#seguridadonline__menu--plazo": {
+    "menu-item#online-shopping__menu--returns": {
+        "title": "90 Day Returns",
         "props": {
-            "id": "footer-devolucion",
+            "id": "returns",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
-                "tagTitle": "Plazo de devolucion",
+                "href": "/ayuda",
+                "tagTitle": "returns",
                 "text": "Plazo de devolución de 90 días"
             },
-            "blockClass": "seguridadonline__menu--plazo"
+            "blockClass": [
+                "footer__section-one--menu-general",
+                "online-shopping__menu--returns"
+            ]
         }
     },
-    "menu-item#informacion__menu--cuenta": {
+    "menu-item#information__menu--my-account": {
+        "title": "My Account",
         "props": {
-            "id": "footer-cuenta",
+            "id": "my-account",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
-                "tagTitle": "Mi cuenta",
+                "href": "/ayuda",
+                "tagTitle": "my-account",
                 "text": "Mi cuenta"
             },
-            "blockClass": "informacion__menu--cuenta"
+            "blockClass": [
+                "footer__section-one--menu-general",
+                "information__menu--my-account"
+            ]
         }
     },
-    "menu-item#informacion__menu--nosotros": {
+    "menu-item#information__menu--about-us": {
+        "title": "About Us",
         "props": {
-            "id": "footer-nosotros",
+            "id": "about-us",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "#",
-                "tagTitle": "Sobre nosotros",
+                "href": "/ayuda",
+                "tagTitle": "about-us",
                 "text": "Sobre nosotros"
             },
-            "blockClass": "informacion__menu--nosotros"
+            "blockClass": [
+                "footer__section-one--menu-general",
+                "information__menu--about-us"
+            ]
         }
     },
-    "link#media__instagram": {
+    "link#social-media__instagram-link": {
         "title": "Instagram Icon Container",
         "props": {
             "rel": "external",
             "target": "_blank",
             "href": "https://www.instagram.com/f1/",
-            "blockClass": "media__instagram"
+            "blockClass": [
+                "social-media__general-link",
+                "social-media__instagram-link"
+            ]
         },
         "children": [
-            "icon#media__instagram"
+            "icon#social-media__instagram-icon"
         ]
     },
-    "link#media__twitter": {
+    "link#social-media__twitter-link": {
         "title": "Twitter Icon Container",
         "props": {
             "rel": "external",
             "target": "_blank",
             "href": "https://twitter.com/f1",
-            "blockClass": "media__twitter"
+            "blockClass": [
+                "social-media__general-link",
+                "social-media__twitter-link"
+            ]
         },
         "children": [
-            "icon#media__twitter" 
+            "icon#social-media__twitter-icon" 
         ]
     },
 
 
     ///////////////////////////////////////////////
-    "icon#media__instagram": {
+    "icon#social-media__instagram-icon": {
         "title": "Instagram Icon",
         "props": {
             "id": "instagram-custom-icon",
             "size": 30
         }
     },
-    "icon#media__twitter": {
-        "title": "Instagram Icon",
+    "icon#social-media__twitter-icon": {
+        "title": "Twitter Icon",
         "props": {
             "id": "twitter-custom-icon",
             "size": 30

@@ -1,0 +1,18 @@
+.imageElement--constructors__logos {
+    max-width    : 3.25rem;
+    max-height   : 3.25rem;
+    min-width    : 3.25rem;
+    margin-bottom: 1.875rem;
+    margin-right : 0.9375rem;
+    margin-left  : 0.9375rem;
+    cursor       : pointer;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .imageElement--constructors__logos {
+        max-width : 60px;
+        max-height: 60px;
+        min-width : 60px;
+    }
+}

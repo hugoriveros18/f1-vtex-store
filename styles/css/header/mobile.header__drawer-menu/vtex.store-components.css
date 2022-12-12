@@ -1,0 +1,26 @@
+.logoImage--menu__header--logo {
+    margin      : 18px 15px 15px 15px;
+    padding-left: 10px;
+    height      : 27px;
+}
+
+.logoContainer--menu__header--logo {
+    padding: 0px;
+}
+
+.logoLink--menu__header--logo {
+    background-color: #f5f6f8;
+    border-bottom   : 1px solid #d5d5d5;
+}
+
+.imageElement--column__content--flag {
+    max-width: none;
+    width    : 33px;
+    height   : 33px;
+}
+
+.imageElement--submenu-accordion__item--flag {
+    max-width: none;
+    width    : 20px;
+    height   : 20px;
+}

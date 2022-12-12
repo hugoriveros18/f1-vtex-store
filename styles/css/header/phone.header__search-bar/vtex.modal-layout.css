@@ -1,0 +1,34 @@
+.triggerContainer--phone__header--search-modal {
+    margin-right: 13px;
+}
+
+.container--header__search-modal--layout {
+    align-items: flex-start;
+    margin-top : 64px;
+}
+
+.backdrop--header__search-modal--layout {
+    opacity: 0;
+}
+
+.modal--header__search-modal--layout :global(.vtex-modal-layout-0-x-paperScrollContent) {
+    margin       : 0;
+    width        : 100%;
+    border-radius: 0px;
+}
+
+.modal--header__search-modal--layout :global(.vtex-store-components-3-x-searchBarContainer) {
+    max-width: none;
+    padding  : 0px;
+}
+
+.closeButtonContainer--search-bar__layout--close-button {
+    position: absolute;
+    z-index : 10;
+    opacity : 0;
+}
+
+.headerContainer--search-bar__layout--close-button {
+    height: 0px;
+    border: none;
+}

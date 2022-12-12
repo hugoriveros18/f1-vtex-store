@@ -1,0 +1,17 @@
+.imageElement--section-one__general--icon {
+    width       : 30px;
+    height      : 30px;
+    margin-right: 12px;
+}
+
+.imageElement--help__section-two--contact-image {
+    width : 88px;
+    height: 88px;
+}
+
+@media screen and (min-width: 640px) {
+    .imageElement--section-one__general--icon {
+        width : 60px;
+        height: 48px;
+    }
+}

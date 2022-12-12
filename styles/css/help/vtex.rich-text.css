@@ -1,0 +1,20 @@
+.paragraph--section-one__general--title,
+.paragraph--help__section-two--contact-text {
+    font-family: var(--primary-font-family);
+    font-size  : .9375rem;
+    color      : var(--font-color-semiblack);
+}
+
+.paragraph--section-one__general--title {
+    margin     : 10px 0px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.paragraph--help__section-two--contact-text {
+    margin       : 0px;
+    margin-bottom: 20px;
+    font-weight  : 400;
+    line-height  : 1.5;
+    text-align   : center;
+}

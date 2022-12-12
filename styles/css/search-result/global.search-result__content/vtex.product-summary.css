@@ -1,0 +1,20 @@
+.imageWrapper--product-summary__image--layout {
+    padding      : 0px;
+    padding-right: 10px;
+}
+
+.brandName--product-summary__details--name {
+    font-family: var(--primary-font-family);
+    font-size  : 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color      : var(--font-color-lightblack);
+}
+
+.brandName--product-summary__details--name::first-letter {
+    text-transform: capitalize;
+}
+
+.nameContainer--product-summary__details--name {
+    margin-top: 5px;
+}

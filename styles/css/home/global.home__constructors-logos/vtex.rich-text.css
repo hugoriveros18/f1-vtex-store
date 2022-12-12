@@ -1,0 +1,9 @@
+.paragraph--home__constructors--title {
+    font-family  : var(--primary-font-family);
+    font-size    : 1.375rem;
+    font-weight  : 600;
+    color        : var(--font-color-semiblack);
+    line-height  : 1.5;
+    margin       : 0px;
+    margin-bottom: 1.25rem;
+}

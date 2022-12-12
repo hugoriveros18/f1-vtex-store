@@ -1,0 +1,25 @@
+.paragraph--global__quick--view-trigger {
+    margin         : 10px 0px 20px;
+    font-family    : var(--primary-font-family);
+    font-size      : .8rem;
+    font-weight    : 600;
+    text-decoration: underline;
+}
+
+.container--global__quick--view-trigger {
+    justify-content: center;
+}
+
+.wrapper--search-result__not-found--text {
+    width: 100%;
+}
+
+.paragraph--search-result__not-found--text {
+    padding    : 16px;
+    margin     : 16px 0px;
+    font-size  : 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: var(--primary-font-family);
+    color      : var(--font-color-semiblack);
+}

@@ -1,0 +1,12 @@
+:global(.vtex-store__template) {
+    --main-button-color: #e10600;
+    --main-button-hover-color: #C70500;
+    --primary-font-family: 'Open Sans';
+    --secondary-font-family: 'Blender Pro';
+    --font-color-white: #fff;
+    --font-color-black: #000;
+    --font-color-semiblack: #242424;
+    --font-color-lightblack: #1b1b1b;
+    --main-price-color: #d52a1a;
+    --secondary-background-color: #d5d5d5;
+}

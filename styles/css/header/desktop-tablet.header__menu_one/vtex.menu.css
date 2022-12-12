@@ -1,0 +1,86 @@
+.menuItem--header__menu-one--item {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.styledLinkIcon--header__menu-one--language,
+.styledLinkIcon--header__menu-one--currency {
+    margin     : 0px;
+    margin-left: 4px;
+}
+
+.styledLinkContainer--header__menu-one--item {
+    margin : 0;
+    padding: 0;
+}
+
+.styledLinkContent--header__menu-one--item,
+.styledLinkContent--menu-one__submenu--items--general {
+    font-family: var(--primary-font-family);
+    font-size  : 0.75rem;
+}
+
+.styledLinkContent--header__menu-one--item {
+    justify-content: center;
+    line-height   : 18px;
+    color         : var(--font-color-lightblack);
+    letter-spacing: 0.25px;
+}
+
+.styledLinkContent--menu-one__submenu--items--general {
+    font-weight: 400;
+    line-height: 1.5;
+    color      : var(--font-color-black);
+}
+
+.styledLinkContent--header__menu-one--item:hover {
+    text-decoration: underline;
+}
+
+.menuItem--mi-cuenta-item {
+    width      : 69px;
+    margin-left: 10px;
+}
+
+.submenuWrapper--header__menu-one--item--submenu {
+    padding   : 0px;
+    left      : -69px;
+    top       : 8px;
+    z-index   : 9999;
+    box-shadow: 0 0.1875rem 0.6875rem #686868;
+}
+
+.menuItem--menu-one__submenu--items--general {
+    padding: 10px 15px;
+}
+
+.menuItem--menu-one__submenu--items--general:hover {
+    background-color: rgba(104, 104, 104, .2);
+    cursor: pointer;
+}
+
+.styledLinkContainer--menu-one__submenu--items--general {
+    justify-content: flex-start;
+}
+
+.menuContainer--desktop-tablet__header--menu-one {
+    gap: 10px;
+}
+
+@media screen and (max-width: 778px) {
+    .styledLinkContent--header__menu-one--item {
+        letter-spacing: .25px;
+        margin-bottom : 1px;
+        flex-direction: column;
+        align-items   : center;
+    }
+}
+@media screen and (max-width: 730px) {
+    .styledLinkContent--header__menu-one--shipping-locator {
+        max-width: 100px;
+        justify-content: center;
+        white-space: break-spaces;
+        text-align: center;
+    }
+}

@@ -1,49 +1,49 @@
 {
     ///////////////////////////////////////////////
     "responsive-layout.phone": {
-        "title": "Header Phone",
+        "title": "Phone Header",
         "children": [
-            "header-row#header__top-section-phone",
-            "header-row#header__middle-section-phone",
+            "header-row#phone__header--section-one",
+            "header-row#phone__header--section-two",
             "quick-order",
-            "sticky-layout.stack-container#phone__header--sticky"
+            "sticky-layout.stack-container#phone__header--section-four"
         ]
     },
     ///////////////////////////////////////////////
-    "header-row#header__top-section-phone": {
-        "title": "Header Top Row Phone",
+    "header-row#phone__header--section-one": {
+        "title": "Header Section One",
         "props": {
-            "blockClass": "header__top-phone-menu"
+            "blockClass": "phone__header--section-one"
         },
         "children": [
-            "drawer#header__top-menu-mobile",
-            "logo#header__top-logo",
+            "drawer#mobile__header--menu",
+            "logo#phone__header--logo",
             "header-spacer",
-            "modal-trigger#phone__search--modal",
-            "login#header__mobile",
-            "minicart.v2#phone__minicart"
+            "modal-trigger#phone__header--search-modal",
+            "login#phone__header--login",
+            "minicart.v2#phone__header--minicart"
         ]
     },
-    "header-row#header__middle-section-phone": {
-        "title": "Header Middle Row Phone",
+    "header-row#phone__header--section-two": {
+        "title": "Header Section Two",
         "props": {
-            "blockClass": "header__middle-phone-menu"
+            "blockClass": "phone__header--section-two"
         },
         "children": [
-            "modal-trigger#header__top-registro-ahorro"
+            "modal-trigger#header__registration-modal--trigger"
         ]
     },
     ///////////////////////////////////////////////
-    "logo#header__top-logo": {
-        "title": "Logo Top Section Phone",
+    "logo#phone__header--logo": {
+        "title": "F1 Logo",
         "props": {
             "url": "assets/img/header/f1-logo.svg",
             "href": "/",
-            "blockClass": "header__top-phone-logo"
+            "blockClass": "phone__header--logo"
         }
     },
-    "login#header__mobile": {
-        "title": "Phone Login",
+    "login#phone__header--login": {
+        "title": "Login",
         "props": {
             "emailAndPasswordTitle": "LOG-IN",
             "accessCodeTitle": "Acess Code LOG-IN",
@@ -52,7 +52,7 @@
             "showPasswordVerificationIntoTooltip": true,
             "showIconProfile": true,
             "logInButtonBehavior": "link",
-            "blockClass": "header__top-section-login-phone"
+            "blockClass": "phone__header--login"
         }
     }
 }

@@ -1,0 +1,42 @@
+.styledLinkContainer--mobile__item--footer {
+    justify-content: flex-start;
+    padding-left   : 5px;
+}
+
+.styledLinkContent--mobile__item--footer {
+    font-family: 'Open Sans';
+    font-size  : 1rem;
+    color      : #3863a3;
+    font-weight: 700;
+}
+
+.menuItem--mobile__item--footer {
+    padding-top: 6px;
+}
+
+.accordionIcon--mobile__item--footer {
+    color: var(--font-color-black);
+}
+
+.submenuAccordion--mobile__submenu-accordion {
+    margin-top: 20px;
+    padding   : 0px;
+}
+
+.menuContainer--menu-one__item-submenu--items {
+    gap: 5px;
+}
+
+.styledLinkContent--submenu-accordion__item {
+    font-family: 'Open Sans';
+    font-size  : 0.75rem;
+    margin-left: 5px;
+}
+
+.styledLinkContainer--submenu-accordion__item {
+    justify-content: flex-start;
+}
+
+.menuContainer--general__submenu-accordion--items {
+    gap: 5px;
+}

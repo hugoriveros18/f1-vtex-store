@@ -1,0 +1,37 @@
+.paragraph--section-one__menu--title,
+.paragraph--sign-safe__text,
+.paragraph--sign-safe__social-media--title {
+    font-family: var(--primary-font-family);
+    color      : var(--font-color-semiblack);
+}
+
+
+.paragraph--section-one__menu--title {
+    margin     : 0px;
+    padding    : 0.3125rem 0;
+    font-size  : .875rem;
+    font-weight: 600;
+    line-height: 1.85;
+}
+
+.paragraph--sign-safe__text {
+    font-size    : .75rem;
+    line-height  : 1.85;
+    margin       : 0px;
+    margin-bottom: 0.625rem;
+}
+
+.paragraph--sign-safe__social-media--title {
+    margin     : 0px;
+    margin-top : 1.25rem;
+    font-size  : .875rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 1024px) {
+    .paragraph--sign-safe__social-media--title {
+        margin-top : 0px;
+        margin-bottom: 4px;
+    }
+} 

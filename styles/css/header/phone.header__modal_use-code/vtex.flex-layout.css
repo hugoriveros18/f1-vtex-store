@@ -1,0 +1,27 @@
+.flexRowContent--modal__promotion-layout {
+    max-height: 58px;
+}
+
+.flexColChild--modal__promotion-layout--column-one {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.flexColChild--modal__promotion-layout--column-one {
+    background-color: var(--main-button-color);
+}
+
+.flexRow--promotion-layout__content--title {
+    background-color: #000;
+}
+
+.flexRowContent--promotion-layout__content--title {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.flexRowContent--promotion-layout__content--title {
+    position: relative;
+}

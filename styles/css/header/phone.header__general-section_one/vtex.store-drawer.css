@@ -1,0 +1,21 @@
+.openIconContainer--mobile__header--menu {
+    margin : 3.5px 13px 5px 5px;
+    padding: 1.5px;
+}
+
+.menuIcon--mobile__header--menu {
+    width : 1.5rem;
+    height: 1.5rem;
+}
+
+@media screen and (max-width: 639px) {
+    .menuIcon--mobile__header--menu {
+        color: var(--font-color-white);
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .openIconContainer--mobile__header--menu {
+        display: none;
+    }
+}
