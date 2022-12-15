@@ -1,0 +1,8 @@
+.caretIcon--search-result__breadcrumb {
+    display: none;
+}
+
+.arrow--search-result__breadcrumb--2::before {
+    content: "/";
+    margin-right: 5px;
+}

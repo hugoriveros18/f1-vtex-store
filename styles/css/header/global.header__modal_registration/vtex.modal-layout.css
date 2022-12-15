@@ -1,0 +1,38 @@
+.backdrop--registration-modal__layout {
+    background-color: #000;
+}
+.paper--registration-modal__layout {
+    margin: 0px;
+    max-height: 100vh;
+    border-radius: 0.9375rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.paper--registration-modal__layout::-webkit-scrollbar {
+    width: 1px;
+}
+
+.headerContainer--registation-modal__close-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 43px;
+    width: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-bottom-left-radius: 0.9375rem;
+    box-shadow: 0 0.1875rem 0.6875rem #686868;
+}
+
+.closeButton--registation-modal__close-button {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+    .paper--registration-modal__layout {
+        height: -webkit-fill-available;
+    }
+}
