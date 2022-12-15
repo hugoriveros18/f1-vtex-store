@@ -47,7 +47,7 @@
         "props": {
             "src": "assets/img/home/all-constructors-champions-phone.png",
             "link": {
-                "url": "/madera"
+                "url": "madera?_q=madera&map=ft"
             },
             "blockClass": "phone__home--slider-image"
         }

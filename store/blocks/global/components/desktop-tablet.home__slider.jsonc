@@ -10,7 +10,7 @@
     },
     ///////////////////////////////////////////////
     "slider-layout#desktop-tablet__home--slider": {
-        "title": "Home slider",
+        "title": "Home Slider",
         "props": {
             "itemsPerPage": {
                 "desktop": 1,
@@ -38,7 +38,7 @@
         "props": {
             "src": "assets/img/home/all-constructors-champions-desktop.png",
             "link": {
-                "url": "/madera"
+                "url": "madera?_q=madera&map=ft"
             },
             "blockClass": "desktop-tablet__home--slider-image"
         }
