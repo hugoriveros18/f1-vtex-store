@@ -1,8 +1,6 @@
-.styledLinkContent--header__menu-two--category,
 .styledLink--submenu__drivers--item-general,
 .styledLink--submenu__gifts-accessories--item-general,
-.styledLink--items__layout--collectables,
-.styledLinkContent--header__menu-two--category {
+.styledLink--items__layout--collectables {
     font-family: var(--primary-font-family);
     font-size  : 13px;
     font-weight: 400;
@@ -11,12 +9,17 @@
 }
 
 .styledLinkContent--header__menu-two--category {
+    font-family: 'Open Sans';
     justify-content: center;
     font-size      : 12px;
     color          : #1b1b1b;
     font-weight    : 600;
-    line-height    : 35px;
-    letter-spacing : 0.85px;
+    line-height: 2.1875rem;
+    letter-spacing : 0.45px;
+}
+
+.styledLink--category__team-submenu--item {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .styledLink--submenu__drivers--item-general,

@@ -11,7 +11,7 @@
 .flexRowContent--global__login--content :global(.vtex-login-2-x-content--recoveryPassword) :global(.vtex-button__label)::after,
 :global(.vtex-login-2-x-account--desktop-tablet__header--login),
 :global(.vtex-login-2-x-logoutButton) {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flexRowContent--global__login--content :global(.vtex-login-2-x-formTitle) {

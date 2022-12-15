@@ -4,7 +4,7 @@
 }
 
 .styledLinkContent--mobile__item--footer {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size  : 1rem;
     color      : #3863a3;
     font-weight: 700;
@@ -28,7 +28,7 @@
 }
 
 .styledLinkContent--submenu-accordion__item {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size  : 0.75rem;
     margin-left: 5px;
 }

@@ -2,7 +2,6 @@
     "store.product": {
         "title": "Product Detail Page",
         "children": [
-            // "cart-total-price",
             "flex-layout.row#global__pdp--breadcrumb",
             "flex-layout.row#global__pdp--product-information",
             "flex-layout.row#global__pdp--products-tabs",
@@ -193,6 +192,13 @@
         "children": [
             "disclosure-layout#data__description--dropdown"
         ]
+    },
+    "add-to-cart-info": {
+        "title": "Add To Cart Info",
+        "props": {
+            "diplayCheckoutButton": true,
+            "diplayShoppingButton": true
+        }
     },
     ///////////////////////////////////////////////
     "image#data__product-brand--image": {

@@ -31,13 +31,6 @@
         ]
     },
     ///////////////////////////////////////////////
-    "custom-countdown": {
-        "title": "Countdown",
-        "props": {
-            "targetDate": "2022-12-13",
-            "message": "DEAL ENDS SOON!"
-        }
-    },
     "modal-trigger#promotion-code__modal--trigger": {
         "title": "Promotion Modal Trigger",
         "props": {

@@ -1,4 +1,4 @@
-.paragraph--header__top-section-boton-resgistro {
+.paragraph--registration-modal__trigger--text {
     margin          : 0;
     padding         : 0.375rem 0.75rem;
     background-color: var(--main-button-color);
@@ -16,20 +16,76 @@
     text-align: center;
 }
 
-.paragraph--header__top-section-boton-resgistro:hover {
+.paragraph--registration-modal__trigger--text:hover {
     background-color: var(--main-button-hover-color);
     box-shadow      : none;
 }
+.wrapper--registation-modal__title,
+.wrapper--registation-modal__validation,
+.wrapper--form__success-response--text-title {
+    width: 100%;
+}
 
+.paragraph--registation-modal__title,
+.paragraph--registation-modal__description,
+.paragraph--registation-modal__validation,
+.paragraph--form__success-response--text-title,
+.paragraph--form__success-response--text-description {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    color: #242424;
+}
+
+.paragraph--registation-modal__title,
+.paragraph--form__success-response--text-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.paragraph--registation-modal__description {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.paragraph--registation-modal__validation {
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+.container--registration-modal__form--newsletter {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.paragraph--registration-modal__form--newsletter {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #242424;
+}
+
+.paragraph--form__success-response--text-title {
+    margin: 26.5px 0px;
+}
+
+.paragraph--form__success-response--text-description {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 @media screen and (max-width: 685px) {
-    .paragraph--header__top-section-boton-resgistro {
+    .paragraph--registration-modal__trigger--text {
         padding         : 0.375rem 0.55rem;
     }
 }
 
 @media screen and (max-width: 639px) {
-    .paragraph--header__top-section-boton-resgistro {
+    .paragraph--registration-modal__trigger--text {
         width           : 100%;
         height          : 32px;
         padding         : 4px 0px;
@@ -37,12 +93,12 @@
         font-size       : 16px;
     }
 
-    .paragraph--header__top-section-boton-resgistro:hover {
+    .paragraph--registration-modal__trigger--text:hover {
         background-color: var(--font-color-black);
     }
 
-    .container--header__top-section-boton-resgistro,
-    .wrapper--header__top-section-boton-resgistro {
+    .container--registration-modal__trigger--text,
+    .wrapper--registration-modal__trigger--text {
         width: 100%;
     }
 }

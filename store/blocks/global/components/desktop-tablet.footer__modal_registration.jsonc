@@ -6,7 +6,7 @@
         },
         "children": [
             "rich-text#registroahorro__modal--title",
-            "modal-layout#registroahorro__modal--layout"
+            "modal-layout#registration-modal__layout"
         ]
     },
 
@@ -20,13 +20,5 @@
             "textPosition": "CENTER",
             "blockClass": "registroahorro__modal--title"
         }
-    },
-    "modal-layout#registroahorro__modal--layout": {
-        "title": "Modal Registro y Ahorro Layout",
-        "props": {
-            "blockClass": "registroahorro__modal--layout"
-        },
-        "children": [
-        ]
     }
 }

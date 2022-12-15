@@ -19,5 +19,21 @@
       "responsive-layout.tablet",
       "responsive-layout.phone"
     ]
+  },
+  ///////////////////////////////////////////////
+  "quick-order": {
+    "title": "Quick Order",
+    "props": {
+      "quickOrderTitle": "Compra Rapida"
+    }
+  },
+  "custom-countdown": {
+    "title": "Countdown",
+    "props": {
+      "targetDate": "2022-12-19",
+      "targetHour": "00:00:00",
+      "countdownInactiveMessage": "DEAL ENDS SOON!",
+      "countdownActiveMessage": "ENDS IN:"
+    }
   }
 }

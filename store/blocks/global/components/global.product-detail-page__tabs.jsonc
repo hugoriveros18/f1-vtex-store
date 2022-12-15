@@ -55,7 +55,7 @@
         "title": "Top Sales List",
         "props": {
             "tabId": "top-sales",
-            "label": "Más Vendidos",
+            "label": "De Colección",
             "defaultActiveTab": false,
             "blockClass": "product-tabs__lists--top-sales"
         }

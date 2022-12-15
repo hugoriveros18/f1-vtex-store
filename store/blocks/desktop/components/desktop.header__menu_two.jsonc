@@ -21,7 +21,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/madera",
+                "href": "#",
                 "tagTitle": "shop-by-team",
                 "text": "COMPRAR POR EQUIPO"
             },
@@ -38,7 +38,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/madera",
+                "href": "#",
                 "tagTitle": "shop-by-driver",
                 "text": "COMPRAR POR PILOTO"
             },
@@ -97,7 +97,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/madera",
+                "href": "#",
                 "tagTitle": "gifts-and-accesories",
                 "text": "REGALOS Y ACCESORIOS"
             },
@@ -114,7 +114,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/madera",
+                "href": "#",
                 "tagTitle": "collectables",
                 "text": "COLECCIONABLES"
             },

@@ -81,7 +81,6 @@
             "preventRouteChange": true
         },
         "children": [
-            // "cart-total-price",
             "flex-layout.row#global__search-result--breadcrumb",
             "flex-layout.row#desktop__search-result"
         ]
