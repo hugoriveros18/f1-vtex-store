@@ -11,7 +11,7 @@ Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/buil
 
 By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
+### Step 2 - Cloning the VTEX F1 Store Theme repository
 
 [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
 
@@ -19,7 +19,7 @@ Then, access the repository's directory using your terminal.
 
 ### Step 3 - Editing the `Manifest.json`
 
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
+Once in the repository directory, it is time to edit the  VTEX F1 Store Theme `manifest.json` file. 
 
 Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
 
