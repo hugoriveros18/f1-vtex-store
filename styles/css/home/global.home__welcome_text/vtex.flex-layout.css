@@ -1,0 +1,27 @@
+.flexRow--global__home--welcome :global(.vtex-store-components-3-x-container) {
+    max-width: none;
+}
+
+.flexCol--home__welcome--layout {
+    margin: 15px 20px 40px 20px;
+}
+
+.flexCol--welcome__text--layout-internal {
+    max-height   : 11.36rem;
+    padding-right: 1.25rem;
+    overflow-y   : scroll;
+}
+
+.flexCol--home__welcome--layout :global(.vtex-flex-layout-0-x-flexColChild) {
+    height: auto;
+}
+
+@media screen and (max-width: 640px) {
+    .flexCol--home__welcome--layout {
+        margin: 16px 35px 30px;
+    }
+
+    .flexCol--welcome__text--layout-internal {
+        padding: 0px;
+    }
+}

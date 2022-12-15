@@ -1,0 +1,4 @@
+.flexRow--global__header--modal-registration,
+.flexRow--global__header--modal-registration :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}

@@ -1,0 +1,10 @@
+@media screen and (max-width: 1024px) {
+
+    .flexRowContent--desktop-tablet__home--section {
+        flex-direction: column;
+    }
+
+    .flexRowContent--desktop-tablet__home--section :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+}

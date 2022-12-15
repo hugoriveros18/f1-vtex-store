@@ -1,0 +1,25 @@
+.container--pdp__breadcrumb--layout {
+    padding      : 10px 30px;
+    border-bottom: 1px solid var(--secondary-background-color);
+    margin-bottom: 15px;
+}
+
+.link--pdp__breadcrumb--layout,
+.term--pdp__breadcrumb--layout {
+    font-family   : var(--primary-font-family);
+    font-size     : 12px;
+    font-weight   : 400;
+    line-height   : 17px;
+    color         : #3863a3;
+    text-transform: uppercase;
+}
+
+.term--pdp__breadcrumb--layout {
+    color: var(--font-color-lightblack);
+}
+
+.caretIcon--search__result--breadcrumb,
+.homeLink--pdp__breadcrumb--layout,
+.arrow--pdp__breadcrumb--layout--1 :global(.vtex-breadcrumb-1-x-caretIcon) {
+    display: none;
+}

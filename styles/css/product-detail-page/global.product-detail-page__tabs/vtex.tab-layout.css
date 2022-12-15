@@ -1,0 +1,39 @@
+.listContainer--pdp__product-tabs--lists {
+    justify-content: flex-start;
+    gap            : 10px;
+}
+
+.listContainer--pdp__product-tabs--lists :global(.vtex-tab-layout-0-x-listItemActive) {
+    background-color: var(--main-button-color);
+    color           : var(--font-color-white);
+}
+
+.listContainer--pdp__product-tabs--lists :global(.vtex-tab-layout-0-x-listItem) {
+    padding: 2px 10px;
+}
+
+.listContainer--pdp__product-tabs--lists :global(.vtex-button) {
+    background-color: transparent;
+}
+
+.listContainer--pdp__product-tabs--lists :global(.vtex-button__label) {
+    padding       : 0px !important;
+    font-family   : var(--primary-font-family);
+    text-transform: capitalize;
+    font-size     : 1rem;
+    font-weight   : 600;
+}
+
+.contentContainer--pdp__product-tabs--shelf {
+    margin: 30px 0px 0px 0px;
+}
+
+@media screen and (max-width: 640px) {
+    .listContainer--pdp__product-tabs--lists :global(.vtex-button__label) {
+        font-size: 0.75rem;
+    }
+
+    .listContainer--pdp__product-tabs--lists :global(.vtex-tab-layout-0-x-listItem) {
+        padding: 2px 5px;
+    }
+}

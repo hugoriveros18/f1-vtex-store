@@ -1,0 +1,12 @@
+.buttonText--top-sales__product-summary--buy-button {
+    font-family   : var(--primary-font-family);
+    font-weight   : 400;
+    font-size     : 12px;
+    line-height   : 15px;
+    color         : var(--font-color-white);
+    text-transform: lowercase;
+}
+
+.buttonText--top-sales__product-summary--buy-button::first-letter {
+    text-transform: capitalize;
+}

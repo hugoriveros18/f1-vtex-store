@@ -1,0 +1,7 @@
+.headerRowContainer--desktop-tablet__header--section-one {
+    align-items: flex-start;
+}
+
+.headerRowContainer--desktop-tablet__header--section-one :global(.vtex-button) {
+    width: 100%;
+}

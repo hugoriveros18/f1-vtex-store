@@ -1,0 +1,19 @@
+.currencyContainer--top-sales__product-summary--price {
+    font-family: var(--primary-font-family);
+    font-weight: 600;
+    font-size  : 1.125rem;
+    line-height: 1.25rem;
+    color      : var(--main-price-color);
+    margin     : 0px;
+}
+
+.sellingPrice--top-sales__product-summary--price {
+    text-align  : left;
+    padding-left: 23px;
+}
+
+@media screen and (max-width: 640px) {
+    .sellingPrice--top-sales__product-summary--price {
+        padding-left: 0px;
+    }
+}

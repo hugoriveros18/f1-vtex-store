@@ -1,0 +1,5 @@
+.headerRowContainer--phone__header--section-one {
+    height          : 64px;
+    padding         : 0.625rem;
+    background-color: var(--font-color-black);
+}

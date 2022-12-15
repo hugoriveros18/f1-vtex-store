@@ -1,0 +1,17 @@
+:global(.vtex-product-list-0-x-productImage) {
+    max-width: 90%;
+}
+
+:global(.vtex-product-list-0-x-productName) {
+    font-family: var(--primary-font-family);
+    font-size  : 1rem;
+    line-height: 1.5;
+    color      : var(--font-color-lightblack);
+    font-weight: 400;
+}
+
+:global(.vtex-product-list-0-x-deleteIcon) {
+    width : 14px;
+    height: 14px;
+    color : var(--font-color-black);
+}

@@ -1,0 +1,17 @@
+.paragraph--footer__section-two--copyright-text {
+    font-family  : var(--primary-font-family);
+    margin       : 0px;
+    margin-top   : 5px;
+    margin-bottom: 13px;
+    font-size    : .75rem;
+    color        : var(--font-color-semiblack);
+    font-weight  : 400;
+    line-height  : 1.5;
+}
+
+@media screen and (max-width: 640px) {
+    .paragraph--footer__section-two--copyright-text {
+        text-align: center;
+        margin    : 0px 40px 35px;
+    }
+}

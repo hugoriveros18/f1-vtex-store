@@ -1,0 +1,101 @@
+.flexRow--global__help {
+    background-color: #f5f6f8;
+}
+
+.flexRowContent--global__help {
+    display       : flex;
+    flex-direction: column;
+}
+
+.flexCol--global__help--section-one {
+    padding: 10px;
+}
+
+.flexColChild--global__help--section-one {
+    width           : auto !important;
+    min-width       : 1.875rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow      : 0 0.125rem 0.1875rem 0 rgb(0 0 0 / 30%);
+    margin          : 5px 10px;
+    cursor          : pointer;
+}
+
+.flexRowContent--help__section-one--general {
+    padding    : 15.7px 22px;
+    align-items: center;
+}
+
+.flexRowContent--help__section-one--general :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width           : auto !important;
+    min-width       : none !important;
+    background-color: transparent;
+    box-shadow      : none;
+    margin          : 0px;
+}
+
+.flexCol--global__help--section-two {
+    padding    : 16px 20px;
+    align-items: center;
+}
+
+@media screen and (min-width: 640px) {
+    .flexRow--global__help {
+        padding      : 40px;
+        margin-bottom: 60px;
+    }
+
+    .flexRowContent--global__help {
+        flex-direction: column;
+    }
+
+    .flexRowContent--global__help :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+
+    .flexCol--global__help--section-one {
+        padding       : 0px;
+        flex-direction: row;
+        flex-wrap     : wrap;
+    }
+
+    .flexColChild--global__help--section-one {
+        width : calc(100%/2 - 20px) !important;
+        margin: 10px;
+    }
+
+    .flexRowContent--help__section-one--general {
+        padding: 19px 22px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .flexColChild--global__help--section-one {
+        width: calc(100%/3 - 20px) !important;
+    }
+
+    .flexRowContent--global__help {
+        flex-direction: row;
+    }
+
+    .flexRowContent--global__help :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+        width: 22% !important;
+    }
+
+    .flexRow--global__help {
+        padding: 0px;
+    }
+
+    .flexCol--global__help--section-one {
+        padding: 40px;
+    }
+
+    .flexCol--global__help--section-two {
+        padding: 64px 35px 40px 0px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .flexColChild--global__help--section-one {
+        width: calc(100%/4 - 20px) !important;
+    }
+}

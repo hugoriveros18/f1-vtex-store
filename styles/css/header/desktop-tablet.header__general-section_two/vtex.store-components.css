@@ -1,0 +1,71 @@
+.logoContainer--desktop-tablet__header--logo {
+    width         : auto;
+    height        : 7.5rem;
+    max-width     : none;
+    max-height    : none;
+    padding-left  : 0.9375rem;
+    padding-right : 0.9375rem;
+    padding-top   : 0px;
+    padding-bottom: 0px;
+    display       : flex;
+    align-items   : center;
+}
+
+.logoImage--desktop-tablet__header--logo {
+    box-sizing: border-box;
+    width     : auto;
+    min-width : auto;
+    height    : 7.5rem;
+    padding: 1.25rem;
+}
+
+.logoLink--desktop-tablet__header--logo {
+    max-width: 25%;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer) {
+    max-width    : 41.66667%;
+    padding      : 0px;
+    padding-right: 0.9375rem;
+    padding-left : 0.9375rem;
+}
+
+:global(.vtex-input__suffix) {
+    padding: 0px;
+}
+
+:global(.vtex-input-prefix__group) {
+    border: none;
+    height: 36px;
+}
+
+.vtex-styleguide-9-x-input {
+    padding: 0px
+}
+
+.searchBarIcon--desktop-tablet__header--search-bar {
+    padding: 1px 9px;
+}
+
+.searchIcon--desktop-tablet__header--search-bar {
+    width : 17px;
+    height: 18px;
+    color : #686868;
+}
+
+.autoCompleteOuterContainer--desktop-tablet__header--search-bar :global(.vtex-styleguide-9-x-input) {
+    font-family: var(--primary-font-family);
+    font-size  : 0.75rem;
+    color      : var(--font-color-semiblack);
+    padding    : 0px 10px;
+}
+
+.autoCompleteOuterContainer--desktop-tablet__header--search-bar :global(.vtex-styleguide-9-x-input)::placeholder {
+    color: var(--font-color-semiblack);
+}
+
+@media screen and (max-width: 1024px) {
+    .logoImage--desktop-tablet__header--logo {
+        padding: 0.3125rem;
+    }
+}

@@ -1,0 +1,38 @@
+.container--promotion-code__modal--trigger-layout :global(.vtex-modal-layout-0-x-paper) {
+    margin          : 0;
+    background-color: inherit;
+}
+
+.headerContainer--promotion-modal__trigger-layout--header-close {
+    height                   : 43px;
+    width                    : 41px;
+    display                  : flex;
+    justify-content          : center;
+    align-items              : center;
+    background-color         : #fff;
+    border-bottom-left-radius: 0.9375rem;
+    box-shadow               : 0 0.1875rem 0.6875rem #686868;
+}
+
+.closeButton--promotion-modal__trigger-layout--header-close {
+    padding: 0;
+}
+
+.backdrop--promotion-code__modal--trigger-layout {
+    background-color: #000;
+}
+
+.triggerContainer--promotion-code__modal--trigger {
+    height: 100%;
+    width : 100%;
+}
+
+.container--header__modal-layout-general :global(.vtex-modal-layout-0-x-paper) {
+    width: 600px;
+}
+
+@media screen and (max-width: 640px) {
+    .triggerContainer--header__registration-modal--trigger {
+        width: 100%;
+    }
+}

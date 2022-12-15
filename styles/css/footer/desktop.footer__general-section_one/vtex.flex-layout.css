@@ -1,0 +1,13 @@
+.flexRow--desktop__footer--section-one {
+    padding         : 1.875rem 0;
+    background-color: #f4f5f5
+}
+
+.flexCol--footer__section-one--layout {
+    margin   :  0px 40px;
+    max-width: none;
+}
+
+.flexRowContent--sign-safe__social-media--layout {
+    justify-content: flex-start;
+}

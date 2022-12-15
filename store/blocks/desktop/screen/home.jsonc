@@ -3,116 +3,13 @@
     "title": "Home Desktop",
     "children": [
       "whatsapp-button",
-      "cart-total-price",
-      "icon#example",
-      "flex-layout.row#desktop__home--slider",
-      "flex-layout.row#home__constructors",
-      "image#home__christmas--section",
-      "flex-layout.row#home__section--one",
-      "flex-layout.row#home__section--two",
-      "flex-layout.row#home__section--three",
-      "flex-layout.row#home__welcome"
+      "flex-layout.row#desktop-tablet__home--slider-layout",
+      "flex-layout.row#global__home--constructors",
+      "image#desktop-tablet__home--christmas-banner",
+      "flex-layout.row#desktop-tablet__home--section-one",
+      "flex-layout.row#desktop-tablet__home--section-two",
+      "flex-layout.row#desktop-tablet__home--section-three",
+      "flex-layout.row#global__home--welcome"
     ]
-  },
-  ///////////////////////////////////////////////
-  "icon#example": {
-    "props": {
-      "id": "f1-store-icon",
-      "size": 16
-    }
-  },
-  "whatsapp-button": {
-    "title": "Whatsapp Button",
-    "props": {
-      "logo": "assets/img/home/whatsapp-icon.svg",
-      "phone": "+573115292688",
-      "message": "Bienvenido a la tienda oficial de Formula 1, ¿En que podemos ayudarte?"
-    }
-  },
-  "image#home__christmas--section": {
-    "title": "Home Christmas Section",
-    "props": {
-      "src": "assets/img/home/f1-christmas-desktop.png",
-      "blockClass": "home__christmas--section"
-    }
-  },
-  "flex-layout.row#home__section--one": {
-    "title": "Home Images Section One",
-    "props": {
-      "fullWidth": true,
-      "colSizing": "equal",
-      "blockClass": "home__section--one"
-    },
-    "children": [
-      "image#section__one--hamilton",
-      "image#section__one--constructors"
-    ]
-  },
-  "flex-layout.row#home__section--two": {
-    "title": "Home Images Section Two",
-    "props": {
-      "fullWidth": true,
-      "colSizing": "equal",
-      "blockClass": "home__section--two"
-    },
-    "children": [
-      "image#section__two--ferrari",
-      "image#section__two--maclaren"
-    ]
-  },
-  "flex-layout.row#home__section--three": {
-    "title": "Home Images Section Three",
-    "props": {
-      "fullWidth": true,
-      "colSizing": "equal",
-      "blockClass": "home__section--three"
-    },
-    "children": [
-      "image#section__three--mexico",
-      "image#section__three--turbo"
-    ]
-  },
-  ///////////////////////////////////////////////
-  "image#section__one--hamilton": {
-    "title": "Hamilton Collection Image",
-    "props": {
-      "src": "assets/img/home/lewis-hamilton-collection-desktop.png",
-      "blockClass": "section__one--hamilton"
-    }
-  },
-  "image#section__one--constructors": {
-    "title": "constructors Collection Image",
-    "props": {
-      "src": "assets/img/home/constructors-champions-desktop.png",
-      "blockClass": "section__one--constructors"
-    }
-  },
-  "image#section__two--ferrari": {
-    "title": "Ferrai Collection Image",
-    "props": {
-      "src": "assets/img/home/ferrari-range-desktop.png",
-      "blockClass": "section__two--ferrari"
-    }
-  },
-  "image#section__two--maclaren": {
-    "title": "Maclaren Collection Image",
-    "props": {
-      "src": "assets/img/home/maclaren-gulf-desktop.png",
-      "blockClass": "section__two--maclaren"
-    }
-  },
-  "image#section__three--mexico": {
-    "title": "Mexico Collection Image",
-    "props": {
-      "src": "assets/img/home/mexico-gp-desktop.png",
-      "blockClass": "section__three--mexico"
-    }
-  },
-  "image#section__three--turbo": {
-    "title": "Turbo Collection Image",
-    "props": {
-      "src": "assets/img/home/turbo-attax-desktop.png",
-      "blockClass": "section__three--turbo"
-    }
   }
 }

@@ -1,0 +1,15 @@
+{
+    ///////////////////////////////////////////////
+    "minicart.v2#phone__header--minicart": {
+        "title": "Minicart",
+        "props": {
+            "variation": "popup",
+            "itemCountMode": "total",
+            "quantityDisplay": "not-empty",
+            "blockClass": "phone__header--minicart"
+        },
+        "children": [
+            "minicart-base-content#global__minicart--content"
+        ]
+    }
+}

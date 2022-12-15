@@ -1,0 +1,22 @@
+.flexRow--content-products__list--layout {
+    padding: 25px 0px;
+}
+
+.flexRow--content-products__list--layout:first-child,
+.flexRow--content-products__list--layout {
+    border-top: 1px solid #d5d5d5;
+}
+
+.flexCol--content-products__list--layout--description {
+    padding: 0px .625rem 0px 1rem;
+    gap    : 8px;
+}
+
+.flexRowContent--list__layout--description--variations {
+    justify-content: flex-start;
+}
+
+
+.flexCol--content-products__list--layout--remove {
+    align-items: center;
+}

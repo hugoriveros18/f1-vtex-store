@@ -1,0 +1,38 @@
+.triggerContainer--modal__promotion-layout--trigger {
+    height: 100%;
+    width : 100%;
+}
+
+.container--modal__promotion-layout--content {
+    position: relative;
+    width   : 100%;
+}
+
+.paper--modal__promotion-layout--content {
+    position: absolute;
+    margin  : 0px;
+    bottom  : 0px;
+    left    : 0px;
+}
+
+.backdrop--modal__promotion-layout--content {
+    background-color: #000;
+}
+
+.headerContainer--promotion-layout__content--close {
+    position: absolute;
+    top     : 0;
+    right   : 0;
+    z-index : 99;
+}
+
+.headerContainer--promotion-layout__content--close {
+    height                   : 35px;
+    width                    : 40px;
+    display                  : flex;
+    justify-content          : center;
+    align-items              : center;
+    background-color         : #fff;
+    border-bottom-left-radius: 0.625rem;
+    box-shadow               : 0 0.1875rem 0.6875rem #686868;
+}

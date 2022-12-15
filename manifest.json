@@ -57,6 +57,7 @@
     "vtex.product-price": "1.x",
     "vtex.product-specifications": "1.x",
     "vtex.list-context": "0.x",
+    "vtex.store-newsletter": "1.x",
     "itgloberspartnercl.whatsapp-button": "0.x",
     "itgloberspartnercl.add-to-cart-info": "0.x",
     "itgloberspartnercl.quick-order": "0.x",

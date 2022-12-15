@@ -3,104 +3,125 @@
         "title": "Home Phone",
         "children": [
             "whatsapp-button",
-            "cart-total-price",
-            "flex-layout.row#phone__home--slider",
-            "flex-layout.row#home__constructors",
-            "image#home__christmas",
-            "flex-layout.row#home__section--first",
-            "flex-layout.row#home__section--second",
-            "flex-layout.row#home__section--third",
-            "flex-layout.row#home__welcome"
+            // "cart-total-price",
+            "flex-layout.row#phone__home--slider-layout",
+            "flex-layout.row#global__home--constructors",
+            "image#phone__home--christmas-banner",
+            "flex-layout.row#phone__home--section--one",
+            "flex-layout.row#phone__home--section--two",
+            "flex-layout.row#phone__home--section--three",
+            "flex-layout.row#global__home--welcome"
         ]
     },
     ///////////////////////////////////////////////
-    "image#home__christmas": {
-        "title": "Home Christmas Section",
+    "image#phone__home--christmas-banner": {
+        "title": "Home Christmas Banner",
         "props": {
             "src": "assets/img/home/f1-christmas-phone.png",
-            "blockClass": "home__christmas--section"
+            "link": {
+                "url": "/sol/p"
+            },
+            "blockClass": "phone__home--christmas-banner"
         }
     },
-    "flex-layout.row#home__section--first": {
-        "title": "",
+    "flex-layout.row#phone__home--section--one": {
+        "title": "Home Section One",
         "props": {
             "preserveLayoutOnMobile": true,
-            "blockClass": "home__section--first",
             "colSizing": "equal",
-            "fullWidth": true
+            "fullWidth": true,
+            "blockClass": "phone__home--section--one"
         },
         "children": [
-            "image#home__section--one",
-            "image#home__section--two"
+            "image#phone__home--section--hamilton",
+            "image#phone__home--section--constructors"
         ]
     },
-    "flex-layout.row#home__section--second": {
-        "title": "",
+    "flex-layout.row#phone__home--section--two": {
+        "title": "Home Section Two",
         "props": {
             "preserveLayoutOnMobile": true,
-            "blockClass": "home__section--second",
             "colSizing": "equal",
-            "fullWidth": true
+            "fullWidth": true,
+            "blockClass": "phone__home--section--two"
         },
         "children": [
-            "image#home__section--three",
-            "image#home__section--four"
+            "image#phone__home--section--ferrari",
+            "image#phone__home--section--mclaren"
         ]
     },
-    "flex-layout.row#home__section--third": {
-        "title": "",
+    "flex-layout.row#phone__home--section--three": {
+        "title": "Home Section Three",
         "props": {
             "preserveLayoutOnMobile": true,
-            "blockClass": "home__section--third",
             "colSizing": "equal",
-            "fullWidth": true
+            "fullWidth": true,
+            "blockClass": "phone__home--section--three"
         },
         "children": [
-            "image#home__section--five",
-            "image#home__section--six"
+            "image#phone__home--section--mexico",
+            "image#phone__home--section--turbo"
         ]
     },
     ///////////////////////////////////////////////        
-    "image#home__section--one": {
-        "title": "Hamilton Home Image",
+    "image#phone__home--section--hamilton": {
+        "title": "Hamilton Collection Image",
         "props": {
             "src": "assets/img/home/lewis-hamilton-collection-phone.png",
-            "blockClass": "home__section--one"
+            "link": {
+                "url": "/puerta-triplex-okume/p"
+            },
+            "blockClass": "phone__home--section--hamilton"
         }
     },
-    "image#home__section--two": {
-        "title": "Constructors Home Image",
+    "image#phone__home--section--constructors": {
+        "title": "Constructors Collection Image",
         "props": {
             "src": "assets/img/home/constructors-champions-phone.png",
-            "blockClass": "home__section--two"
+            "link": {
+                "url": "/zapatos-vans-url/p"
+            },
+            "blockClass": "phone__home--section--constructors"
         }
     },
-    "image#home__section--three": {
-        "title": "Ferrari Home Image",
+    "image#phone__home--section--ferrari": {
+        "title": "Ferrai Collection Image",
         "props": {
             "src": "assets/img/home/ferrari-range-phone.png",
-            "blockClass": "home__section--three"
+            "link": {
+                "url": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p"
+            },
+            "blockClass": "phone__home--section--ferrari"
         }
     },
-    "image#home__section--four": {
-        "title": "Maclaren Home Image",
+    "image#phone__home--section--mclaren": {
+        "title": "McLaren Collection Image",
         "props": {
             "src": "assets/img/home/maclaren-gulf-phone.png",
-            "blockClass": "home__section--four"
+            "link": {
+                "url": "/sol/p"
+            },
+            "blockClass": "phone__home--section--mclaren"
         }
     },
-    "image#home__section--five": {
-        "title": "Mexico Home Image",
+    "image#phone__home--section--mexico": {
+        "title": "Mexico Collection Image",
         "props": {
             "src": "assets/img/home/mexico-gp-phone.png",
-            "blockClass": "home__section--five"
+            "link": {
+                "url": "/cemento-argos-gris-50kg/p"
+            },
+            "blockClass": "phone__home--section--mexico"
         }
     },
-    "image#home__section--six": {
-        "title": "Turbo Home Image",
+    "image#phone__home--section--turbo": {
+        "title": "Turbo Collection Image",
         "props": {
             "src": "assets/img/home/turbo-attax-phone.png",
-            "blockClass": "home__section--six"
+            "link": {
+                "url": "/varilla-corrugada-g60-w-4-1-2-pulg-x-6m/p"
+            },
+            "blockClass": "phone__home--section--turbo"
         }
     }
 }

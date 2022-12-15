@@ -1,0 +1,136 @@
+{
+    "image#desktop-tablet__home--christmas-banner": {
+        "title": "Home Christmas Banner",
+        "props": {
+            "src": "assets/img/home/f1-christmas-desktop.png",
+            "link": {
+                "url": "/sol/p"
+            },
+            "blockClass": "desktop-tablet__home--christmas-banner"
+        }
+    },
+    "flex-layout.row#desktop-tablet__home--section-one": {
+        "title": "Home Section One",
+        "props": {
+            "fullWidth": true,
+            "colSizing": "equal",
+            "blockClass": [
+                "desktop-tablet__home--section",
+                "desktop-tablet__home--section-one"
+            ]
+        },
+        "children": [
+            "image#section-one__hamilton",
+            "image#section-one__constructors"
+        ]
+    },
+    "flex-layout.row#desktop-tablet__home--section-two": {
+        "title": "Home Section Two",
+        "props": {
+            "fullWidth": true,
+            "colSizing": "equal",
+            "blockClass": [
+                "desktop-tablet__home--section",
+                "desktop-tablet__home--section-two"
+            ]
+        },
+        "children": [
+            "image#section-two__ferrari",
+            "image#section-two__maclaren"
+        ]
+    },
+    "flex-layout.row#desktop-tablet__home--section-three": {
+        "title": "Home Section Three",
+        "props": {
+            "fullWidth": true,
+            "colSizing": "equal",
+            "blockClass": [
+                "desktop-tablet__home--section",
+                "desktop-tablet__home--section-three"
+            ]
+        },
+        "children": [
+            "image#section-three__mexico",
+            "image#section-three__turbo"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "image#section-one__hamilton": {
+        "title": "Hamilton Collection Image",
+        "props": {
+            "src": "assets/img/home/lewis-hamilton-collection-desktop.png",
+            "link": {
+                "url": "/puerta-triplex-okume/p"
+            },
+            "blockClass": [
+                "home__section--general",
+                "section__one--hamilton"
+            ]
+        }
+    },
+    "image#section-one__constructors": {
+        "title": "Constructors Collection Image",
+        "props": {
+            "src": "assets/img/home/constructors-champions-desktop.png",
+            "link": {
+                "url": "/zapatos-vans-url/p"
+            },
+            "blockClass": [
+                "home__section--general",
+                "section__one--constructors"
+            ]
+        }
+    },
+    "image#section-two__ferrari": {
+        "title": "Ferrai Collection Image",
+        "props": {
+            "src": "assets/img/home/ferrari-range-desktop.png",
+            "link": {
+                "url": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p"
+            },
+            "blockClass": [
+                "home__section--general",
+                "section__two--ferrari"
+            ]
+        }
+    },
+    "image#section-two__maclaren": {
+        "title": "McLaren Collection Image",
+        "props": {
+            "src": "assets/img/home/maclaren-gulf-desktop.png",
+            "link": {
+                "url": "/sol/p"
+            },
+            "blockClass": [
+                "home__section--general",
+                "section__two--maclaren"
+            ]
+        }
+    },
+    "image#section-three__mexico": {
+        "title": "Mexico Collection Image",
+        "props": {
+            "src": "assets/img/home/mexico-gp-desktop.png",
+            "link": {
+                "url": "/cemento-argos-gris-50kg/p"
+            },
+            "blockClass": [
+                "home__section--general",
+                "section__three--mexico"
+            ]
+        }
+    },
+    "image#section-three__turbo": {
+        "title": "Turbo Collection Image",
+        "props": {
+            "src": "assets/img/home/turbo-attax-desktop.png",
+            "link": {
+                "url": "/varilla-corrugada-g60-w-4-1-2-pulg-x-6m/p"
+            },
+            "blockClass": [
+                "home__section--general",
+                "section__three--turbo"
+            ]
+        }
+    }
+}

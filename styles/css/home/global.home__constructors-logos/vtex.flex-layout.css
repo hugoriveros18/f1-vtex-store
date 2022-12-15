@@ -1,0 +1,8 @@
+.flexRow--global__home--constructors {
+    padding: 0.9375rem;
+}
+
+.flexRowContent--home__constructors--logos {
+    display  : flex;
+    flex-wrap: wrap;
+}

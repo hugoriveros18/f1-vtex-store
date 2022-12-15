@@ -1,0 +1,49 @@
+.paragraph--data__product-price--text,
+.paragraph--product-information__data--delivery-info,
+.paragraph--delivery__content--text {
+    font-family: var(--primary-font-family);
+
+}
+
+.paragraph--data__product-price--text {
+    font-size  : .875rem;
+    color      : var(--font-color-semiblack);
+    line-height: 1.25rem;
+    font-weight: 600;
+    margin     : 0px;
+}
+
+.paragraph--product-information__data--delivery-info {
+    margin     : 0px;
+    margin-top : 5px;
+    color      : #247e0c;
+    font-weight: 400;
+    font-size  : .875rem;
+    line-height: 1.43;
+}
+
+.paragraph--delivery__content--text {
+    margin     : 0px;
+    display    : list-item;
+    font-size  : .875rem;
+    font-weight: 400;
+    line-height: 1.67;
+    color      : var(--font-color-semiblack);
+}
+
+.wrapper--product-information__data--delivery-info {
+    width: 100%;
+}
+
+.container--product-information__data--delivery-info {
+    margin        : 0px 15px;
+    padding-bottom: 15px;
+}
+
+.paragraph--product__disclosure--title {
+    margin: 0px;
+}
+
+.wrapper--delivery__content--text {
+    padding: 10px 0px 10px 18px;
+}

@@ -1,0 +1,45 @@
+{
+    ///////////////////////////////////////////////
+    "flex-layout.row#global__header--modal-registration": {
+        "title": "Global Registration Modal",
+        "props": {
+            "blockClass":"global__header--modal-registration"
+        },
+        "children": [
+            "modal-trigger#header__registration-modal--trigger"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "modal-trigger#header__registration-modal--trigger": {
+        "title": "Registration Modal Trigger",
+        "props": {
+            "blockClass": "header__registration-modal--trigger"
+        },
+        "children": [
+            "rich-text#registration-modal__title",
+            "modal-layout#registration-modal__layout"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "rich-text#registration-modal__title": {
+        "title": "Texto Boton de Registro",
+        "props": {
+            "text": "REGÍSTRATE Y AHORRA UN 10%",
+            "textAligment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "header__top-section-boton-resgistro"
+        }
+    },
+    "modal-layout#registration-modal__layout": {
+        "title": "Modal Registro y Ahorro", //POR MODIFICAR
+        "props": {
+            "blockClass": "registration-modal__layout"
+        },
+        "children": [
+        ]
+    }
+}

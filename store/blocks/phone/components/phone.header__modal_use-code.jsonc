@@ -1,0 +1,125 @@
+{
+    "sticky-layout.stack-container#phone__header--section-four": {
+        "title": "Header Section Four",
+        "children": [
+            "sticky-layout#header__modal--promotion"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "sticky-layout#header__modal--promotion": {
+        "title": "Promotion Modal",
+        "props": {
+            "position": "TOP",
+            "blockClass": "header__modal--promotion"
+        },
+        "children": [
+            "flex-layout.row#modal__promotion-layout"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#modal__promotion-layout": {
+        "title": "Promotion Modal Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "modal__promotion-layout"
+        },
+        "children": [
+            "flex-layout.col#modal__promotion-layout--column-one",
+            "flex-layout.col#modal__promotion-layout--column-two"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.col#modal__promotion-layout--column-one": {
+        "title": "Promotion Modal Column One",
+        "props": {
+            "blockClass": "modal__promotion-layout--column-one"
+        },
+        "children": [
+            "custom-countdown"
+        ]
+    },
+    "flex-layout.col#modal__promotion-layout--column-two": {
+        "title": "Promotion Modal Column Two",
+        "props": {
+            "width": "grow",
+            "blockClass": "modal__promotion-layout--column-two"
+        },
+        "children": [
+            "modal-trigger#modal__promotion-layout--trigger"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "modal-trigger#modal__promotion-layout--trigger": {
+        "title": "Promotional Modal Trigger",
+        "props": {
+            "blockClass": "modal__promotion-layout--trigger"
+        },
+        "children": [
+            "image#modal__promotion-layout--image",
+            "modal-layout#modal__promotion-layout--content"
+        ]
+    },
+    "image#modal__promotion-layout--image": {
+        "title": "Promotion Code Image",
+        "props": {
+            "src": "assets/img/header/codef1zoom-phone.png",
+            "blockClass": "modal__promotion-layout--image"
+        }
+    },
+    "modal-layout#modal__promotion-layout--content": {
+        "title": "Promotion Modal Content",
+        "props": {
+            "blockClass": "modal__promotion-layout--content"
+        },
+        "children": [
+            "flex-layout.col#promotion-layout__content"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.col#promotion-layout__content": {
+        "title": "Promotional Code Content",
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "promotion-layout__content"
+        },
+        "children": [
+            "flex-layout.row#promotion-layout__content--title",
+            "image#promotion-layout__content--code-image"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#promotion-layout__content--title": {
+        "title": "Promotional Code Content Title",
+        "props": {
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "blockClass": "promotion-layout__content--title"
+        },
+        "children": [
+            "rich-text#promotion-layout__content--title",
+            "modal-header#promotion-layout__content--close"
+        ]
+    },
+    "image#promotion-layout__content--code-image": {
+        "title": "Promotional Code Content Image",
+        "props": {
+            "src": "assets/img/header/modal-codigo-descuento-phone.png"
+        }
+    },
+    ///////////////////////////////////////////////
+    "rich-text#promotion-layout__content--title": {
+        "title": "Promotional Code Title",
+        "props": {
+            "text": "DEAL ENDS SOON",
+            "blockClass": "promotion-layout__content--title"
+        }
+    },
+    "modal-header#promotion-layout__content--close": {
+        "title": "Promotional Close Button",
+        "props": {
+            "showCloseButton": true,
+            "blockClass": "promotion-layout__content--close"
+        }
+    }
+}

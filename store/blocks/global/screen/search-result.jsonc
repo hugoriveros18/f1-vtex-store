@@ -1,6 +1,6 @@
 {
     "store.search": {
-        "title": "Store Search Template",
+        "title": "Search Result",
         "blocks": [
             "search-result-layout"
         ],
@@ -14,7 +14,7 @@
     },
     ///////////////////////////////////////////////
     "store.search#department": {
-        "title": "Store Search Department Template",
+        "title": "Department Search Result",
         "blocks": [
             "search-result-layout"
         ],
@@ -27,7 +27,7 @@
         }
     },
     "store.search#category": {
-        "title": "Store Search Category Template",
+        "title": "Category Search Result",
         "blocks": [
             "search-result-layout"
         ],
@@ -40,7 +40,7 @@
         }
     },
     "store.search#subcategory": {
-        "title": "Store Search Subcategory Template",
+        "title": "Subcategory Search Result",
         "blocks": [
             "search-result-layout"
         ],
@@ -53,7 +53,7 @@
         }
     },
     "store.search#brand": {
-        "title": "Store Search Brand Template",
+        "title": "Brand Search Result",
         "blocks": [
             "search-result-layout"
         ],
@@ -76,51 +76,60 @@
     },
     ///////////////////////////////////////////////
     "search-result-layout.desktop": {
-        "title": "Search Result General Layout Desktop",
+        "title": "Search Result Desktop",
         "props": {
             "preventRouteChange": true
         },
         "children": [
-            "cart-total-price",
-            "flex-layout.row#search__results--breadcrumb",
-            "flex-layout.row#search__results--desktop"
+            // "cart-total-price",
+            "flex-layout.row#global__search-result--breadcrumb",
+            "flex-layout.row#desktop__search-result"
         ]
     },
     "search-result-layout.mobile": {
-        "title": "Search Result General Layout Mobile",
+        "title": "Search Result Mobile",
         "props": {
             "preventRouteChange": true
         },
         "children": [
-            "responsive-layout.tablet#search__result--tablet",
-            "responsive-layout.phone#search__result--phone"
+            "responsive-layout.tablet#tablet__search-result",
+            "responsive-layout.phone#phone__search-result"
         ]
     },
     "search-not-found-layout": {
-        "title": "Search Not Found Result",
+        "title": "Search Result Not Found",
         "props": {
             "blockClass": "search-not-found-layout"
         },
         "children": [
-            "rich-text#search__not-found--text"
+            "rich-text#search-result__not-found--text"
         ]
     },
     ///////////////////////////////////////////////
-    "flex-layout.row#search__results--breadcrumb": {
-        "title": "Search Result Breadcrumb Container",
+    "flex-layout.row#global__search-result--breadcrumb": {
+        "title": "Search Result Breadcrumb",
         "props": {
-            "blockClass": "search__results--breadcrumb"
+            "blockClass": "global__search-result--breadcrumb"
         },
         "children": [
             "breadcrumb.search"
         ]
     },
+    "rich-text#search-result__not-found--text": {
+        "title": "Search Resutl Not Found Text",
+        "props": {
+            "text": "Lo sentimos su busqueda no coincide con ningun producto",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "search-result__not-found--text"
+        }
+    },
     ///////////////////////////////////////////////
     "breadcrumb.search": {
-        "title": "Search Result Breadcrum",
+        "title": "Breadcrum",
         "props": {
             "showOnMobile": true,
-            "blockClass": "search__result--breadcrumb"
+            "blockClass": "search-result__breadcrumb"
         }
     }
 }

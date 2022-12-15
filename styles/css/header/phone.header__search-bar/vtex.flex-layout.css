@@ -1,0 +1,9 @@
+.flexRowContent--search-bar__layout {
+    padding         : 10px;
+    background-color: #f5f6f8;
+}
+
+.flexCol--search-bar__layout--close {
+    position: relative;
+    padding : 0px 7px;
+}

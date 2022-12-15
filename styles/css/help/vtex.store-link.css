@@ -1,0 +1,32 @@
+.link--help__section-two--contact-link {
+    margin-bottom   : 1.25rem;
+    min-width       : 8.75rem;
+    max-width       : 15.625rem;
+    height          : 3.25rem;
+    font-size       : 1.125rem;
+    border-radius   : 3px;
+    background-color: var(--main-button-color);
+    color           : var(--font-color-white);
+    border          : none;
+    box-shadow      : 0 -2px 0 rgb(0 0 0 / 30%) inset;
+}
+
+.link--help__section-two--contact-link:hover {
+    background-color: var(--main-button-hover-color);
+}
+
+.label--help__section-two--contact-link {
+    padding       : 0px;
+    font-family   : var(--primary-font-family);
+    font-weight   : 400;
+    text-transform: capitalize;
+    padding       : 0 0.9375rem;
+    line-height   : 1;
+}
+
+@media screen and (min-width: 640px) {
+    .link--help__section-two--contact-link {
+        height   : 2.5rem;
+        font-size: .9375rem;
+    }
+}
