@@ -1,0 +1,106 @@
+{
+    ///////////////////////////////////////////////
+    "flex-layout.row#header__promotion-code": {
+        "title": "Promotion Code Layout",
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header__sticky-layout-container"
+        },
+        "children": [
+            "flex-layout.col#header__promotion-code--countdown",
+            "flex-layout.col#header__promotion-code--modal"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.col#header__promotion-code--countdown": {
+        "title": "Promotion Countdown",
+        "props": {
+            "blockClass": "header__promotion-code--countdown"
+        },
+        "children": [
+            "custom-countdown"
+        ]
+    },
+    "flex-layout.col#header__promotion-code--modal": {
+        "title": "Promotion Modal",
+        "props": {
+            "width": "grow"
+        },
+        "children": [
+            "modal-trigger#promotion-code__modal--trigger"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "modal-trigger#promotion-code__modal--trigger": {
+        "title": "Promotion Modal Trigger",
+        "props": {
+            "blockClass": "promotion-code__modal--trigger"
+        },
+        "children": [
+            "image#promotion-code__modal--trigger-image",
+            "modal-layout#promotion-code__modal--trigger-layout"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "image#promotion-code__modal--trigger-image": {
+        "title": "Promotion Code Image",
+        "props": {
+            "src": "assets/img/header/codef1zoom.png",
+            "blockClass": "promotion-code__modal--trigger-image"
+        }
+    },
+    "modal-layout#promotion-code__modal--trigger-layout": {
+        "title": "Promotion Code Modal Layout",
+        "props": {
+            "blockClass": "promotion-code__modal--trigger-layout"
+        },
+        "children": [
+            "flex-layout.col#promotion-modal__trigger-layout"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.col#promotion-modal__trigger-layout": {
+        "title": "Modal Structure",
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "promotion-modal__trigger-layout"
+        },
+        "children": [
+            "flex-layout.row#promotion-modal__trigger-layout--header",
+            "image#promotion-modal__trigger-layout--code-image"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#promotion-modal__trigger-layout--header": {
+        "title": "Modal Header",
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "promotion-modal__trigger-layout--header"
+        },
+        "children": [
+            "rich-text#promotion-modal__trigger-layout--header-title",
+            "modal-header#promotion-modal__trigger-layout--header-close"
+        ]
+    },
+    "image#promotion-modal__trigger-layout--code-image": {
+        "title": "Promotion Code Image",
+        "props": {
+            "src": "assets/img/header/modal-codigo-descuento.png"
+        }
+    },
+    ///////////////////////////////////////////////
+    "rich-text#promotion-modal__trigger-layout--header-title": {
+        "title": "Promotion Modal Title",
+        "props": {
+            "text": "DEAL ENDS SOON",
+            "blockClass": "promotion-modal__trigger-layout--header-title"
+        }
+    },
+    "modal-header#promotion-modal__trigger-layout--header-close": {
+        "title": "Modal Close Button",
+        "props": {
+            "showCloseButton": true,
+            "blockClass": "promotion-modal__trigger-layout--header-close"
+        }
+    }
+}

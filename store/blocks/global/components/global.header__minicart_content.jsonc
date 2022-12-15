@@ -1,0 +1,69 @@
+{
+    "minicart-base-content#global__minicart--content": {
+        "title": "Minicart Content",
+        "blocks": [
+            "minicart-empty-state#global__minicart--content-empty"
+        ],
+        "children": [
+            "minicart-product-list#global__minicart--content-products",
+            "flex-layout.row#global__minicart--content-footer"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "minicart-empty-state#global__minicart--content-empty": {
+        "title": "Minicart Empty",
+        "children": [
+            "flex-layout.row#minicart__content-empty--external-layout"
+        ]
+    },
+    "minicart-product-list#global__minicart--content-products": {
+        "title": "Minicart Products",
+        "blocks": [
+            "product-list#minicart__content-products--list"
+        ]
+    },
+    "flex-layout.row#global__minicart--content-footer": {
+        "title": "Minicart Footer",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "global__minicart--content-footer"
+        },
+        "children": [
+            "minicart-summary",
+            "minicart-checkout-button"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#minicart__content-empty--external-layout": {
+        "title": "Minicart Empty External Layout",
+        "children": [
+            "flex-layout.col#minicart__content-empty--internal-layout"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.col#minicart__content-empty--internal-layout": {
+        "title": "Minicart Empty Internal Layout",
+        "props": {
+            "blockClass": "minicart__content-empty--internal-layout"
+        },
+        "children": [
+            "icon-cart#content-empty__internal-layout--icon",
+            "rich-text#content-empty__internal-layout--text"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "icon-cart#content-empty__internal-layout--icon": {
+        "title": "Minicart Empty Icon",
+        "props": {
+            "size": 100
+        }
+    },
+    "rich-text#content-empty__internal-layout--text": {
+        "title": "Minicart Empty Text",
+        "props": {
+            "text": "Tu cesta esta vacia",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

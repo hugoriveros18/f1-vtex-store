@@ -1,0 +1,16 @@
+.flexRow--mobile__menu--back-button {
+    position: absolute;
+    top     : 85px;
+    left    : 6px;
+}
+
+.flexRowContent--mobile__menu--footer {
+    width       : 18.75rem;
+    margin      : 35px auto;
+    padding-left: 10px;
+}
+
+.flexCol--menu__footer--column {
+    align-items: flex-start;
+    gap        : 10px;
+}

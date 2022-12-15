@@ -1,0 +1,9 @@
+.link--social-media__general-link{
+    padding: 0.3125rem 0.625rem 0px 0px;
+    cursor : pointer;
+    color  : var(--font-color-semiblack);
+}
+
+.link--social-media__general-link:hover {
+    color: #3E3E3E;
+}

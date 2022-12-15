@@ -1,0 +1,38 @@
+.paragraph--home__welcome--title,
+.paragraph--welcome__text--one,
+.paragraph--welcome__text--two {
+    font-family: var(--primary-font-family);
+}
+
+.paragraph--welcome__text--one,
+.paragraph--welcome__text--two {
+    font-size    : 14px;
+    font-weight  : 400;
+    line-height  : 1.5;
+    color        : var(--font-color-semiblack);
+    margin       : 0px;
+}
+
+.paragraph--home__welcome--title {
+    font-size  : 1.375rem;
+    font-weight: 600;
+    color      : var(--font-color-semiblack);
+    margin     : 15px 0px;
+    line-height: 36px;
+}
+
+.paragraph--welcome__text--one {
+    margin     : 15px 0px;
+}
+
+.paragraph--welcome__text--two {
+    margin-bottom: 14px;
+}
+
+@media screen and (max-width: 640px) {
+
+    .paragraph--welcome__text--one,
+    .paragraph--welcome__text--two {
+        font-size: 16px;
+    }
+}

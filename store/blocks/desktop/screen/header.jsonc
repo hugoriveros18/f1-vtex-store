@@ -1,99 +1,93 @@
 {
-  ///////////////////////////////////////////////
   "header-layout.desktop": {
-    "title": "Header Desktop",
+    "title": "Desktop Header",
     "children": [
-      "header-row#header__top-section",
-      "header-row#header__middle-section",
-      "header-row#header__bottom-section",
-      "sticky-layout.stack-container#header__bottom-last-section"
+      "header-row#desktop-tablet__header--section-one",
+      "header-row#desktop-tablet__header--section-two",
+      "header-row#desktop-tablet__header--section-three",
+      "sticky-layout.stack-container#desktop-tablet__header--section-four"
     ]
   },
-
-
   ///////////////////////////////////////////////
-  "header-row#header__top-section": {
-    "title": "Header Top Row",
+  "header-row#desktop-tablet__header--section-one": {
+    "title": "Header Section One",
     "children": [
-      "flex-layout.row#header__registro-descuento",
+      "drawer#mobile__header--menu",
+      "flex-layout.row#global__header--modal-registration",
       "header-spacer",
-      "vtex.menu@2.x:menu#header__opciones-cuenta-menu",
-      "minicart.v2#header__desktop"
+      "vtex.menu@2.x:menu#desktop-tablet__header--menu-one",
+      "minicart.v2#desktop-tablet__header--minicart"
     ],
     "props": {
-      "blockClass": [
-        "header__top-section-row",
-        "top-padding-desktop"
-      ]
+      "blockClass": "desktop-tablet__header--section-one"
     }
   },
-  "header-row#header__middle-section": {
-    "title": "Header Middle Row",
+  "header-row#desktop-tablet__header--section-two": {
+    "title": "Header Section Two",
     "children": [
-      "logo#header__middle-logo",
-      "search-bar#header__search-bar"
+      "logo#desktop-tablet__header--logo",
+      "search-bar#desktop-tablet__header--search-bar",
+      "header-spacer",
+      "quick-order"
     ],
     "props": {
-      "blockClass": [
-        "header__middle-section-row",
-        "middle-height-desktop"
-      ]
+      "blockClass": "desktop-tablet__header--section-two"
     }
   },
-  "header-row#header__bottom-section": {
-    "title": "Header Bottom Row",
+  "header-row#desktop-tablet__header--section-three": {
+    "title": "Header Section Three",
     "children": [
-      "vtex.menu@2.x:menu#header__menu-categorias-general"
+      "vtex.menu@2.x:menu#desktop__header--menu-two"
     ],
     "props": {
-      "blockClass": "header__bottom-section-row"
+      "blockClass": "desktop-tablet__header--section-three"
     }
   },
-  "sticky-layout.stack-container#header__bottom-last-section": {
-    "title": "Header Bottom Last Row",
+  "sticky-layout.stack-container#desktop-tablet__header--section-four": {
+    "title": "Header Section Four",
     "children": [
-      "sticky-layout#header__codigo-descuento"
+      "sticky-layout#desktop-tablet__header--promotion-code"
     ]
   },
-
-
   ///////////////////////////////////////////////
-  "logo#header__middle-logo": {
-    "title": "Logo Middle Section",
+  "logo#desktop-tablet__header--logo": {
+    "title": "F1 Logo",
     "props": {
       "url": "assets/img/header/f1-logo.svg",
       "href": "/",
-      "blockClass": [
-        "header__middle-section-logo",
-        "dektop-logo-padding"
-      ]
+      "blockClass": "desktop-tablet__header--logo"
     }
   },
-  "autocomplete-result-list.v2": {
+  "search-bar#desktop-tablet__header--search-bar": {
+    "title": "Search Bar",
     "blocks": [
-      "product-summary"
-    ]
-  },
-  "search-bar#header__search-bar": {
-    "blocks": [
-      "autocomplete-result-list.v2"
+      "autocomplete-result-list.v2#header__search-bar--autocomplete"
     ],
     "props": {
       "openAutocompleteOnFocus": true,
-      "blockClass": "header__search-bar-desktop"
+      "blockClass": "desktop-tablet__header--search-bar"
     }
   },
-  "sticky-layout#header__codigo-descuento": {
-    "title": "Sticky Promocion Container",
+  "sticky-layout#desktop-tablet__header--promotion-code": {
+    "title": "Sticky Promotion Code",
     "props": {
       "position": "TOP",
-      "blockClass": [
-        "header__sticky-layout",
-        "sticky-height-desktop"
-      ]
+      "blockClass": "desktop-tablet__header--promotion-code"
     },
     "children": [
-      "flex-layout.row#header__sticky-container"
+      "flex-layout.row#header__promotion-code"
     ]
+  },
+  ///////////////////////////////////////////////
+  "autocomplete-result-list.v2#header__search-bar--autocomplete": {
+    "title": "Autocomplete Feature",
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "autocompleteWidth": 39.5,
+      "hideTitles": true,
+      "blockClass": "header__search-bar--autocomplete"
+    }
   }
 }

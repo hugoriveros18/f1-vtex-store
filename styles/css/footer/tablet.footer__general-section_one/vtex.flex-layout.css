@@ -1,0 +1,13 @@
+.flexRow--tablet__footer--section-one {
+    padding         : 1.875rem 0px;
+    background-color: #f4f5f5
+}
+
+.flexRow--footer__section-one--row-two {
+    margin-top   : 50px;
+    padding-right: 1rem;
+}
+
+.flexCol--row-two__sign-safe--column-one {
+    padding-right: 16px;
+}

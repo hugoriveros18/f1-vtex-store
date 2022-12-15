@@ -1,0 +1,63 @@
+.flexRowContent--global__minicart--content-footer :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    align-items: center;
+}
+
+.flexRowContent--global__minicart--content-footer :global(.vtex-button) {
+    background-color: #e10600;
+}
+
+.flexRowContent--global__minicart--content-footer :global(.vtex-button):hover {
+    background-color: #C70500;
+}
+
+.flexRowContent--global__minicart--content-footer :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 80% !important;
+}
+
+.flexRowContent--global__minicart--content-footer :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+    flex          : initial;
+    text-transform: capitalize;
+}
+
+.flexRowContent--global__minicart--content-footer :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+    justify-content: center;
+    align-items    : flex-end;
+    gap            : 4px;
+}
+
+.flexRowContent--global__minicart--content-footer :global(.vtex-checkout-summary-0-x-summaryItemLabel),
+.flexRowContent--global__minicart--content-footer :global(.vtex-checkout-summary-0-x-price),
+.flexRowContent--global__minicart--content-footer :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    font-family: var(--primary-font-family);
+}
+
+.flexRowContent--global__minicart--content-footer :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+    font-size  : 22px;
+    font-weight: 600;
+}
+
+.flexRowContent--global__minicart--content-footer :global(.vtex-checkout-summary-0-x-price) {
+    font-size  : 20px;
+    font-weight: 400;
+}
+
+.flexRowContent--global__minicart--content-footer :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    font-size  : 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.flexRowContent--global__minicart--content-footer :global(.vtex-checkout-summary-0-x-summaryItemLabel)::after {
+    content: ":";
+}
+
+.flexRowContent--global__minicart--content-footer {
+    flex-direction: column;
+    align-items   : center;
+}
+
+.flexColChild--minicart__content-empty--internal-layout {
+    display        : flex;
+    justify-content: center;
+    opacity        : 0.5;
+}

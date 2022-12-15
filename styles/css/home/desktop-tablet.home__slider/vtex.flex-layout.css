@@ -1,0 +1,11 @@
+.flexRow--desktop-tablet__home--slider-layout {
+    margin-top: 8px;
+}
+
+.flexRow--desktop-tablet__home--slider-layout :global(.vtex-store-components-3-x-container) {
+    padding-left : 0px;
+    padding-right: 0px;
+    margin-left  : 0;
+    margin-right : 0;
+    max-width    : none;
+}

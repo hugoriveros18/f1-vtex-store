@@ -1,0 +1,7 @@
+.currencyContainer--product-summary__details--price {
+    font-family: var(--primary-font-family);
+    font-size  : 1.125rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color      : var(--main-price-color);
+}

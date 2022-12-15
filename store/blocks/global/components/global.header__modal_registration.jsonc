@@ -1,0 +1,204 @@
+{
+    ///////////////////////////////////////////////
+    "flex-layout.row#global__header--modal-registration": {
+        "title": "Global Registration Modal",
+        "props": {
+            "blockClass": "global__header--modal-registration"
+        },
+        "children": [
+            "modal-trigger#header__registration-modal--trigger"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "modal-trigger#header__registration-modal--trigger": {
+        "title": "Registration Modal Trigger",
+        "props": {
+            "blockClass": "header__registration-modal--trigger"
+        },
+        "children": [
+            "rich-text#registration-modal__trigger--text",
+            "modal-layout#registration-modal__layout"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "rich-text#registration-modal__trigger--text": {
+        "title": "Trigger Text",
+        "props": {
+            "text": "REGÍSTRATE Y AHORRA UN 10%",
+            "textAligment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "registration-modal__trigger--text"
+        }
+    },
+    "modal-layout#registration-modal__layout": {
+        "title": "Registration Modal Layout",
+        "props": {
+            "blockClass": "registration-modal__layout"
+        },
+        "children": [
+            "flex-layout.row#registation-modal__layout--internal",
+            "modal-header#registation-modal__close-button"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#registation-modal__layout--internal": {
+        "title": "Modal Internal Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "registation-modal__layout--internal"
+        },
+        "children": [
+            "flex-layout.col#registation-modal__layout--content"
+        ]
+    },
+    "modal-header#registation-modal__close-button": {
+        "title": "Modal Close Button",
+        "props": {
+            "showCloseButton": true,
+            "blockClass": "registation-modal__close-button"
+        }
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.col#registation-modal__layout--content": {
+        "title": "Modal Content",
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "registation-modal__layout--content"
+        },
+        "children": [
+            "form#registration-modal__form"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "form#registration-modal__form": {
+        "props": {
+            "entity": "SC",
+            "schema": "f1-subscribe-clients",
+            "blockClass": "registration-modal__form"
+        },
+        "children": [
+            "rich-text#registation-modal__title",
+            "rich-text#registation-modal__description",
+            "rich-text#registation-modal__validation",
+            "form-input.text#registration-modal__form--email",
+            "form-input.text#registration-modal__form--first-name",
+            "form-input.text#registration-modal__form--last-name",
+            "form-input.dropdown#registration-modal__form--favourite-team",
+            "rich-text#registration-modal__form--newsletter",
+            "form-input.checkbox#registration-modal__form--lates-promotions",
+            "form-input.checkbox#registration-modal__form--latest-news",
+            "form-submit#registration-modal__form--submit"
+        ],
+        "blocks": [
+            "form-success#registration-modal__form--success-response"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "rich-text#registation-modal__title": {
+        "title": "Registration Title",
+        "props": {
+            "text": "¡Ahorra un 10% de immediato!*",
+            "blockClass": "registation-modal__title"
+        }
+    },
+    "rich-text#registation-modal__description": {
+        "title": "Registration Description",
+        "props": {
+            "text": "Consigue un 10% de descuento en tu primer pedido y otras ofertas a través de correo electrónico exclusivas. Introduce tu información debajo.",
+            "blockClass": "registation-modal__description"
+        }
+    },
+    "rich-text#registation-modal__validation": {
+        "title": "Registration Validation",
+        "props": {
+            "text": "*Oferta válida solo para nuevos clientes",
+            "blockClass": "registation-modal__validation"
+        }
+    },
+    "form-input.text#registration-modal__form--email": {
+        "title": "Email Input",
+        "props": {
+            "pointer": "#/properties/email",
+            "label": "Correo Electronico",
+            "placeholder": "Correo Electronico*",
+            "blockClass": "registration-modal__form--email"
+        }
+    },
+    "form-input.text#registration-modal__form--first-name": {
+        "title": "First Name Input",
+        "props": {
+            "pointer": "#/properties/firstName",
+            "label": "Nombre",
+            "placeholder": "Nombre",
+            "blockClass": "registration-modal__form--first-name"
+        }
+    },
+    "form-input.text#registration-modal__form--last-name": {
+        "title": "Last Name Input",
+        "props": {
+            "pointer": "#/properties/lastName",
+            "label": "Apellido",
+            "placeholder": "Apellido",
+            "blockClass": "registration-modal__form--last-name"
+        }
+    },
+    "form-input.dropdown#registration-modal__form--favourite-team": {
+        "title": "Favourite Team Dropdown",
+        "props": {
+            "pointer": "#/properties/f1FavouriteTeam",
+            "label": "Selecciona Tu Equipo Favorito",
+            "blockClass": "registration-modal__form--favourite-team"
+        }
+    },
+    "rich-text#registration-modal__form--newsletter": {
+        "title": "Newsletter Information",
+        "props": {
+            "text": "Deseo recibir la última información por correo electrónico y mensaje de texto incluyendo noticias, encuestas, ofertas y promociones de :",
+            "blockClass": "registration-modal__form--newsletter"
+        }
+    },
+    "form-input.checkbox#registration-modal__form--lates-promotions": {
+        "title": "Lates Promotions Checkbox",
+        "props": {
+            "pointer": "#/properties/promotions",
+            "label": "Quiero recibir las últimas ofertas y promociones de la Tienda F1® (operada por Fanatics (International) Limited)",
+            "blockClass": "registration-modal__form--lates-promotions"
+        }
+    },
+    "form-input.checkbox#registration-modal__form--latest-news": {
+        "title": "Lates News Checkbox",
+        "props": {
+            "pointer": "#/properties/news",
+            "label": "Deseo recibir la información más reciente de F1®, incluidas noticias, encuestas, ofertas y promociones relevantes",
+            "blockClass": "registration-modal__form--latest-news"
+        }
+    },
+    "form-submit#registration-modal__form--submit": {
+        "title": "Form Submit",
+        "props": {
+            "label": "¡Regístrate ahora!"
+        }
+    },
+    "form-success#registration-modal__form--success-response": {
+        "title": "Form Success Response",
+        "children": [
+            "rich-text#form__success-response--text-title",
+            "rich-text#form__success-response--text-description"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "rich-text#form__success-response--text-title": {
+        "title": "Form Success Response Title",
+        "props": {
+            "text": "¡Gracias por registrarte!",
+            "blockClass": "form__success-response--text-title"
+        }
+    },
+    "rich-text#form__success-response--text-description": {
+        "title": "Form Success Response Description",
+        "props": {
+            "text": "Tu cupón del 10% de descuento se aplicará automáticamente durante el proceso de compra.",
+            "blockClass": "form__success-response--text-description"
+        }
+    }
+}

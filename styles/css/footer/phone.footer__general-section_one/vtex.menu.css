@@ -1,0 +1,43 @@
+.menuContainer--section-one__row-one--menu {
+    display     : flex;
+    flex-wrap   : wrap;
+    margin-left : 2.5rem;
+    margin-right: 2.5rem;
+}
+
+@media screen and (max-width: 640px) {
+
+    .styledLinkContainer--customer-service__menu--help {
+        justify-content: flex-end !important;
+    }
+
+    .menuItem--customer-service__menu--help,
+    .menuItem--online-shopping__menu--returns {
+        width          : 50%;
+        display        : flex;
+        justify-content: center;
+        align-items    : flex-end;
+    }
+
+    .menuItem--customer-service__menu--track-order {
+        width: 100%;
+    }
+
+    .styledLinkContent--customer-service__menu--help,
+    .styledLinkContent--online-shopping__menu--returns,
+    .styledLinkContent--customer-service__menu--track-order {
+        justify-content: center;
+    }
+
+    .styledLinkContent--online-shopping__menu--returns {
+        width      : 163.19px;
+        white-space: unset;
+        text-align : center;
+    }
+
+    .menuContainer--footer__section-two--menu {
+        flex-wrap      : wrap;
+        justify-content: center;
+        margin         : 50px 55px 15px;
+    }
+}

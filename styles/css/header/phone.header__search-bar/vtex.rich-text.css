@@ -1,0 +1,14 @@
+.paragraph--search-bar__layout--close-text {
+    margin         : 0px;
+    font-family    : var(--primary-font-family);
+    font-size      : .75rem;
+    font-weight    : 400;
+    text-decoration: underline;
+    padding        : 0.125rem;
+    opacity        : .8;
+    color          : var(--font-color-semiblack);
+}
+
+.container--search-bar__layout--close-text {
+    margin-bottom: 0.125rem 8px;
+}

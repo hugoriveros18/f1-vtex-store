@@ -1,101 +1,12 @@
 {
-  //NIVEL 1
+  ///////////////////////////////////////////////
   "responsive-layout.tablet": {
     "title": "Header Responsive Tablet",
     "children": [
-        "header-row#header__top-section-tablet",
-        "header-row#header__middle-section-tablet",
-        "sticky-layout.stack-container#header__bottom-last-section-tablet"
+      "header-row#desktop-tablet__header--section-one",
+      "header-row#desktop-tablet__header--section-two",
+      "header-row#desktop-tablet__header--section-three",
+      "sticky-layout.stack-container#desktop-tablet__header--section-four"
     ]
-  },
-
-
-  //NIVEL 2
-  "header-row#header__top-section-tablet": {
-    "title": "Header Top Row",
-    "children": [
-        "drawer#header__top-menu-mobile",
-        "flex-layout.row#header__registro-descuento",
-        "header-spacer",
-        "vtex.menu@2.x:menu#header__opciones-cuenta-menu",
-        "minicart.v2#header__desktop"
-    ],
-    "props": {
-        "blockClass": ["header__top-section-row","top-padding-tablet"]
-    }
-  },
-  "header-row#header__middle-section-tablet": {
-    "title": "Tablet Header Middle Row",
-    "children": [
-        "logo#header__middle-logo-tablet",
-        "search-bar#header__search-bar"
-    ],
-    "props": {
-        "blockClass": ["header__middle-section-row","middle-height-tablet"]
-    }
-  },
-  "sticky-layout.stack-container#header__bottom-last-section-tablet": {
-    "title": "Header Bottom Last Row Tablet",
-    "children": [
-        "sticky-layout#header__codigo-descuento-tablet"
-    ]
-  },
-
-
-  //NIVEL 3
-  "logo#header__middle-logo-tablet": {
-    "title": "Tablet Logo Middle Section",
-    "props": {
-        "url": "assets/img/header/f1-logo.svg",
-        "href": "/",
-        "blockClass": ["header__middle-section-logo", "tablet-logo-padding"]
-    }
-  },
-  "sticky-layout#header__codigo-descuento-tablet": {
-    "title": "Sticky Promocion Container",
-    "props": {
-        "position": "TOP",
-        "blockClass": ["header__sticky-layout", "sticky-height-tablet"]
-    },
-    "children": [
-        "flex-layout.row#header__sticky-container-tablet"
-    ]
-  },
-
-
-  //NIVEL 4
-  "flex-layout.row#header__sticky-container-tablet":{
-    "title": "Distribucion Layout Container",
-    "props": {
-        "preventHorizontalStretch": true,
-        "blockClass": "header__sticky-layout-container"
-    },
-    "children": [
-        "flex-layout.col#header__contenedor-texto-codigo-tablet",
-        "flex-layout.col#header__contenedor-modal-codigo"
-    ]
-  },
-
-
-  //NIVEL 5
-  "flex-layout.col#header__contenedor-texto-codigo-tablet": {
-      "title": "Contenedor Layout Texto Codigo",
-      "props": {
-          "blockClass": "header__contenedor-texto-layout"
-      },
-      "children": [
-          "rich-text#header__codigo-descuento-tablet"
-      ]
-  },
-
-
-  //NIVEL 6
-  "rich-text#header__codigo-descuento-tablet": {
-      "title": "Mensaje Codigo Descuento",
-      "props": {
-          "text": "DEAL ENDS SOON",
-          "textAlignment": "CENTER",
-          "blockClass": ["header__bottom-last-section-texto-codigo", "sticky-text-tablet"]
-      }
   }
 }

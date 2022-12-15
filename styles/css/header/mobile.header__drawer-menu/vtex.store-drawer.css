@@ -1,0 +1,27 @@
+.childrenContainer--mobile__header--menu {
+    flex-direction: column;
+    position      : relative;
+}
+
+.closeIconContainer--mobile__header--menu {
+    display: none;
+}
+
+.closeIconButton--drawer-close-button {
+    position: absolute;
+    width   : 60px;
+    right   : 0px;
+}
+
+.closeIcon--drawer-close-button {
+    color: var(--font-color-black);
+}
+
+.overlay--mobile__header--menu--visible {
+    background-color: #000;
+    opacity         : 0.5;
+}
+
+.opened--mobile__header--menu {
+    max-width: none !important;
+}

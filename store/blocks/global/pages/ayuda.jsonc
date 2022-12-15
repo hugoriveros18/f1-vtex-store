@@ -1,0 +1,498 @@
+{
+    "store.custom#ayuda": {
+        "title": "Help Page",
+        "blocks": [
+            "flex-layout.row#global__help"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#global__help": {
+        "title": "Help Layout",
+        "props": {
+            "blockClass": "global__help"
+        },
+        "children": [
+            "flex-layout.col#global__help--section-one",
+            "flex-layout.col#global__help--section-two"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.col#global__help--section-one": {
+        "title": "Help Section One",
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "global__help--section-one"
+        },
+        "children": [
+            "flex-layout.row#help__section-one--account",
+            "flex-layout.row#help__section-one--order",
+            "flex-layout.row#help__section-one--delivery",
+            "flex-layout.row#help__section-one--sizes",
+            "flex-layout.row#help__section-one--returns",
+            "flex-layout.row#help__section-one--promotions",
+            "flex-layout.row#help__section-one--tracking",
+            "flex-layout.row#help__section-one--security",
+            "flex-layout.row#help__section-one--terms",
+            "flex-layout.row#help__section-one--privacy",
+            "flex-layout.row#help__section-one--cookies",
+            "flex-layout.row#help__section-one--contact"
+        ]
+    },
+    "flex-layout.col#global__help--section-two": {
+        "title": "Help Section Two",
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "global__help--section-two"
+        },
+        "children": [
+            "image#help__section-two--contact-image",
+            "rich-text#help__section-two--contact-text",
+            "link#help__section-two--contact-link"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#help__section-one--account": {
+        "title": "Your Account Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "help__section-one--general",
+                "help__section-one--account"
+            ]
+        },
+        "children": [
+            "image#section-one__account--icon",
+            "rich-text#section-one__acount--title"
+        ]
+    },
+    "flex-layout.row#help__section-one--order": {
+        "title": "Placing Your Order Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "help__section-one--general",
+                "help__section-one--order"
+            ]
+        },
+        "children": [
+            "image#section-one__order--icon",
+            "rich-text#section-one__order--title"
+        ]
+    },
+    "flex-layout.row#help__section-one--delivery": {
+        "title": "Delivery and Shipping Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "help__section-one--general",
+                "help__section-one--delivery"
+            ]
+        },
+        "children": [
+            "image#section-one__delivery--icon",
+            "rich-text#section-one__delivery--title"
+        ]
+    },
+    "flex-layout.row#help__section-one--sizes": {
+        "title": "Size Guidelines Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "help__section-one--general",
+                "help__section-one--sizes"
+            ]
+        },
+        "children": [
+            "image#section-one__sizes--icon",
+            "rich-text#section-one__sizes--title"
+        ]
+    },
+    "flex-layout.row#help__section-one--returns": {
+        "title": "Return Information Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "help__section-one--general",
+                "help__section-one--returns"
+            ]
+        },
+        "children": [
+            "image#section-one__returns--icon",
+            "rich-text#section-one__returns--title"
+        ]
+    },
+    "flex-layout.row#help__section-one--promotions": {
+        "title": "Promotions Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "help__section-one--general",
+                "help__section-one--promotions"
+            ]
+        },
+        "children": [
+            "image#section-one__promotions--icon",
+            "rich-text#section-one__promotions--title"
+        ]
+    },
+    "flex-layout.row#help__section-one--tracking": {
+        "title": "Tracking Information Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "help__section-one--general",
+                "help__section-one--tracking"
+            ]
+        },
+        "children": [
+            "image#section-one__tracking--icon",
+            "rich-text#section-one__tracking--title"
+        ]
+    },
+    "flex-layout.row#help__section-one--security": {
+        "title": "Your Security Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "help__section-one--general",
+                "help__section-one--security"
+            ]
+        },
+        "children": [
+            "image#section-one__security--icon",
+            "rich-text#section-one__security--title"
+        ]
+    },
+    "flex-layout.row#help__section-one--terms": {
+        "title": "Terms and Conditions Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "help__section-one--general",
+                "help__section-one--terms"
+            ]
+        },
+        "children": [
+            "image#section-one__terms--icon",
+            "rich-text#section-one__terms--title"
+        ]
+    },
+    "flex-layout.row#help__section-one--privacy": {
+        "title": "Privacy Policy Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "help__section-one--general",
+                "help__section-one--privacy"
+            ]
+        },
+        "children": [
+            "image#section-one__privacy--icon",
+            "rich-text#section-one__privacy--title"
+        ]
+    },
+    "flex-layout.row#help__section-one--cookies": {
+        "title": "Cookies Policy Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "help__section-one--general",
+                "help__section-one--cookies"
+            ]
+        },
+        "children": [
+            "image#section-one__cookies--icon",
+            "rich-text#section-one__cookies--title"
+        ]
+    },
+    "flex-layout.row#help__section-one--contact": {
+        "title": "Contact Us Layout",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "help__section-one--general",
+                "help__section-one--contact"
+            ]
+        },
+        "children": [
+            "image#section-one__contact--icon",
+            "rich-text#section-one__contact--title"
+        ]
+    },
+    "image#help__section-two--contact-image": {
+        "title": "Contact Image",
+        "props": {
+            "src": "assets/img/pages/ayuda__contacto.svg",
+            "blockClass": "help__section-two--contact-image"
+        }
+    },
+    "rich-text#help__section-two--contact-text": {
+        "title": "Contact Text",
+        "props": {
+            "text": "¿No encuentras lo que estas buscando?",
+            "blockClass": "help__section-two--contact-text"
+        }
+    },
+    "link#help__section-two--contact-link": {
+        "title": "Ayuda - Contacto Link",
+        "props": {
+            "displayMode": "button",
+            "href": "#",
+            "label": "Habla Con Nosotros",
+            "blockClass": "help__section-two--contact-link"
+        }
+    },
+    ///////////////////////////////////////////////
+    "image#section-one__account--icon": {
+        "title": "Your Account Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__cuenta.svg",
+            "blockClass": [
+                "section-one__general--icon",
+                "section-one__account--icon"
+            ]
+        }
+    },
+    "rich-text#section-one__acount--title": {
+        "title": "Your Account Title",
+        "props": {
+            "text": "Tu cuenta",
+            "blockClass": [
+                "section-one__general--title",
+                "section-one__acount--title"
+            ]
+        }
+    },
+    "image#section-one__order--icon": {
+        "title": "Placing Your Order Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__pedido.svg",
+            "blockClass": [
+                "section-one__general--icon",
+                "section-one__order--icon"
+            ]
+        }
+    },
+    "rich-text#section-one__order--title": {
+        "title": "Placing Your Order Title",
+        "props": {
+            "text": "Realiza un pedido",
+            "blockClass": [
+                "section-one__general--title",
+                "section-one__order--title"
+            ]
+        }
+    },
+    "image#section-one__delivery--icon": {
+        "title": "Delivery and Shipping Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__envio.svg",
+            "blockClass": [
+                "section-one__general--icon",
+                "section-one__delivery--icon"
+            ]
+        }
+    },
+    "rich-text#section-one__delivery--title": {
+        "title": "Delivery and Shipping Title",
+        "props": {
+            "text": "Envio y entrega",
+            "blockClass": [
+                "section-one__general--title",
+                "section-one__delivery--title"
+            ]
+        }
+    },
+    "image#section-one__sizes--icon": {
+        "title": "Size Guidelines Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__tallas.svg",
+            "blockClass": [
+                "section-one__general--icon",
+                "section-one__sizes--icon"
+            ]
+        }
+    },
+    "rich-text#section-one__sizes--title": {
+        "title": "Size Guidelines Title",
+        "props": {
+            "text": "Guía de tallas",
+            "blockClass": [
+                "section-one__general--title",
+                "section-one__sizes--title"
+            ]
+        }
+    },
+    "image#section-one__returns--icon": {
+        "title": "Return Information Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__devoluciones.svg",
+            "blockClass": [
+                "section-one__general--icon",
+                "section-one__returns--icon"
+            ]
+        }
+    },
+    "rich-text#section-one__returns--title": {
+        "title": "Return Information Title",
+        "props": {
+            "text": "Información sobre devoluciones",
+            "blockClass": [
+                "section-one__general--title",
+                "section-one__returns--title"
+            ]
+        }
+    },
+    "image#section-one__promotions--icon": {
+        "title": "Promotions Layout Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__ofertas.svg",
+            "blockClass": [
+                "section-one__general--icon",
+                "section-one__promotions--icon"
+            ]
+        }
+    },
+    "rich-text#section-one__promotions--title": {
+        "title": "Promotions Layout Title",
+        "props": {
+            "text": "Ofertas",
+            "blockClass": [
+                "section-one__general--title",
+                "section-one__promotions--title"
+            ]
+        }
+    },
+    "image#section-one__tracking--icon": {
+        "title": "Tracking Information Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__seguimiento.svg",
+            "blockClass": [
+                "section-one__general--icon",
+                "section-one__tracking--icon"
+            ]
+        }
+    },
+    "rich-text#section-one__tracking--title": {
+        "title": "Tracking Information Title",
+        "props": {
+            "text": "Información de seguimiento",
+            "blockClass": [
+                "section-one__general--title",
+                "section-one__tracking--title"
+            ]
+        }
+    },
+    "image#section-one__security--icon": {
+        "title": "Your Security Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__seguridad.svg",
+            "blockClass": [
+                "section-one__general--icon",
+                "section-one__security--icon"
+            ]
+        }
+    },
+    "rich-text#section-one__security--title": {
+        "title": "Your Security Title",
+        "props": {
+            "text": "Tu seguridad",
+            "blockClass": [
+                "section-one__general--title",
+                "section-one__security--title"
+            ]
+        }
+    },
+    "image#section-one__terms--icon": {
+        "title": "Terms and Conditions Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__terminos.svg",
+            "blockClass": [
+                "section-one__general--icon",
+                "section-one__terms--icon"
+            ]
+        }
+    },
+    "rich-text#section-one__terms--title": {
+        "title": "Terms and Conditions Title",
+        "props": {
+            "text": "Términos y condiciones",
+            "blockClass": [
+                "section-one__general--title",
+                "section-one__terms--title"
+            ]
+        }
+    },
+    "image#section-one__privacy--icon": {
+        "title": "Privacy Policy Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__privacidad.svg",
+            "blockClass": [
+                "section-one__general--icon",
+                "section-one__privacy--icon"
+            ]
+        }
+    },
+    "rich-text#section-one__privacy--title": {
+        "title": "Privacy Policy Title",
+        "props": {
+            "text": "Politica de privacidad",
+            "blockClass": [
+                "section-one__general--title",
+                "section-one__privacy--title"
+            ]
+        }
+    },
+    "image#section-one__cookies--icon": {
+        "title": "Cookies Policy Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__cookies.svg",
+            "blockClass": [
+                "section-one__general--icon",
+                "section-one__cookies--icon"
+            ]
+        }
+    },
+    "rich-text#section-one__cookies--title": {
+        "title": "Cookies Policy Title",
+        "props": {
+            "text": "Politica de cookies",
+            "blockClass": [
+                "section-one__general--title",
+                "section-one__cookies--title"
+            ]
+        }
+    },
+    "image#section-one__contact--icon": {
+        "title": "Contact Us Icon",
+        "props": {
+            "src": "assets/img/pages/ayuda__contactenos.svg",
+            "blockClass": [
+                "section-one__general--icon",
+                "section-one__contact--icon"
+            ]
+        }
+    },
+    "rich-text#section-one__contact--title": {
+        "title": "Contact Us Title",
+        "props": {
+            "text": "Contactenos",
+            "blockClass": [
+                "section-one__general--title",
+                "section-one__contact--title"
+            ]
+        }
+    }
+}

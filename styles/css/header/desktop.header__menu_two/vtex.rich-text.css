@@ -1,0 +1,19 @@
+.container--layout__drivers--title {
+    padding      : 0px 24px;
+    margin-bottom: 10px;
+}
+
+.container--layout__legends--title {
+    padding      : 0px 24px 0px 17px;
+    margin-bottom: 10px;
+}
+
+.paragraph--layout__drivers--title,
+.paragraph--layout__legends--title {
+    margin     : 0px;
+    font-family: var(--primary-font-family);
+    font-size  : 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color      : var(--font-color-black);
+}

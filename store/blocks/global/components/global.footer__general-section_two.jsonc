@@ -1,0 +1,197 @@
+{
+    "flex-layout.row#global__footer--section-two": {
+        "title": "Footer Section Two",
+        "props": {
+            "fullWidth": true,
+            "blockClass": "global__footer--section-two"
+        },
+        "children": [
+            "flex-layout.col#footer__section-two--layout"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "flex-layout.col#footer__section-two--layout": {
+        "title": "Section Two Layout",
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": "footer__section-two--layout"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#footer__section-two--menu",
+            "rich-text#footer__section-two--copyright-text",
+            "flex-layout.row#footer__section-two--payment-methods"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "vtex.menu@2.x:menu#footer__section-two--menu": {
+        "title": "Footer Menu",
+        "props": {
+            "orientation": "horizontal",
+            "blockClass": "footer__section-two--menu"
+        },
+        "children": [
+            "menu-item#section-two__menu--privacy-policy",
+            "menu-item#section-two__menu--separator",
+            "menu-item#section-two__menu--terms-use",
+            "menu-item#section-two__menu--separator",
+            "menu-item#section-two__menu--site-map",
+            "menu-item#section-two__menu--separator",
+            "menu-item#section-two__menu--cookies"
+        ]
+    },
+    "rich-text#footer__section-two--copyright-text": {
+        "title": "Copyright Text",
+        "props": {
+            "text": "© 2022, Fanatics, Inc. y / o sus entidades afiliadas. Reservados todos los derechos. Ninguna parte de este sitio puede ser reproducida o duplicada sin el permiso expreso de Fanatics.",
+            "blockClass": "footer__section-two--copyright-text"
+        }
+    },
+    "flex-layout.row#footer__section-two--payment-methods": {
+        "title": "Payment Methods",
+        "props": {
+            "fullWidth": true,
+            "colSizing": "auto",
+            "blockClass": "footer__section-two--payment-methods"
+        },
+        "children": [
+            "image#section-two__payment-methods--visa",
+            "image#section-two__payment-methods--mastercard",
+            "image#section-two__payment-methods--amex",
+            "image#section-two__payment-methods--paypal",
+            "image#section-two__payment-methods--jbc",
+            "image#section-two__payment-methods--maestro"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "menu-item#section-two__menu--privacy-policy": {
+        "title": "Privacy Policy",
+        "props": {
+            "id": "privacy-policy",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/ayuda",
+                "tagTitle": "privacy-policy",
+                "text": "Politica de privacidad"
+            },
+            "blockClass": [
+                "section-two__menu",
+                "section-two__menu--privacy-policy"
+            ]
+        }
+    },
+    "menu-item#section-two__menu--terms-use": {
+        "title": "Terms of Use",
+        "props": {
+            "id": "terms-of-use",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/ayuda",
+                "tagTitle": "terms-of-use",
+                "text": "Términos y condiciones"
+            },
+            "blockClass": [
+                "section-two__menu",
+                "section-two__menu--terms-use"
+            ]
+        }
+    },
+    "menu-item#section-two__menu--site-map": {
+        "title": "Site Map",
+        "props": {
+            "id": "site-map",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/ayuda",
+                "tagTitle": "site-map",
+                "text": "Mapa del sitio"
+            },
+            "blockClass": [
+                "section-two__menu",
+                "section-two__menu--site-map"
+            ]
+        }
+    },
+    "menu-item#section-two__menu--cookies": {
+        "title": "Cookies",
+        "props": {
+            "id": "cookies",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/ayuda",
+                "tagTitle": "cookies",
+                "text": "Politica y gestión de cookies"
+            },
+            "blockClass": [
+                "section-two__menu",
+                "section-two__menu--cookies"
+            ]
+        }
+    },
+    "menu-item#section-two__menu--separator": {
+        "title": "Menu Separator",
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "|"
+            },
+            "blockClass": [
+                "section-two__menu",
+                "section-two__menu--separator"
+            ]
+        }
+    },
+    "image#section-two__payment-methods--visa": {
+        "title": "Visa Logo",
+        "props": {
+            "src": "assets/img/footer/visa.svg",
+            "sizes": "100px",
+            "blockClass": "section-two__payment-methods--visa"
+        }
+    },
+    "image#section-two__payment-methods--mastercard": {
+        "title": "Mastercard Logo",
+        "props": {
+            "src": "assets/img/footer/mastercard.svg",
+            "blockClass": "section-two__payment-methods--mastercard"
+        }
+    },
+    "image#section-two__payment-methods--amex": {
+        "title": "American Express Logo",
+        "props": {
+            "src": "assets/img/footer/american-express.png",
+            "blockClass": "section-two__payment-methods--amex"
+        }
+    },
+    "image#section-two__payment-methods--paypal": {
+        "title": "Paypal Logo",
+        "props": {
+            "src": "assets/img/footer/paypal-3.svg",
+            "blockClass": "section-two__payment-methods--paypal"
+        }
+    },
+    "image#section-two__payment-methods--jbc": {
+        "title": "JBC Logo",
+        "props": {
+            "src": "assets/img/footer/jbc.svg",
+            "blockClass": "section-two__payment-methods--jbc"
+        }
+    },
+    "image#section-two__payment-methods--maestro": {
+        "title": "Maestro Logo",
+        "props": {
+            "src": "assets/img/footer/maestro.svg",
+            "blockClass": "section-two__payment-methods--maestro"
+        }
+    }
+}

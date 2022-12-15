@@ -1,0 +1,73 @@
+{
+    "flex-layout.col#phone__search-result--filters": {
+        "title": "Search Result Filters",
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "phone__search-result--filters"
+        },
+        "children": [
+            "flex-layout.row#phone__search-result--filters--layout-one",
+            "flex-layout.row#phone__search-result--filters--layout-two"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#phone__search-result--filters--layout-one": {
+        "title": "Search Result Filters Layout One",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "phone__search-result--filters--layout-one"
+        },
+        "children": [
+            "filter-navigator.v3#mobile__filters--filter-navigator",
+            "order-by.v2#mobile__filters--order-by"
+        ]
+    },
+    "flex-layout.row#phone__search-result--filters--layout-two": {
+        "title": "Search Result Filters Layout Two",
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "phone__search-result--filters--layout-two"
+        },
+        "children": [
+            "total-products.v2#mobile__filters--total-products",
+            "search-products-count-per-page#mobile__filters--items-counter"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "filter-navigator.v3#mobile__filters--filter-navigator": {
+        "title": "Filter Navigator",
+        "blocks": [
+            "sidebar-close-button#filter-navigator__close-button"
+        ],
+        "props": {
+            "updateOnFilterSelectionOnMobile": true,
+            "initiallyCollapsed": true,
+            "navigationTypeOnMobile": "collapsible",
+            "blockClass": "mobile__filters--filter-navigator"
+        }
+    },
+    "order-by.v2#mobile__filters--order-by": {
+        "title": "Products - Order By",
+        "props": {
+            "blockClass": "mobile__filters--order-by"
+        }
+    },
+    "total-products.v2#mobile__filters--total-products": {
+        "title": "Total Products",
+        "props": {
+            "blockClass": "mobile__filters--total-products"
+        }
+    },
+    "search-products-count-per-page#mobile__filters--items-counter": {
+        "title": "Products Quantity Counter",
+        "props": {
+            "blockClass": "mobile__filters--items-counter"
+        }
+    },
+    ///////////////////////////////////////////////
+    "sidebar-close-button#filter-navigator__close-button": {
+        "props": {
+            "blockClass": "filter-navigator__close-button"
+        }
+    }
+}

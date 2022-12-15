@@ -1,0 +1,13 @@
+@media screen and (max-width: 1023px) {
+
+    .link--social-media__general-link {
+        padding: 5px 15px 0px 0px;
+        cursor : pointer;
+        color  : var(--font-color-semiblack);
+    }
+}
+@media screen and (max-width: 640px) {
+    .link--social-media__general-link{
+        padding: 5px 10px 0px 0px;
+    }
+}

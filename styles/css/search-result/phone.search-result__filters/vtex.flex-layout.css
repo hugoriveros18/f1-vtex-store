@@ -1,0 +1,43 @@
+.flexCol--phone__search-result--filters {
+    padding: 0px 10px;
+}
+
+.flexRow--phone__search-result--filters--layout-one {
+    padding: 8px 0px;
+}
+
+.flexRowContent--phone__search-result--filters--layout-one {
+    gap: 15px;
+}
+
+.flexRowContent--phone__search-result--filters--layout-two :global(.vtex-search-result-3-x-totalProducts--layout) {
+    padding    : 12px 0px;
+    text-align : start;
+    color      : #b5b5b5 !important;
+    font-family: var(--primary-font-family);
+    font-size  : .8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border     : none;
+}
+
+.flexColChild--phone__search-result--filters:last-child {
+    padding-top: 8px;
+    margin-top : 12px;
+    border-top : 1px solid var(--secondary-background-color);
+}
+
+.flexCol--phone__search-result--items-counter {
+    padding: 0px 10px;
+}
+
+.flexColChild--phone__search-result--items-counter {
+    padding      : 25px 0px;
+    border-bottom: 1px solid var(--secondary-background-color);
+}
+
+@media screen and (min-width: 640px) {
+    .flexRowContent--phone__search-result--filters--layout-two :global(.vtex-search-result-3-x-totalProductsMessage) {
+        color: var(--font-color-semiblack) !important;
+    }
+}

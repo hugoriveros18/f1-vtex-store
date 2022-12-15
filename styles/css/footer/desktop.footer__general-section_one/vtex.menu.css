@@ -1,0 +1,19 @@
+.styledLinkContent--footer__section-one--menu-general {
+    padding    : 0.1875rem 0;
+    font-family: var(--primary-font-family);
+    color      : var(--font-color-semiblack);
+    font-size  : .75rem;
+    line-height: 1.85;
+    cursor     : pointer;
+}
+
+.styledLinkContent--footer__section-one--menu-general:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 640px) {
+
+    .menuItem--footer__section-one--menu-general :global(.vtex-menu-2-x-styledLinkContainer) {
+        justify-content: flex-start;
+    }
+}

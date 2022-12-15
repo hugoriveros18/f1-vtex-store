@@ -1,0 +1,29 @@
+.flexRow--header__sticky-layout-container,
+.flexRow--header__sticky-layout-container :global(.vtex-store-components-3-x-container) {
+    height      : 100%;
+    max-width   : none;
+    margin-right: 0;
+    margin-left : 0;
+}
+
+.flexRow--header__sticky-layout-container :global(.vtex-store-components-3-x-container) {
+    padding-left : 0;
+    padding-right: 0;
+}
+
+.flexRowContent--header__sticky-layout-container {
+    height: 100%;
+}
+
+.flexRow--promotion-modal__trigger-layout--header {
+    background-color: #000;
+}
+
+.flexColChild--promotion-modal__trigger-layout {
+    width: 600px;
+}
+
+.flexCol--promotion-modal__trigger-layout {
+    border-radius: 0.9375rem;
+    overflow     : hidden;
+}

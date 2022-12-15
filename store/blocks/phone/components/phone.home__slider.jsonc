@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#phone__home--slider-layout": {
+        "title": "Home Slider Layout",
+        "props": {
+            "blockClass": "phone__home--slider-layout"
+        },
+        "children": [
+            "slider-layout#phone__home--slider"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "slider-layout#phone__home--slider": {
+        "title": "Home slider",
+        "props": {
+            "itemsPerPage": {
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always",
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            },
+            "fullWidth": true,
+            "arrowSize": 25,
+            "blockClass": "phone__home--slider"
+        },
+        "children": [
+            "image#phone__home--slider-constructors",
+            "image#phone__home--slider-ricciardo"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "image#phone__home--slider-ricciardo": {
+        "title": "Ricciardo Gulf Collection Image",
+        "props": {
+            "src": "assets/img/home/dr-maclaren-gulf-collection-phone.png",
+            "link": {
+                "url": "/sol"
+            },
+            "blockClass": "phone__home--slider-image"
+        }
+    },
+    "image#phone__home--slider-constructors": {
+        "title": "All Constructors Champions Image",
+        "props": {
+            "src": "assets/img/home/all-constructors-champions-phone.png",
+            "link": {
+                "url": "madera?_q=madera&map=ft"
+            },
+            "blockClass": "phone__home--slider-image"
+        }
+    }
+}

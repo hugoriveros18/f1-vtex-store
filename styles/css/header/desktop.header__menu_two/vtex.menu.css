@@ -1,0 +1,152 @@
+.styledLink--submenu__drivers--item-general,
+.styledLink--submenu__gifts-accessories--item-general,
+.styledLink--items__layout--collectables {
+    font-family: var(--primary-font-family);
+    font-size  : 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color      : var(--font-color-black);
+}
+
+.styledLinkContent--header__menu-two--category {
+    font-family: 'Open Sans';
+    justify-content: center;
+    font-size      : 12px;
+    color          : #1b1b1b;
+    font-weight    : 600;
+    line-height: 2.1875rem;
+    letter-spacing : 0.45px;
+}
+
+.styledLink--category__team-submenu--item {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.styledLink--submenu__drivers--item-general,
+.styledLink--submenu__gifts-accessories--item-general,
+.styledLink--items__layout--collectables,
+.menuItem--category__team-submenu--item,
+.styledLink--category__team-submenu--item {
+    width: 100%;
+}
+
+.menuItem--header__menu-two--category,
+:global(.vtex-menu-2-x-styledLinkContainer),
+.styledLink--header__menu-two--category {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+}
+
+.menuItem--header__menu-two--category {
+    flex-grow: 1;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer) {
+    height : 100%;
+    width  : 100%;
+    padding: 0;
+    margin : 0;
+}
+
+.styledLink--header__menu-two--category {
+    width : 100%;
+    height: 100%;
+}
+
+.menuItem--header__menu-two--category:hover {
+    background-color: #f2f2f2;
+}
+
+.submenuWrapper--header__menu-two--item-submenu {
+    z-index         : 1000;
+    background-color: var(--font-color-white);
+    padding         : 0px;
+    padding-top     : 10px;
+}
+
+.submenu--header__menu-two--team-submenu {
+    padding-top: 10px;
+}
+
+.menuContainer--menu-two__team-submenu--items {
+    flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-menuContainer) {
+    height: 100%;
+}
+
+.menuItem--submenu__drivers--item-general:hover,
+.menuItem--submenu__gifts-accessories--item-general:hover,
+.menuItem--items__layout--collectables:hover {
+    background-color: rgba(104, 104, 104, .2);
+}
+
+.styledLinkContainer--submenu__drivers--item-general {
+    width          : 257px;
+    padding        : 3px 5px;
+    justify-content: flex-start;
+}
+
+.styledLinkContent--submenu__drivers--item-general {
+    width      : 100%;
+    margin-left: 10px;
+}
+
+.styledLinkContent--pilotos__submenu--sebastian-vettel,
+.styledLinkContent--pilotos__submenu--sergio-perez,
+.styledLinkContent--pilotos__submenu--valtteri-bottas,
+.styledLinkContent--pilotos__submenu--yuki-tsunoda {
+    margin-left: 5px;
+}
+
+.menuContainerNav--menu-two__gifts-accessories-submenu--items,
+.menuContainerNav--menu-two__collectables-submenu--items {
+    padding: 10px;
+}
+
+.menuContainer--menu-two__gifts-accessories-submenu--items,
+.menuContainer--menu-two__collectables-submenu--items {
+    padding: 0px 10px;
+}
+
+.menuItem--submenu__gifts-accessories--item-general,
+.menuItem--items__layout--collectables {
+    padding: 3px 5px;
+}
+
+
+.styledLinkContainer--submenu__gifts-accessories--item-general {
+    width          : 200px;
+    justify-content: flex-start;
+}
+
+.styledLinkContent--submenu__gifts-accessories--item-general {
+    margin-left: 10px;
+}
+
+.submenuContainer--header__menu-two--gifts-accessories-submenu {
+    position: absolute;
+    top     : 195px;
+    right   : 880px;
+}
+
+.submenuContainer--header__menu-two--collectables-submenu {
+    position: absolute;
+    top     : 195px;
+    right   : 1102px;
+}
+
+.submenuContainer--header__menu-two--driver-submenu {
+    position: inherit;
+}
+
+.styledLinkContainer--items__layout--collectables {
+    width          : 521px;
+    justify-content: flex-start;
+}
+
+.styledLinkContent--items__layout--collectables {
+    margin-left: 10px;
+}

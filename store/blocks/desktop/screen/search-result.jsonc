@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#desktop__search-result": {
+        "title": "Search Result Container",
+        "props": {
+            "blockClass": "desktop__search-result"
+        },
+        "children": [
+            "flex-layout.col#desktop__search-result--filters",
+            "flex-layout.col#global__search-result--content",
+            "modal-trigger#global__add-to-cart-info"
+        ]
+    }
+}

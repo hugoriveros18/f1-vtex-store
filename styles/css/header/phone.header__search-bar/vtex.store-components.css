@@ -1,0 +1,31 @@
+.searchBarIcon--phone__search--bar--search {
+    display: none;
+}
+
+.portalWrapper--phone__search--bar :global(.vtex-search-2-x-history-and-top-wrapper) {
+    width: 100%;
+}
+
+.portalWrapper--phone__search--bar :global(.vtex-search-2-x-itemListList),
+.portalWrapper--desktop-tablet__header--search-bar :global(.vtex-search-2-x-itemListList) {
+    display         : flex;
+    flex-direction  : column;
+    gap             : 1px;
+    background-color: #d5d5d5;
+}
+
+.portalWrapper--phone__search--bar :global(.vtex-search-2-x-itemListItem),
+.portalWrapper--desktop-tablet__header--search-bar :global(.vtex-search-2-x-itemListItem) {
+    background-color: #fff;
+}
+
+.portalWrapper--phone__search--bar :global(.vtex-search-2-x-itemListLinkTitle),
+.portalWrapper--desktop-tablet__header--search-bar :global(.vtex-search-2-x-itemListLinkTitle) {
+    font-family: var(--primary-font-family);
+    font-size  : 1rem;
+}
+
+.autoCompleteOuterContainer--phone__search--bar :global(.vtex-styleguide-9-x-input) {
+    padding-left: 10px;
+    color       : var(--font-color-semiblack);
+}

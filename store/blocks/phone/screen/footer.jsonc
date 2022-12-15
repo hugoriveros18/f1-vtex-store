@@ -2,78 +2,52 @@
     "responsive-layout.phone#phone__footer": {
         "title": "Phone Footer",
         "children": [
-            "flex-layout.row#phone__footer--one",
-            "flex-layout.row#desktop__footer--two"
+            "flex-layout.row#phone__footer--section-one",
+            "flex-layout.row#global__footer--section-two"
         ]
     },
-
-
     ///////////////////////////////////////////////
-    "flex-layout.row#phone__footer--one": {
+    "flex-layout.row#phone__footer--section-one": {
         "title": "Footer Section One",
         "props": {
-            "blockClass": "phone__footer--one"
+            "blockClass": "phone__footer--section-one"
         },
         "children": [
-            "flex-layout.col#footer__one"
+            "flex-layout.col#footer__section-one--general-layout"
         ]
     },
-
-
     ///////////////////////////////////////////////
-    "flex-layout.col#footer__one": {
-        "title": "Section One Container",
+    "flex-layout.col#footer__section-one--general-layout": {
+        "title": "Section One Layout",
         "props": {
-            "blockClass": "footer__one"
+            "blockClass": "footer__section-one--general-layout"
         },
         "children": [
-            "flex-layout.row#footer__one--menu",
-            "flex-layout.row#registroahorro__social--media"
+            "flex-layout.row#section-one__row-one",
+            "flex-layout.row#sign-safe__social-media--layout"
         ]
     },
-
-
     ///////////////////////////////////////////////
-    "flex-layout.row#footer__one--menu": {
-        "title": "Ayuda y Plazdo de Devolucion",
+    "flex-layout.row#section-one__row-one": {
+        "title": "Row One",
         "props": {
-            "blockClass": "footer__one--menu"
+            "blockClass": "section-one__row-one"
         },
         "children": [
-            "vtex.menu@2.x:menu#one__menu"
+            "vtex.menu@2.x:menu#section-one__row-one--menu"
         ]
     },
-    "flex-layout.row#footer__one--localizador": {
-        "title": "Localizador de Envios",
-        "props": {
-            "blockClass": "footer__one--localizador"
-        },
-        "children": [
-
-        ]
-    },
-    "flex-layout.row#footer__one--social": {
-        "title": "Social Media",
-        "props": {
-            "blockClass": "footer__one--social"
-        },
-        "children": [
-
-        ]
-    },
-
-
     ///////////////////////////////////////////////
-    "vtex.menu@2.x:menu#one__menu": {
-        "title": "Footer Phone Menu",
+    "vtex.menu@2.x:menu#section-one__row-one--menu": {
+        "title": "Phone Footer Menu",
         "props": {
-            "blockClass": "one__menu",
+            "blockClass": "section-one__row-one--menu",
             "orientation": "horizontal"
         },
         "children": [
-            "menu-item#atencioncliente__menu--ayuda",
-            "menu-item#seguridadonline__menu--plazo",
-            "menu-item#atencioncliente__menu--localizador"
+            "menu-item#customer-service__menu--help",
+            "menu-item#online-shopping__menu--returns",
+            "menu-item#customer-service__menu--track-order"
         ]
     }
 }

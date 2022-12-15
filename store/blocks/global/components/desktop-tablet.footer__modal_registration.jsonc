@@ -1,0 +1,24 @@
+{
+    "modal-trigger#registroahorro__modal": {
+        "title": "Modal Registro y Ahorro Container",
+        "props": {
+            "blockClass": "registroahorro__modal"
+        },
+        "children": [
+            "rich-text#registroahorro__modal--title",
+            "modal-layout#registration-modal__layout"
+        ]
+    },
+
+
+    ///////////////////////////////////////////////
+    "rich-text#registroahorro__modal--title": {
+        "title": "Modal Registro y Ahorro Title",
+        "props": {
+            "text": "REGÍSTRATE Y AHORRA UN 10%",
+            "textAligment": "",
+            "textPosition": "CENTER",
+            "blockClass": "registroahorro__modal--title"
+        }
+    }
+}

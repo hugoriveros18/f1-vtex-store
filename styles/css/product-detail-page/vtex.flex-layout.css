@@ -1,0 +1,167 @@
+.flexRowContent--global__pdp--product-information {
+    padding: 0px 30px;
+}
+
+.flexRow--product-information__data--price-layout {
+    margin: 0px 15px 12px;
+}
+
+.flexRowContent--product-information__data--price-layout {
+    align-items: flex-end;
+}
+
+.flexRow--product-information__data--brand-layout {
+    margin: 16px 15px 0px;
+}
+
+.flexRowContent--product-information__data--brand-layout {
+    align-items: center;
+    gap        : 6px;
+}
+
+.flexCol--pdp__product-information--data {
+    margin-left: 30px;
+}
+
+.flexRow--product-information__data--order-layout-external {
+    margin          : 15px;
+    padding         : 20px;
+    background-color: #f5f6f8;
+}
+
+.flexRow--data__order--sku {
+    margin-bottom: 15px;
+}
+
+:global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+    font-family : var(--primary-font-family);
+    font-size   : .875rem;
+    font-weight : 600;
+    color       : var(--font-color-semiblack);
+    padding-left: 6px;
+}
+
+
+.flexRowContent--data__order--quantity-add {
+    align-items: flex-end;
+}
+
+.flexRowContent--data__order--quantity-add :global(.vtex-button) {
+    height: 40px;
+}
+
+.flexRowContent--data__order--quantity-add :global(.vtex-button__label) {
+    background-color: var(--main-button-color);
+}
+
+.flexRowContent--data__order--quantity-add :global(.vtex-button__label):hover {
+    background-color: var(--main-button-hover-color);
+}
+
+.flexRowContent--data__order--quantity-add :global(.vtex-styleguide-9-x-container) {
+    height: 40px;
+    width : 80px
+}
+
+.flexRowContent--data__order--quantity-add :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-family   : var(--primary-font-family);
+    font-weight   : 400;
+    font-size     : 15px;
+    line-height   : 15px;
+    color         : var(--font-color-white);
+    text-transform: lowercase;
+}
+
+.flexRowContent--data__order--quantity-add :global(.vtex-add-to-cart-button-0-x-buttonText)::first-letter {
+    text-transform: capitalize;
+}
+
+.flexColChild--product-information__data--order-layout-internal {
+    margin-top: 15px;
+}
+
+.flexRowContent--data__order--devolutions {
+    justify-content: flex-end;
+    gap            : 5px;
+}
+
+.flexRow--product-information__data--layout {
+    margin    : 0px 15px;
+    padding   : 15px 0px;
+    border-top: 1px solid #d5d5d5;
+}
+
+.flexRowContent--data-disclosure__trigger--layout {
+    justify-content: space-between;
+    align-items    : center;
+    cursor         : pointer;
+}
+
+.flexRow--global__pdp--products-tabs {
+    padding: 0px 30px;
+    margin : 30px 0px 80px;
+}
+
+.flexRow--global__pdp--breadcrumb :global(.vtex-store-components-3-x-container) {
+    max-width: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .flexRowContent--global__pdp--product-information :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 50% !important;
+    }
+
+    .flexRowContent--data__order--sku :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+
+    .flexRowContent--global__pdp--product-information {
+        padding: 0px;
+    }
+
+    .flexColChild--pdp__product-information--image {
+        padding-right: 30px;
+    }
+
+    .flexCol--pdp__product-information--data {
+        margin: 0px;
+    }
+
+    .flexRowContent--product-information__data--order-layout-external :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+    .flexRowContent--product-information__data--layout :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .flexRowContent--global__pdp--product-information :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+    .flexRowContent--data__order--sku :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: inherit !important;
+    }
+
+    .flexColChild--pdp__product-information--image {
+        padding-right: 0px;
+    }
+
+    .flexRow--product-information__data--order-layout-external {
+        margin: 15px 0px;
+    }
+
+    .flexRow--data__order--sku {
+        margin-bottom: 0px;
+    }
+
+    .flexColChild--product-information__data--order-layout-internal {
+        margin-top: 0px;
+    }
+
+    .flexRow--data__order--devolutions {
+        display: none;
+    }
+
+    .flexRow--global__pdp--products-tabs {
+        padding: 0px 12px;
+        margin : 30px 0px 50px;
+    }
+}

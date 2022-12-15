@@ -1,0 +1,20 @@
+.styledLinkContent--section-two__menu {
+    font-family: 'Open Sans', sans-serif;
+    font-size  : .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color      : #1b1b1b;
+}
+
+.styledLinkContent--section-two__menu:hover {
+    text-decoration: underline;
+    cursor         : pointer;
+}
+
+.styledLinkContent--section-two__menu--separator {
+    padding: 0px 10px;
+}
+.styledLinkContent--section-two__menu--separator:hover {
+    text-decoration: none;
+    cursor: default;
+}

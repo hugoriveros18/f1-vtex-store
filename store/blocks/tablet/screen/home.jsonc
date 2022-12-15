@@ -1,64 +1,16 @@
 {
-    "responsive-layout.tablet#tablet__home": {
-        "title": "Home Tablet",
-        "children": [
-            "flex-layout.row#desktop__home--slider",
-            "flex-layout.row#home__constructors",
-            "flex-layout.row#home__section--one",
-            "flex-layout.row#home__section--two",
-            "flex-layout.row#home__section--three",
-            "image#tablet__section--hamilton",
-            "image#tablet__section--constructors",
-            "image#tablet__section--ferrari",
-            "image#tablet__section--maclaren",
-            "image#tablet__section--mexico",
-            "image#tablet__section--turbo",
-            "flex-layout.row#home__welcome"
-        ]
-    },
-
-
-    ///////////////////////////////////////////////
-  "image#tablet__section--hamilton": {
-    "title": "Hamilton Collection Image",
-    "props": {
-      "src": "assets/img/home/lewis-hamilton-collection-desktop.png",
-      "blockClass": "tablet__section--hamilton"
-    }
-  },
-  "image#tablet__section--constructors": {
-    "title": "constructors Collection Image",
-    "props": {
-      "src": "assets/img/home/constructors-champions-desktop.png",
-      "blockClass": "tablet__section--constructors"
-    }
-  },
-  "image#tablet__section--ferrari": {
-    "title": "Ferrai Collection Image",
-    "props": {
-      "src": "assets/img/home/ferrari-range-desktop.png",
-      "blockClass": "tablet__section--ferrari"
-    }
-  },
-  "image#tablet__section--maclaren": {
-    "title": "Maclaren Collection Image",
-    "props": {
-      "src": "assets/img/home/maclaren-gulf-desktop.png",
-      "blockClass": "tablet__section--maclaren"
-    }
-  },
-  "image#tablet__section--mexico": {
-    "title": "Mexico Collection Image",
-    "props": {
-      "src": "assets/img/home/mexico-gp-desktop.png",
-      "blockClass": "tablet__section--mexico"
-    }
-  },
-  "image#tablet__section--turbo": {
-    "title": "Turbo Collection Image",
-    "props": {
-      "src": "assets/img/home/turbo-attax-desktop.png",
-      "blockClass": "tablet__section--turbo"
-    }
+  "responsive-layout.tablet#tablet__home": {
+    "title": "Home Tablet",
+    "children": [
+      "whatsapp-button",
+      // "cart-total-price",
+      "flex-layout.row#desktop-tablet__home--slider-layout",
+      "flex-layout.row#global__home--constructors",
+      "image#desktop-tablet__home--christmas-banner",
+      "flex-layout.row#desktop-tablet__home--section-one",
+      "flex-layout.row#desktop-tablet__home--section-two",
+      "flex-layout.row#desktop-tablet__home--section-three",
+      "flex-layout.row#global__home--welcome"
+    ]
   }
 }

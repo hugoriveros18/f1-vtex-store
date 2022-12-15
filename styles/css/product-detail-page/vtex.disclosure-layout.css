@@ -1,0 +1,15 @@
+.trigger--disclosure__trigger--general {
+    width           : 100%;
+    padding         : 0px;
+    background-color: inherit;
+    border          : none;
+}
+
+.content--details__dropdown--general,
+.content--description__dropdown--general {
+    padding: 10px 0px;
+}
+
+.content--details__dropdown--general::before {
+    content: "•\00a0\00a0\00a0";
+}

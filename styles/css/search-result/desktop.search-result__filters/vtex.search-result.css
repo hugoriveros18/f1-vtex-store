@@ -1,0 +1,226 @@
+.gallery--general-grid {
+    margin : 0px;
+    padding: 0px 10px;
+}
+
+.galleryItem--general-grid {
+    padding      : 12px 0px;
+    border-bottom: 1px solid var(--secondary-background-color);
+}
+
+.galleryItem--general-grid :global(.vtex-product-summary-2-x-element) {
+    padding: 0px;
+}
+
+.galleryItem--general-grid:first-child {
+    max-width: none;
+}
+
+.notFound--layout--search-not-found-layout {
+    padding: 0px 1.25rem;
+}
+
+.filterItem--filter__navigator :global(.vtex-checkbox__inner-container) {
+    border-radius: 50%;
+}
+
+.filterItem--filter__navigator :global(.vtex-checkbox__line-container) {
+    align-items: center;
+}
+
+.filterItem--filter__navigator :global(.vtex-checkbox__label),
+.filterTitleSpan--filter__navigator,
+.filterBreadcrumbsText--mobile__filters--filter-navigator,
+.accordionFilterItemTitle--mobile__filters--filter-navigator,
+:global(.vtex-checkbox__label),
+.orderByOptionItem--mobile__filters--order-by {
+    font-family: var(--primary-font-family);
+    line-height: 1.5;
+}
+
+.filterItem--filter__navigator :global(.vtex-checkbox__label) {
+    font-size  : .875rem;
+    color      : var(--font-color-semiblack);
+    font-weight: 400;
+}
+
+.filterTitleSpan--filter__navigator {
+    font-size  : .875rem;
+    font-weight: 600;
+    color      : var(--font-color-lightblack);
+}
+
+.filterBreadcrumbsText--mobile__filters--filter-navigator {
+    font-weight: 600;
+    font-size  : 1.125rem;
+    color      : var(--font-color-black);
+}
+
+.accordionFilterItemTitle--mobile__filters--filter-navigator {
+    font-size     : 1rem;
+    font-weight   : 600;
+    text-transform: capitalize;
+    color         : var(--font-color-lightblack);
+}
+
+:global(.vtex-checkbox__label) {
+    font-size  : 1rem;
+    font-weight: 400;
+}
+
+.orderByOptionItem--mobile__filters--order-by {
+    padding       : 10px;
+    color         : var(--font-color-semiblack);
+    text-transform: capitalize;
+    font-weight   : 400;
+}
+
+.filterItem--filter__navigator {
+    padding: 5px 5px 5px 10px;
+}
+
+.filterItem--filter__navigator:hover :global(.vtex-checkbox__label),
+.filterItem--filter__navigator:hover,
+:global(.vtex-checkbox__line-container):active,
+:global(.vtex-checkbox__line-container):active :global(.vtex-checkbox__label) {
+    color: var(--font-color-white);
+}
+
+.filterItem--filter__navigator:hover {
+    background-color: #262626;
+}
+
+:global(.vtex-checkbox__line-container):active {
+    background-color: var(--font-color-lightblack);
+}
+
+.filter--filter__navigator {
+    padding      : 10px 15px 10px 10px;
+    margin-bottom: 5px;
+}
+
+.caretIcon--filter__navigator {
+    color: var(--font-color-black);
+}
+
+.filter__container--filter__navigator--title {
+    border: none;
+}
+
+:global(.vtex-search-result-3-x-sidebar) {
+    width: 83%;
+}
+
+:global(.vtex-search-result-3-x-filterAccordionBreadcrumbs) {
+    padding: 10px 15px 10px 10px;
+    height : 3.125rem;
+    border : none;
+}
+
+.filterBreadcrumbsContent--mobile__filters--filter-navigator {
+    padding: 0px;
+}
+
+.accordionFilterContainer--mobile__filters--filter-navigator {
+    padding      : 0px;
+    padding      : 10px;
+    border-bottom: 1px solid var(--secondary-background-color);
+}
+
+.accordionFilterContainer--mobile__filters--filter-navigator:last-child {
+    border-bottom: none;
+}
+
+.accordionFilterItem--mobile__filters--filter-navigator {
+    padding: 10px;
+    border : none;
+}
+
+.accordionFilterContent--mobile__filters--filter-navigator {
+    padding: 0px;
+}
+
+:global(.vtex-search-result-3-x-filterAccordionItemBox) {
+    min-height: auto !important;
+}
+
+:global(.vtex-search-result-3-x-filterButtonsBox),
+:global(.vtex-checkbox__container) {
+    display: none;
+}
+
+.accordionFilterItemIcon--mobile__filters--filter-navigator {
+    width          : 25px;
+    height         : 25px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.caretIcon--mobile__filters--filter-navigator {
+    width : 14px;
+    height: 14px;
+}
+
+.accordionFilterOpen--mobile__filters--filter-navigator {
+    padding: 0px
+}
+
+:global(.vtex-search-result-3-x-filterAccordionItemBox) {
+    padding   : 0px;
+    min-height: auto;
+    border    : none;
+}
+
+:global(.vtex-search-result-3-x-accordionFilter) {
+    padding: 0px;
+    border : none;
+}
+
+:global(.vtex-checkbox__line-container) {
+    padding: 10px;
+    width  : 100%;
+}
+
+:global(.vtex-search-result-3-x-orderByOptionsContainer) {
+    border        : 1px solid var(--font-color-semiblack);
+    box-shadow    : 0 0.1875rem 0.6875rem #686868;
+    width         : auto;
+    padding-bottom: 14px;
+}
+
+@media screen and (min-width: 640px) {
+    .gallery--general-grid {
+        justify-content: flex-start;
+        border-top     : 1px solid var(--secondary-background-color);
+    }
+
+    .galleryItem--general-grid {
+        padding      : 15px 15px 30px 15px;
+        border-bottom: none;
+    }
+
+    :global(.vtex-search-result-3-x-sidebar) {
+        width: 20rem;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    :global(.vtex-checkbox__container) {
+        display: initial;
+    }
+
+    .filterItem--filter__navigator {
+        padding: 0px;
+    }
+
+    :global(.vtex-checkbox__line-container) {
+        padding: 4px 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .notFound--layout--search-not-found-layout {
+        padding: 0px .625rem;
+    }
+}

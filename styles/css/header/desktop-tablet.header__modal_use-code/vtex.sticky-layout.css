@@ -1,0 +1,4 @@
+.container--desktop-tablet__header--promotion-code {
+    width           : 100%;
+    background-color: var(--main-button-color);
+}

@@ -1,0 +1,134 @@
+{
+    "store.search": {
+        "title": "Search Result",
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "maxItemsPerPage": 10,
+                "skusFilter": "ALL_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    ///////////////////////////////////////////////
+    "store.search#department": {
+        "title": "Department Search Result",
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "maxItemsPerPage": 10,
+                "skusFilter": "ALL_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    "store.search#category": {
+        "title": "Category Search Result",
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "maxItemsPerPage": 10,
+                "skusFilter": "ALL_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    "store.search#subcategory": {
+        "title": "Subcategory Search Result",
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "maxItemsPerPage": 10,
+                "skusFilter": "ALL_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    "store.search#brand": {
+        "title": "Brand Search Result",
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "maxItemsPerPage": 10,
+                "skusFilter": "ALL_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    ///////////////////////////////////////////////
+    "search-result-layout": {
+        "title": "Search Result General Layout",
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "search-result-layout.desktop": {
+        "title": "Search Result Desktop",
+        "props": {
+            "preventRouteChange": true
+        },
+        "children": [
+            "flex-layout.row#global__search-result--breadcrumb",
+            "flex-layout.row#desktop__search-result"
+        ]
+    },
+    "search-result-layout.mobile": {
+        "title": "Search Result Mobile",
+        "props": {
+            "preventRouteChange": true
+        },
+        "children": [
+            "responsive-layout.tablet#tablet__search-result",
+            "responsive-layout.phone#phone__search-result"
+        ]
+    },
+    "search-not-found-layout": {
+        "title": "Search Result Not Found",
+        "props": {
+            "blockClass": "search-not-found-layout"
+        },
+        "children": [
+            "rich-text#search-result__not-found--text"
+        ]
+    },
+    ///////////////////////////////////////////////
+    "flex-layout.row#global__search-result--breadcrumb": {
+        "title": "Search Result Breadcrumb",
+        "props": {
+            "blockClass": "global__search-result--breadcrumb"
+        },
+        "children": [
+            "breadcrumb.search"
+        ]
+    },
+    "rich-text#search-result__not-found--text": {
+        "title": "Search Resutl Not Found Text",
+        "props": {
+            "text": "Lo sentimos su busqueda no coincide con ningun producto",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "search-result__not-found--text"
+        }
+    },
+    ///////////////////////////////////////////////
+    "breadcrumb.search": {
+        "title": "Breadcrum",
+        "props": {
+            "showOnMobile": true,
+            "blockClass": "search-result__breadcrumb"
+        }
+    }
+}
